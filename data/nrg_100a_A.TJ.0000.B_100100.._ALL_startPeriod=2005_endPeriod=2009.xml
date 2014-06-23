@@ -1,1 +1,1100 @@
-<?xml version='1.0' encoding='utf-8'?><message:GenericData xmlns:footer="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message/footer" xmlns:generic="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/data/generic" xmlns:common="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common" xmlns:message="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xml="http://www.w3.org/XML/1998/namespace"><message:Header><message:ID>564c86ccf5f47cafecb3faf242bad7b4</message:ID><message:Test>false</message:Test><message:Prepared>2014-06-20T21:27:00</message:Prepared><message:Sender id="ESTAT"><common:Name xml:lang="en">Eurostat</common:Name><message:Timezone>+01:00</message:Timezone></message:Sender><message:Receiver id="RECEIVER"></message:Receiver><message:Structure structureID="ESTAT_DSD_nrg_100a_1_0" dimensionAtObservation="TIME_PERIOD"><common:Structure><Ref agencyID="ESTAT" id="DSD_nrg_100a" version="1.0"></Ref></common:Structure></message:Structure><message:DataSetAction>Append</message:DataSetAction><message:DataSetID>nrg_100a</message:DataSetID></message:Header><message:DataSet structureRef="ESTAT_DSD_nrg_100a_1_0"><generic:Series><generic:SeriesKey><generic:Value id="UNIT" value="TJ"></generic:Value><generic:Value id="PRODUCT" value="0000"></generic:Value><generic:Value id="INDIC_NRG" value="B_100100"></generic:Value><generic:Value id="GEO" value="AT"></generic:Value><generic:Value id="FREQ" value="A"></generic:Value></generic:SeriesKey><generic:Obs><generic:ObsDimension value="2009"></generic:ObsDimension><generic:ObsValue value="485090.0"></generic:ObsValue></generic:Obs><generic:Obs><generic:ObsDimension value="2008"></generic:ObsDimension><generic:ObsValue value="470062.0"></generic:ObsValue></generic:Obs><generic:Obs><generic:ObsDimension value="2007"></generic:ObsDimension><generic:ObsValue value="456355.0"></generic:ObsValue></generic:Obs><generic:Obs><generic:ObsDimension value="2006"></generic:ObsDimension><generic:ObsValue value="424569.0"></generic:ObsValue></generic:Obs><generic:Obs><generic:ObsDimension value="2005"></generic:ObsDimension><generic:ObsValue value="417788.0"></generic:ObsValue></generic:Obs></generic:Series><generic:Series><generic:SeriesKey><generic:Value id="UNIT" value="TJ"></generic:Value><generic:Value id="PRODUCT" value="0000"></generic:Value><generic:Value id="INDIC_NRG" value="B_100100"></generic:Value><generic:Value id="GEO" value="BE"></generic:Value><generic:Value id="FREQ" value="A"></generic:Value></generic:SeriesKey><generic:Obs><generic:ObsDimension value="2009"></generic:ObsDimension><generic:ObsValue value="609335.0"></generic:ObsValue></generic:Obs><generic:Obs><generic:ObsDimension value="2008"></generic:ObsDimension><generic:ObsValue value="579931.0"></generic:ObsValue></generic:Obs><generic:Obs><generic:ObsDimension value="2007"></generic:ObsDimension><generic:ObsValue value="593418.0"></generic:ObsValue></generic:Obs><generic:Obs><generic:ObsDimension value="2006"></generic:ObsDimension><generic:ObsValue value="567956.0"></generic:ObsValue></generic:Obs><generic:Obs><generic:ObsDimension value="2005"></generic:ObsDimension><generic:ObsValue value="571678.0"></generic:ObsValue></generic:Obs></generic:Series><generic:Series><generic:SeriesKey><generic:Value id="UNIT" value="TJ"></generic:Value><generic:Value id="PRODUCT" value="0000"></generic:Value><generic:Value id="INDIC_NRG" value="B_100100"></generic:Value><generic:Value id="GEO" value="BG"></generic:Value><generic:Value id="FREQ" value="A"></generic:Value></generic:SeriesKey><generic:Obs><generic:ObsDimension value="2009"></generic:ObsDimension><generic:ObsValue value="406771.0"></generic:ObsValue></generic:Obs><generic:Obs><generic:ObsDimension value="2008"></generic:ObsDimension><generic:ObsValue value="426145.0"></generic:ObsValue></generic:Obs><generic:Obs><generic:ObsDimension value="2007"></generic:ObsDimension><generic:ObsValue value="413105.0"></generic:ObsValue></generic:Obs><generic:Obs><generic:ObsDimension value="2006"></generic:ObsDimension><generic:ObsValue value="459838.0"></generic:ObsValue></generic:Obs><generic:Obs><generic:ObsDimension value="2005"></generic:ObsDimension><generic:ObsValue value="443778.0"></generic:ObsValue></generic:Obs></generic:Series><generic:Series><generic:SeriesKey><generic:Value id="UNIT" value="TJ"></generic:Value><generic:Value id="PRODUCT" value="0000"></generic:Value><generic:Value id="INDIC_NRG" value="B_100100"></generic:Value><generic:Value id="GEO" value="CY"></generic:Value><generic:Value id="FREQ" value="A"></generic:Value></generic:SeriesKey><generic:Obs><generic:ObsDimension value="2009"></generic:ObsDimension><generic:ObsValue value="3504.0"></generic:ObsValue></generic:Obs><generic:Obs><generic:ObsDimension value="2008"></generic:ObsDimension><generic:ObsValue value="3385.0"></generic:ObsValue></generic:Obs><generic:Obs><generic:ObsDimension value="2007"></generic:ObsDimension><generic:ObsValue value="3075.0"></generic:ObsValue></generic:Obs><generic:Obs><generic:ObsDimension value="2006"></generic:ObsDimension><generic:ObsValue value="2159.0"></generic:ObsValue></generic:Obs><generic:Obs><generic:ObsDimension value="2005"></generic:ObsDimension><generic:ObsValue value="2135.0"></generic:ObsValue></generic:Obs></generic:Series><generic:Series><generic:SeriesKey><generic:Value id="UNIT" value="TJ"></generic:Value><generic:Value id="PRODUCT" value="0000"></generic:Value><generic:Value id="INDIC_NRG" value="B_100100"></generic:Value><generic:Value id="GEO" value="CZ"></generic:Value><generic:Value id="FREQ" value="A"></generic:Value></generic:SeriesKey><generic:Obs><generic:ObsDimension value="2009"></generic:ObsDimension><generic:ObsValue value="1304998.0"></generic:ObsValue></generic:Obs><generic:Obs><generic:ObsDimension value="2008"></generic:ObsDimension><generic:ObsValue value="1371802.0"></generic:ObsValue></generic:Obs><generic:Obs><generic:ObsDimension value="2007"></generic:ObsDimension><generic:ObsValue value="1411145.0"></generic:ObsValue></generic:Obs><generic:Obs><generic:ObsDimension value="2006"></generic:ObsDimension><generic:ObsValue value="1403038.0"></generic:ObsValue></generic:Obs><generic:Obs><generic:ObsDimension value="2005"></generic:ObsDimension><generic:ObsValue value="1375837.0"></generic:ObsValue></generic:Obs></generic:Series><generic:Series><generic:SeriesKey><generic:Value id="UNIT" value="TJ"></generic:Value><generic:Value id="PRODUCT" value="0000"></generic:Value><generic:Value id="INDIC_NRG" value="B_100100"></generic:Value><generic:Value id="GEO" value="DE"></generic:Value><generic:Value id="FREQ" value="A"></generic:Value></generic:SeriesKey><generic:Obs><generic:ObsDimension value="2009"></generic:ObsDimension><generic:ObsValue value="5298723.0"></generic:ObsValue></generic:Obs><generic:Obs><generic:ObsDimension value="2008"></generic:ObsDimension><generic:ObsValue value="5562042.0"></generic:ObsValue></generic:Obs><generic:Obs><generic:ObsDimension value="2007"></generic:ObsDimension><generic:ObsValue value="5711754.0"></generic:ObsValue></generic:Obs><generic:Obs><generic:ObsDimension value="2006"></generic:ObsDimension><generic:ObsValue value="5805617.0"></generic:ObsValue></generic:Obs><generic:Obs><generic:ObsDimension value="2005"></generic:ObsDimension><generic:ObsValue value="5724837.0"></generic:ObsValue></generic:Obs></generic:Series><generic:Series><generic:SeriesKey><generic:Value id="UNIT" value="TJ"></generic:Value><generic:Value id="PRODUCT" value="0000"></generic:Value><generic:Value id="INDIC_NRG" value="B_100100"></generic:Value><generic:Value id="GEO" value="DK"></generic:Value><generic:Value id="FREQ" value="A"></generic:Value></generic:SeriesKey><generic:Obs><generic:ObsDimension value="2009"></generic:ObsDimension><generic:ObsValue value="1004045.0"></generic:ObsValue></generic:Obs><generic:Obs><generic:ObsDimension value="2008"></generic:ObsDimension><generic:ObsValue value="1106839.0"></generic:ObsValue></generic:Obs><generic:Obs><generic:ObsDimension value="2007"></generic:ObsDimension><generic:ObsValue value="1121921.0"></generic:ObsValue></generic:Obs><generic:Obs><generic:ObsDimension value="2006"></generic:ObsDimension><generic:ObsValue value="1228819.0"></generic:ObsValue></generic:Obs><generic:Obs><generic:ObsDimension value="2005"></generic:ObsDimension><generic:ObsValue value="1289605.0"></generic:ObsValue></generic:Obs></generic:Series><generic:Series><generic:SeriesKey><generic:Value id="UNIT" value="TJ"></generic:Value><generic:Value id="PRODUCT" value="0000"></generic:Value><generic:Value id="INDIC_NRG" value="B_100100"></generic:Value><generic:Value id="GEO" value="EA18"></generic:Value><generic:Value id="FREQ" value="A"></generic:Value></generic:SeriesKey><generic:Obs><generic:ObsDimension value="2009"></generic:ObsDimension><generic:ObsValue value="1.8802295E7"></generic:ObsValue></generic:Obs><generic:Obs><generic:ObsDimension value="2008"></generic:ObsDimension><generic:ObsValue value="1.9471333E7"></generic:ObsValue></generic:Obs><generic:Obs><generic:ObsDimension value="2007"></generic:ObsDimension><generic:ObsValue value="1.926217E7"></generic:ObsValue></generic:Obs><generic:Obs><generic:ObsDimension value="2006"></generic:ObsDimension><generic:ObsValue value="1.9539991E7"></generic:ObsValue></generic:Obs><generic:Obs><generic:ObsDimension value="2005"></generic:ObsDimension><generic:ObsValue value="1.9409917E7"></generic:ObsValue></generic:Obs></generic:Series><generic:Series><generic:SeriesKey><generic:Value id="UNIT" value="TJ"></generic:Value><generic:Value id="PRODUCT" value="0000"></generic:Value><generic:Value id="INDIC_NRG" value="B_100100"></generic:Value><generic:Value id="GEO" value="EE"></generic:Value><generic:Value id="FREQ" value="A"></generic:Value></generic:SeriesKey><generic:Obs><generic:ObsDimension value="2009"></generic:ObsDimension><generic:ObsValue value="174077.0"></generic:ObsValue></generic:Obs><generic:Obs><generic:ObsDimension value="2008"></generic:ObsDimension><generic:ObsValue value="176913.0"></generic:ObsValue></generic:Obs><generic:Obs><generic:ObsDimension value="2007"></generic:ObsDimension><generic:ObsValue value="184559.0"></generic:ObsValue></generic:Obs><generic:Obs><generic:ObsDimension value="2006"></generic:ObsDimension><generic:ObsValue value="156848.0"></generic:ObsValue></generic:Obs><generic:Obs><generic:ObsDimension value="2005"></generic:ObsDimension><generic:ObsValue value="161959.0"></generic:ObsValue></generic:Obs></generic:Series><generic:Series><generic:SeriesKey><generic:Value id="UNIT" value="TJ"></generic:Value><generic:Value id="PRODUCT" value="0000"></generic:Value><generic:Value id="INDIC_NRG" value="B_100100"></generic:Value><generic:Value id="GEO" value="EL"></generic:Value><generic:Value id="FREQ" value="A"></generic:Value></generic:SeriesKey><generic:Obs><generic:ObsDimension value="2009"></generic:ObsDimension><generic:ObsValue value="422245.0"></generic:ObsValue></generic:Obs><generic:Obs><generic:ObsDimension value="2008"></generic:ObsDimension><generic:ObsValue value="413199.0"></generic:ObsValue></generic:Obs><generic:Obs><generic:ObsDimension value="2007"></generic:ObsDimension><generic:ObsValue value="426163.0"></generic:ObsValue></generic:Obs><generic:Obs><generic:ObsDimension value="2006"></generic:ObsDimension><generic:ObsValue value="421784.0"></generic:ObsValue></generic:Obs><generic:Obs><generic:ObsDimension value="2005"></generic:ObsDimension><generic:ObsValue value="432225.0"></generic:ObsValue></generic:Obs></generic:Series><generic:Series><generic:SeriesKey><generic:Value id="UNIT" value="TJ"></generic:Value><generic:Value id="PRODUCT" value="0000"></generic:Value><generic:Value id="INDIC_NRG" value="B_100100"></generic:Value><generic:Value id="GEO" value="ES"></generic:Value><generic:Value id="FREQ" value="A"></generic:Value></generic:SeriesKey><generic:Obs><generic:ObsDimension value="2009"></generic:ObsDimension><generic:ObsValue value="1260625.0"></generic:ObsValue></generic:Obs><generic:Obs><generic:ObsDimension value="2008"></generic:ObsDimension><generic:ObsValue value="1264075.0"></generic:ObsValue></generic:Obs><generic:Obs><generic:ObsDimension value="2007"></generic:ObsDimension><generic:ObsValue value="1261956.0"></generic:ObsValue></generic:Obs><generic:Obs><generic:ObsDimension value="2006"></generic:ObsDimension><generic:ObsValue value="1305343.0"></generic:ObsValue></generic:Obs><generic:Obs><generic:ObsDimension value="2005"></generic:ObsDimension><generic:ObsValue value="1256256.0"></generic:ObsValue></generic:Obs></generic:Series><generic:Series><generic:SeriesKey><generic:Value id="UNIT" value="TJ"></generic:Value><generic:Value id="PRODUCT" value="0000"></generic:Value><generic:Value id="INDIC_NRG" value="B_100100"></generic:Value><generic:Value id="GEO" value="EU15"></generic:Value><generic:Value id="FREQ" value="A"></generic:Value></generic:SeriesKey><generic:Obs><generic:ObsDimension value="2009"></generic:ObsDimension><generic:ObsValue value="2.6970443E7"></generic:ObsValue></generic:Obs><generic:Obs><generic:ObsDimension value="2008"></generic:ObsDimension><generic:ObsValue value="2.8206223E7"></generic:ObsValue></generic:Obs><generic:Obs><generic:ObsDimension value="2007"></generic:ObsDimension><generic:ObsValue value="2.8450221E7"></generic:ObsValue></generic:Obs><generic:Obs><generic:ObsDimension value="2006"></generic:ObsDimension><generic:ObsValue value="2.9243489E7"></generic:ObsValue></generic:Obs><generic:Obs><generic:ObsDimension value="2005"></generic:ObsDimension><generic:ObsValue value="3.0010222E7"></generic:ObsValue></generic:Obs></generic:Series><generic:Series><generic:SeriesKey><generic:Value id="UNIT" value="TJ"></generic:Value><generic:Value id="PRODUCT" value="0000"></generic:Value><generic:Value id="INDIC_NRG" value="B_100100"></generic:Value><generic:Value id="GEO" value="EU28"></generic:Value><generic:Value id="FREQ" value="A"></generic:Value></generic:SeriesKey><generic:Obs><generic:ObsDimension value="2009"></generic:ObsDimension><generic:ObsValue value="3.4144017E7"></generic:ObsValue></generic:Obs><generic:Obs><generic:ObsDimension value="2008"></generic:ObsDimension><generic:ObsValue value="3.5619165E7"></generic:ObsValue></generic:Obs><generic:Obs><generic:ObsDimension value="2007"></generic:ObsDimension><generic:ObsValue value="3.5859052E7"></generic:ObsValue></generic:Obs><generic:Obs><generic:ObsDimension value="2006"></generic:ObsDimension><generic:ObsValue value="3.6913896E7"></generic:ObsValue></generic:Obs><generic:Obs><generic:ObsDimension value="2005"></generic:ObsDimension><generic:ObsValue value="3.768925E7"></generic:ObsValue></generic:Obs></generic:Series><generic:Series><generic:SeriesKey><generic:Value id="UNIT" value="TJ"></generic:Value><generic:Value id="PRODUCT" value="0000"></generic:Value><generic:Value id="INDIC_NRG" value="B_100100"></generic:Value><generic:Value id="GEO" value="FI"></generic:Value><generic:Value id="FREQ" value="A"></generic:Value></generic:SeriesKey><generic:Obs><generic:ObsDimension value="2009"></generic:ObsDimension><generic:ObsValue value="688124.0"></generic:ObsValue></generic:Obs><generic:Obs><generic:ObsDimension value="2008"></generic:ObsDimension><generic:ObsValue value="681958.0"></generic:ObsValue></generic:Obs><generic:Obs><generic:ObsDimension value="2007"></generic:ObsDimension><generic:ObsValue value="669436.0"></generic:ObsValue></generic:Obs><generic:Obs><generic:ObsDimension value="2006"></generic:ObsDimension><generic:ObsValue value="757230.0"></generic:ObsValue></generic:Obs><generic:Obs><generic:ObsDimension value="2005"></generic:ObsDimension><generic:ObsValue value="693395.0"></generic:ObsValue></generic:Obs></generic:Series><generic:Series><generic:SeriesKey><generic:Value id="UNIT" value="TJ"></generic:Value><generic:Value id="PRODUCT" value="0000"></generic:Value><generic:Value id="INDIC_NRG" value="B_100100"></generic:Value><generic:Value id="GEO" value="FR"></generic:Value><generic:Value id="FREQ" value="A"></generic:Value></generic:SeriesKey><generic:Obs><generic:ObsDimension value="2009"></generic:ObsDimension><generic:ObsValue value="5346455.0"></generic:ObsValue></generic:Obs><generic:Obs><generic:ObsDimension value="2008"></generic:ObsDimension><generic:ObsValue value="5659897.0"></generic:ObsValue></generic:Obs><generic:Obs><generic:ObsDimension value="2007"></generic:ObsDimension><generic:ObsValue value="5571162.0"></generic:ObsValue></generic:Obs><generic:Obs><generic:ObsDimension value="2006"></generic:ObsDimension><generic:ObsValue value="5654023.0"></generic:ObsValue></generic:Obs><generic:Obs><generic:ObsDimension value="2005"></generic:ObsDimension><generic:ObsValue value="5668561.0"></generic:ObsValue></generic:Obs></generic:Series><generic:Series><generic:SeriesKey><generic:Value id="UNIT" value="TJ"></generic:Value><generic:Value id="PRODUCT" value="0000"></generic:Value><generic:Value id="INDIC_NRG" value="B_100100"></generic:Value><generic:Value id="GEO" value="HR"></generic:Value><generic:Value id="FREQ" value="A"></generic:Value></generic:SeriesKey><generic:Obs><generic:ObsDimension value="2009"></generic:ObsDimension><generic:ObsValue value="170158.0"></generic:ObsValue></generic:Obs><generic:Obs><generic:ObsDimension value="2008"></generic:ObsDimension><generic:ObsValue value="165170.0"></generic:ObsValue></generic:Obs><generic:Obs><generic:ObsDimension value="2007"></generic:ObsDimension><generic:ObsValue value="169765.0"></generic:ObsValue></generic:Obs><generic:Obs><generic:ObsDimension value="2006"></generic:ObsDimension><generic:ObsValue value="173470.0"></generic:ObsValue></generic:Obs><generic:Obs><generic:ObsDimension value="2005"></generic:ObsDimension><generic:ObsValue value="159349.0"></generic:ObsValue></generic:Obs></generic:Series><generic:Series><generic:SeriesKey><generic:Value id="UNIT" value="TJ"></generic:Value><generic:Value id="PRODUCT" value="0000"></generic:Value><generic:Value id="INDIC_NRG" value="B_100100"></generic:Value><generic:Value id="GEO" value="HU"></generic:Value><generic:Value id="FREQ" value="A"></generic:Value></generic:SeriesKey><generic:Obs><generic:ObsDimension value="2009"></generic:ObsDimension><generic:ObsValue value="458080.0"></generic:ObsValue></generic:Obs><generic:Obs><generic:ObsDimension value="2008"></generic:ObsDimension><generic:ObsValue value="436860.0"></generic:ObsValue></generic:Obs><generic:Obs><generic:ObsDimension value="2007"></generic:ObsDimension><generic:ObsValue value="426323.0"></generic:ObsValue></generic:Obs><generic:Obs><generic:ObsDimension value="2006"></generic:ObsDimension><generic:ObsValue value="430305.0"></generic:ObsValue></generic:Obs><generic:Obs><generic:ObsDimension value="2005"></generic:ObsDimension><generic:ObsValue value="431576.0"></generic:ObsValue></generic:Obs></generic:Series><generic:Series><generic:SeriesKey><generic:Value id="UNIT" value="TJ"></generic:Value><generic:Value id="PRODUCT" value="0000"></generic:Value><generic:Value id="INDIC_NRG" value="B_100100"></generic:Value><generic:Value id="GEO" value="IE"></generic:Value><generic:Value id="FREQ" value="A"></generic:Value></generic:SeriesKey><generic:Obs><generic:ObsDimension value="2009"></generic:ObsDimension><generic:ObsValue value="61088.0"></generic:ObsValue></generic:Obs><generic:Obs><generic:ObsDimension value="2008"></generic:ObsDimension><generic:ObsValue value="64821.0"></generic:ObsValue></generic:Obs><generic:Obs><generic:ObsDimension value="2007"></generic:ObsDimension><generic:ObsValue value="58667.0"></generic:ObsValue></generic:Obs><generic:Obs><generic:ObsDimension value="2006"></generic:ObsDimension><generic:ObsValue value="68837.0"></generic:ObsValue></generic:Obs><generic:Obs><generic:ObsDimension value="2005"></generic:ObsDimension><generic:ObsValue value="68959.0"></generic:ObsValue></generic:Obs></generic:Series><generic:Series><generic:SeriesKey><generic:Value id="UNIT" value="TJ"></generic:Value><generic:Value id="PRODUCT" value="0000"></generic:Value><generic:Value id="INDIC_NRG" value="B_100100"></generic:Value><generic:Value id="GEO" value="IS"></generic:Value><generic:Value id="FREQ" value="A"></generic:Value></generic:SeriesKey><generic:Obs><generic:ObsDimension value="2009"></generic:ObsDimension><generic:ObsValue value="184335.0"></generic:ObsValue></generic:Obs><generic:Obs><generic:ObsDimension value="2008"></generic:ObsDimension><generic:ObsValue value="182359.0"></generic:ObsValue></generic:Obs><generic:Obs><generic:ObsDimension value="2007"></generic:ObsDimension><generic:ObsValue value="165481.0"></generic:ObsValue></generic:Obs><generic:Obs><generic:ObsDimension value="2006"></generic:ObsDimension><generic:ObsValue value="136451.0"></generic:ObsValue></generic:Obs><generic:Obs><generic:ObsDimension value="2005"></generic:ObsDimension><generic:ObsValue value="110380.0"></generic:ObsValue></generic:Obs></generic:Series><generic:Series><generic:SeriesKey><generic:Value id="UNIT" value="TJ"></generic:Value><generic:Value id="PRODUCT" value="0000"></generic:Value><generic:Value id="INDIC_NRG" value="B_100100"></generic:Value><generic:Value id="GEO" value="IT"></generic:Value><generic:Value id="FREQ" value="A"></generic:Value></generic:SeriesKey><generic:Obs><generic:ObsDimension value="2009"></generic:ObsDimension><generic:ObsValue value="1115233.0"></generic:ObsValue></generic:Obs><generic:Obs><generic:ObsDimension value="2008"></generic:ObsDimension><generic:ObsValue value="1121999.0"></generic:ObsValue></generic:Obs><generic:Obs><generic:ObsDimension value="2007"></generic:ObsDimension><generic:ObsValue value="1098071.0"></generic:ObsValue></generic:Obs><generic:Obs><generic:ObsDimension value="2006"></generic:ObsDimension><generic:ObsValue value="1143203.0"></generic:ObsValue></generic:Obs><generic:Obs><generic:ObsDimension value="2005"></generic:ObsDimension><generic:ObsValue value="1162455.0"></generic:ObsValue></generic:Obs></generic:Series><generic:Series><generic:SeriesKey><generic:Value id="UNIT" value="TJ"></generic:Value><generic:Value id="PRODUCT" value="0000"></generic:Value><generic:Value id="INDIC_NRG" value="B_100100"></generic:Value><generic:Value id="GEO" value="LT"></generic:Value><generic:Value id="FREQ" value="A"></generic:Value></generic:SeriesKey><generic:Obs><generic:ObsDimension value="2009"></generic:ObsDimension><generic:ObsValue value="173663.0"></generic:ObsValue></generic:Obs><generic:Obs><generic:ObsDimension value="2008"></generic:ObsDimension><generic:ObsValue value="159090.0"></generic:ObsValue></generic:Obs><generic:Obs><generic:ObsDimension value="2007"></generic:ObsDimension><generic:ObsValue value="155728.0"></generic:ObsValue></generic:Obs><generic:Obs><generic:ObsDimension value="2006"></generic:ObsDimension><generic:ObsValue value="143770.0"></generic:ObsValue></generic:Obs><generic:Obs><generic:ObsDimension value="2005"></generic:ObsDimension><generic:ObsValue value="161248.0"></generic:ObsValue></generic:Obs></generic:Series><generic:Series><generic:SeriesKey><generic:Value id="UNIT" value="TJ"></generic:Value><generic:Value id="PRODUCT" value="0000"></generic:Value><generic:Value id="INDIC_NRG" value="B_100100"></generic:Value><generic:Value id="GEO" value="LU"></generic:Value><generic:Value id="FREQ" value="A"></generic:Value></generic:SeriesKey><generic:Obs><generic:ObsDimension value="2009"></generic:ObsDimension><generic:ObsValue value="4737.0"></generic:ObsValue></generic:Obs><generic:Obs><generic:ObsDimension value="2008"></generic:ObsDimension><generic:ObsValue value="5317.0"></generic:ObsValue></generic:Obs><generic:Obs><generic:ObsDimension value="2007"></generic:ObsDimension><generic:ObsValue value="5202.0"></generic:ObsValue></generic:Obs><generic:Obs><generic:ObsDimension value="2006"></generic:ObsDimension><generic:ObsValue value="4956.0"></generic:ObsValue></generic:Obs><generic:Obs><generic:ObsDimension value="2005"></generic:ObsDimension><generic:ObsValue value="4650.0"></generic:ObsValue></generic:Obs></generic:Series><generic:Series><generic:SeriesKey><generic:Value id="UNIT" value="TJ"></generic:Value><generic:Value id="PRODUCT" value="0000"></generic:Value><generic:Value id="INDIC_NRG" value="B_100100"></generic:Value><generic:Value id="GEO" value="LV"></generic:Value><generic:Value id="FREQ" value="A"></generic:Value></generic:SeriesKey><generic:Obs><generic:ObsDimension value="2009"></generic:ObsDimension><generic:ObsValue value="87812.0"></generic:ObsValue></generic:Obs><generic:Obs><generic:ObsDimension value="2008"></generic:ObsDimension><generic:ObsValue value="74915.0"></generic:ObsValue></generic:Obs><generic:Obs><generic:ObsDimension value="2007"></generic:ObsDimension><generic:ObsValue value="75436.0"></generic:ObsValue></generic:Obs><generic:Obs><generic:ObsDimension value="2006"></generic:ObsDimension><generic:ObsValue value="77302.0"></generic:ObsValue></generic:Obs><generic:Obs><generic:ObsDimension value="2005"></generic:ObsDimension><generic:ObsValue value="77917.0"></generic:ObsValue></generic:Obs></generic:Series><generic:Series><generic:SeriesKey><generic:Value id="UNIT" value="TJ"></generic:Value><generic:Value id="PRODUCT" value="0000"></generic:Value><generic:Value id="INDIC_NRG" value="B_100100"></generic:Value><generic:Value id="GEO" value="ME"></generic:Value><generic:Value id="FREQ" value="A"></generic:Value></generic:SeriesKey><generic:Obs><generic:ObsDimension value="2009"></generic:ObsDimension><generic:ObsValue value="25711.0"></generic:ObsValue></generic:Obs><generic:Obs><generic:ObsDimension value="2008"></generic:ObsDimension><generic:ObsValue value="30503.0"></generic:ObsValue></generic:Obs><generic:Obs><generic:ObsDimension value="2007"></generic:ObsDimension><generic:ObsValue value="24800.0"></generic:ObsValue></generic:Obs><generic:Obs><generic:ObsDimension value="2006"></generic:ObsDimension><generic:ObsValue value="28845.0"></generic:ObsValue></generic:Obs><generic:Obs><generic:ObsDimension value="2005"></generic:ObsDimension><generic:ObsValue value="27278.0"></generic:ObsValue></generic:Obs></generic:Series><generic:Series><generic:SeriesKey><generic:Value id="UNIT" value="TJ"></generic:Value><generic:Value id="PRODUCT" value="0000"></generic:Value><generic:Value id="INDIC_NRG" value="B_100100"></generic:Value><generic:Value id="GEO" value="MK"></generic:Value><generic:Value id="FREQ" value="A"></generic:Value></generic:SeriesKey><generic:Obs><generic:ObsDimension value="2009"></generic:ObsDimension><generic:ObsValue value="67287.0"></generic:ObsValue></generic:Obs><generic:Obs><generic:ObsDimension value="2008"></generic:ObsDimension><generic:ObsValue value="68002.0"></generic:ObsValue></generic:Obs><generic:Obs><generic:ObsDimension value="2007"></generic:ObsDimension><generic:ObsValue value="62965.0"></generic:ObsValue></generic:Obs><generic:Obs><generic:ObsDimension value="2006"></generic:ObsDimension><generic:ObsValue value="67719.0"></generic:ObsValue></generic:Obs><generic:Obs><generic:ObsDimension value="2005"></generic:ObsDimension><generic:ObsValue value="63556.0"></generic:ObsValue></generic:Obs></generic:Series><generic:Series><generic:SeriesKey><generic:Value id="UNIT" value="TJ"></generic:Value><generic:Value id="PRODUCT" value="0000"></generic:Value><generic:Value id="INDIC_NRG" value="B_100100"></generic:Value><generic:Value id="GEO" value="MT"></generic:Value><generic:Value id="FREQ" value="A"></generic:Value></generic:SeriesKey><generic:Obs><generic:ObsDimension value="2009"></generic:ObsDimension><generic:ObsValue value="65.0"></generic:ObsValue></generic:Obs><generic:Obs><generic:ObsDimension value="2008"></generic:ObsDimension><generic:ObsValue value="64.0"></generic:ObsValue></generic:Obs><generic:Obs><generic:ObsDimension value="2007"></generic:ObsDimension><generic:ObsValue value="59.0"></generic:ObsValue></generic:Obs><generic:Obs><generic:ObsDimension value="2006"></generic:ObsDimension><generic:ObsValue value="52.0"></generic:ObsValue></generic:Obs><generic:Obs><generic:ObsDimension value="2005"></generic:ObsDimension><generic:ObsValue value="47.0"></generic:ObsValue></generic:Obs></generic:Series><generic:Series><generic:SeriesKey><generic:Value id="UNIT" value="TJ"></generic:Value><generic:Value id="PRODUCT" value="0000"></generic:Value><generic:Value id="INDIC_NRG" value="B_100100"></generic:Value><generic:Value id="GEO" value="NL"></generic:Value><generic:Value id="FREQ" value="A"></generic:Value></generic:SeriesKey><generic:Obs><generic:ObsDimension value="2009"></generic:ObsDimension><generic:ObsValue value="2647054.0"></generic:ObsValue></generic:Obs><generic:Obs><generic:ObsDimension value="2008"></generic:ObsDimension><generic:ObsValue value="2794334.0"></generic:ObsValue></generic:Obs><generic:Obs><generic:ObsDimension value="2007"></generic:ObsDimension><generic:ObsValue value="2569578.0"></generic:ObsValue></generic:Obs><generic:Obs><generic:ObsDimension value="2006"></generic:ObsDimension><generic:ObsValue value="2556754.0"></generic:ObsValue></generic:Obs><generic:Obs><generic:ObsDimension value="2005"></generic:ObsDimension><generic:ObsValue value="2604231.0"></generic:ObsValue></generic:Obs></generic:Series><generic:Series><generic:SeriesKey><generic:Value id="UNIT" value="TJ"></generic:Value><generic:Value id="PRODUCT" value="0000"></generic:Value><generic:Value id="INDIC_NRG" value="B_100100"></generic:Value><generic:Value id="GEO" value="NO"></generic:Value><generic:Value id="FREQ" value="A"></generic:Value></generic:SeriesKey><generic:Obs><generic:ObsDimension value="2009"></generic:ObsDimension><generic:ObsValue value="9010276.0"></generic:ObsValue></generic:Obs><generic:Obs><generic:ObsDimension value="2008"></generic:ObsDimension><generic:ObsValue value="9191119.0"></generic:ObsValue></generic:Obs><generic:Obs><generic:ObsDimension value="2007"></generic:ObsDimension><generic:ObsValue value="9017994.0"></generic:ObsValue></generic:Obs><generic:Obs><generic:ObsDimension value="2006"></generic:ObsDimension><generic:ObsValue value="9025565.0"></generic:ObsValue></generic:Obs><generic:Obs><generic:ObsDimension value="2005"></generic:ObsDimension><generic:ObsValue value="9386331.0"></generic:ObsValue></generic:Obs></generic:Series><generic:Series><generic:SeriesKey><generic:Value id="UNIT" value="TJ"></generic:Value><generic:Value id="PRODUCT" value="0000"></generic:Value><generic:Value id="INDIC_NRG" value="B_100100"></generic:Value><generic:Value id="GEO" value="PL"></generic:Value><generic:Value id="FREQ" value="A"></generic:Value></generic:SeriesKey><generic:Obs><generic:ObsDimension value="2009"></generic:ObsDimension><generic:ObsValue value="2807760.0"></generic:ObsValue></generic:Obs><generic:Obs><generic:ObsDimension value="2008"></generic:ObsDimension><generic:ObsValue value="2965027.0"></generic:ObsValue></generic:Obs><generic:Obs><generic:ObsDimension value="2007"></generic:ObsDimension><generic:ObsValue value="3014882.0"></generic:ObsValue></generic:Obs><generic:Obs><generic:ObsDimension value="2006"></generic:ObsDimension><generic:ObsValue value="3230444.0"></generic:ObsValue></generic:Obs><generic:Obs><generic:ObsDimension value="2005"></generic:ObsDimension><generic:ObsValue value="3274438.0"></generic:ObsValue></generic:Obs></generic:Series><generic:Series><generic:SeriesKey><generic:Value id="UNIT" value="TJ"></generic:Value><generic:Value id="PRODUCT" value="0000"></generic:Value><generic:Value id="INDIC_NRG" value="B_100100"></generic:Value><generic:Value id="GEO" value="PT"></generic:Value><generic:Value id="FREQ" value="A"></generic:Value></generic:SeriesKey><generic:Obs><generic:ObsDimension value="2009"></generic:ObsDimension><generic:ObsValue value="206225.0"></generic:ObsValue></generic:Obs><generic:Obs><generic:ObsDimension value="2008"></generic:ObsDimension><generic:ObsValue value="187287.0"></generic:ObsValue></generic:Obs><generic:Obs><generic:ObsDimension value="2007"></generic:ObsDimension><generic:ObsValue value="194254.0"></generic:ObsValue></generic:Obs><generic:Obs><generic:ObsDimension value="2006"></generic:ObsDimension><generic:ObsValue value="182829.0"></generic:ObsValue></generic:Obs><generic:Obs><generic:ObsDimension value="2005"></generic:ObsDimension><generic:ObsValue value="151341.0"></generic:ObsValue></generic:Obs></generic:Series><generic:Series><generic:SeriesKey><generic:Value id="UNIT" value="TJ"></generic:Value><generic:Value id="PRODUCT" value="0000"></generic:Value><generic:Value id="INDIC_NRG" value="B_100100"></generic:Value><generic:Value id="GEO" value="RO"></generic:Value><generic:Value id="FREQ" value="A"></generic:Value></generic:SeriesKey><generic:Obs><generic:ObsDimension value="2009"></generic:ObsDimension><generic:ObsValue value="1194782.0"></generic:ObsValue></generic:Obs><generic:Obs><generic:ObsDimension value="2008"></generic:ObsDimension><generic:ObsValue value="1222437.0"></generic:ObsValue></generic:Obs><generic:Obs><generic:ObsDimension value="2007"></generic:ObsDimension><generic:ObsValue value="1171731.0"></generic:ObsValue></generic:Obs><generic:Obs><generic:ObsDimension value="2006"></generic:ObsDimension><generic:ObsValue value="1182652.0"></generic:ObsValue></generic:Obs><generic:Obs><generic:ObsDimension value="2005"></generic:ObsDimension><generic:ObsValue value="1179258.0"></generic:ObsValue></generic:Obs></generic:Series><generic:Series><generic:SeriesKey><generic:Value id="UNIT" value="TJ"></generic:Value><generic:Value id="PRODUCT" value="0000"></generic:Value><generic:Value id="INDIC_NRG" value="B_100100"></generic:Value><generic:Value id="GEO" value="RS"></generic:Value><generic:Value id="FREQ" value="A"></generic:Value></generic:SeriesKey><generic:Obs><generic:ObsDimension value="2009"></generic:ObsDimension><generic:ObsValue value="427204.0"></generic:ObsValue></generic:Obs><generic:Obs><generic:ObsDimension value="2008"></generic:ObsDimension><generic:ObsValue value="448512.0"></generic:ObsValue></generic:Obs><generic:Obs><generic:ObsDimension value="2007"></generic:ObsDimension><generic:ObsValue value="439879.0"></generic:ObsValue></generic:Obs><generic:Obs><generic:ObsDimension value="2006"></generic:ObsDimension><generic:ObsValue value="439019.0"></generic:ObsValue></generic:Obs><generic:Obs><generic:ObsDimension value="2005"></generic:ObsDimension><generic:ObsValue value="427474.0"></generic:ObsValue></generic:Obs></generic:Series><generic:Series><generic:SeriesKey><generic:Value id="UNIT" value="TJ"></generic:Value><generic:Value id="PRODUCT" value="0000"></generic:Value><generic:Value id="INDIC_NRG" value="B_100100"></generic:Value><generic:Value id="GEO" value="SE"></generic:Value><generic:Value id="FREQ" value="A"></generic:Value></generic:SeriesKey><generic:Obs><generic:ObsDimension value="2009"></generic:ObsDimension><generic:ObsValue value="1253422.0"></generic:ObsValue></generic:Obs><generic:Obs><generic:ObsDimension value="2008"></generic:ObsDimension><generic:ObsValue value="1372627.0"></generic:ObsValue></generic:Obs><generic:Obs><generic:ObsDimension value="2007"></generic:ObsDimension><generic:ObsValue value="1386852.0"></generic:ObsValue></generic:Obs><generic:Obs><generic:ObsDimension value="2006"></generic:ObsDimension><generic:ObsValue value="1355234.0"></generic:ObsValue></generic:Obs><generic:Obs><generic:ObsDimension value="2005"></generic:ObsDimension><generic:ObsValue value="1431426.0"></generic:ObsValue></generic:Obs></generic:Series><generic:Series><generic:SeriesKey><generic:Value id="UNIT" value="TJ"></generic:Value><generic:Value id="PRODUCT" value="0000"></generic:Value><generic:Value id="INDIC_NRG" value="B_100100"></generic:Value><generic:Value id="GEO" value="SI"></generic:Value><generic:Value id="FREQ" value="A"></generic:Value></generic:SeriesKey><generic:Obs><generic:ObsDimension value="2009"></generic:ObsDimension><generic:ObsValue value="152699.0"></generic:ObsValue></generic:Obs><generic:Obs><generic:ObsDimension value="2008"></generic:ObsDimension><generic:ObsValue value="153047.0"></generic:ObsValue></generic:Obs><generic:Obs><generic:ObsDimension value="2007"></generic:ObsDimension><generic:ObsValue value="144431.0"></generic:ObsValue></generic:Obs><generic:Obs><generic:ObsDimension value="2006"></generic:ObsDimension><generic:ObsValue value="143514.0"></generic:ObsValue></generic:Obs><generic:Obs><generic:ObsDimension value="2005"></generic:ObsDimension><generic:ObsValue value="146205.0"></generic:ObsValue></generic:Obs></generic:Series><generic:Series><generic:SeriesKey><generic:Value id="UNIT" value="TJ"></generic:Value><generic:Value id="PRODUCT" value="0000"></generic:Value><generic:Value id="INDIC_NRG" value="B_100100"></generic:Value><generic:Value id="GEO" value="SK"></generic:Value><generic:Value id="FREQ" value="A"></generic:Value></generic:SeriesKey><generic:Obs><generic:ObsDimension value="2009"></generic:ObsDimension><generic:ObsValue value="239204.0"></generic:ObsValue></generic:Obs><generic:Obs><generic:ObsDimension value="2008"></generic:ObsDimension><generic:ObsValue value="258086.0"></generic:ObsValue></generic:Obs><generic:Obs><generic:ObsDimension value="2007"></generic:ObsDimension><generic:ObsValue value="238593.0"></generic:ObsValue></generic:Obs><generic:Obs><generic:ObsDimension value="2006"></generic:ObsDimension><generic:ObsValue value="267015.0"></generic:ObsValue></generic:Obs><generic:Obs><generic:ObsDimension value="2005"></generic:ObsDimension><generic:ObsValue value="265280.0"></generic:ObsValue></generic:Obs></generic:Series><generic:Series><generic:SeriesKey><generic:Value id="UNIT" value="TJ"></generic:Value><generic:Value id="PRODUCT" value="0000"></generic:Value><generic:Value id="INDIC_NRG" value="B_100100"></generic:Value><generic:Value id="GEO" value="TR"></generic:Value><generic:Value id="FREQ" value="A"></generic:Value></generic:SeriesKey><generic:Obs><generic:ObsDimension value="2009"></generic:ObsDimension><generic:ObsValue value="1270760.0"></generic:ObsValue></generic:Obs><generic:Obs><generic:ObsDimension value="2008"></generic:ObsDimension><generic:ObsValue value="1214946.0"></generic:ObsValue></generic:Obs><generic:Obs><generic:ObsDimension value="2007"></generic:ObsDimension><generic:ObsValue value="1142982.0"></generic:ObsValue></generic:Obs><generic:Obs><generic:ObsDimension value="2006"></generic:ObsDimension><generic:ObsValue value="1104178.0"></generic:ObsValue></generic:Obs><generic:Obs><generic:ObsDimension value="2005"></generic:ObsDimension><generic:ObsValue value="1003337.0"></generic:ObsValue></generic:Obs></generic:Series><generic:Series><generic:SeriesKey><generic:Value id="UNIT" value="TJ"></generic:Value><generic:Value id="PRODUCT" value="0000"></generic:Value><generic:Value id="INDIC_NRG" value="B_100100"></generic:Value><generic:Value id="GEO" value="UK"></generic:Value><generic:Value id="FREQ" value="A"></generic:Value></generic:SeriesKey><generic:Obs><generic:ObsDimension value="2009"></generic:ObsDimension><generic:ObsValue value="6568042.0"></generic:ObsValue></generic:Obs><generic:Obs><generic:ObsDimension value="2008"></generic:ObsDimension><generic:ObsValue value="6921836.0"></generic:ObsValue></generic:Obs><generic:Obs><generic:ObsDimension value="2007"></generic:ObsDimension><generic:ObsValue value="7325432.0"></generic:ObsValue></generic:Obs><generic:Obs><generic:ObsDimension value="2006"></generic:ObsDimension><generic:ObsValue value="7766335.0"></generic:ObsValue></generic:Obs><generic:Obs><generic:ObsDimension value="2005"></generic:ObsDimension><generic:ObsValue value="8532816.0"></generic:ObsValue></generic:Obs></generic:Series></message:DataSet></message:GenericData>
+<?xml version='1.0' encoding='utf-8'?>
+<message:GenericData xmlns:footer="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message/footer"
+                     xmlns:generic="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/data/generic"
+                     xmlns:common="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common"
+                     xmlns:message="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message"
+                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                     xmlns:xml="http://www.w3.org/XML/1998/namespace">
+    <message:Header>
+        <message:ID>564c86ccf5f47cafecb3faf242bad7b4</message:ID>
+        <message:Test>false</message:Test>
+        <message:Prepared>2014-06-20T21:27:00</message:Prepared>
+        <message:Sender id="ESTAT">
+            <common:Name xml:lang="en">Eurostat</common:Name>
+            <message:Timezone>+01:00</message:Timezone>
+        </message:Sender>
+        <message:Receiver id="RECEIVER"></message:Receiver>
+        <message:Structure structureID="ESTAT_DSD_nrg_100a_1_0" dimensionAtObservation="TIME_PERIOD">
+            <common:Structure>
+                <Ref agencyID="ESTAT" id="DSD_nrg_100a" version="1.0"></Ref>
+            </common:Structure>
+        </message:Structure>
+        <message:DataSetAction>Append</message:DataSetAction>
+        <message:DataSetID>nrg_100a</message:DataSetID>
+    </message:Header>
+    <message:DataSet structureRef="ESTAT_DSD_nrg_100a_1_0">
+        <generic:Series>
+            <generic:SeriesKey>
+                <generic:Value id="UNIT" value="TJ"></generic:Value>
+                <generic:Value id="PRODUCT" value="0000"></generic:Value>
+                <generic:Value id="INDIC_NRG" value="B_100100"></generic:Value>
+                <generic:Value id="GEO" value="AT"></generic:Value>
+                <generic:Value id="FREQ" value="A"></generic:Value>
+            </generic:SeriesKey>
+            <generic:Obs>
+                <generic:ObsDimension value="2009"></generic:ObsDimension>
+                <generic:ObsValue value="485090.0"></generic:ObsValue>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension value="2008"></generic:ObsDimension>
+                <generic:ObsValue value="470062.0"></generic:ObsValue>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension value="2007"></generic:ObsDimension>
+                <generic:ObsValue value="456355.0"></generic:ObsValue>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension value="2006"></generic:ObsDimension>
+                <generic:ObsValue value="424569.0"></generic:ObsValue>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension value="2005"></generic:ObsDimension>
+                <generic:ObsValue value="417788.0"></generic:ObsValue>
+            </generic:Obs>
+        </generic:Series>
+        <generic:Series>
+            <generic:SeriesKey>
+                <generic:Value id="UNIT" value="TJ"></generic:Value>
+                <generic:Value id="PRODUCT" value="0000"></generic:Value>
+                <generic:Value id="INDIC_NRG" value="B_100100"></generic:Value>
+                <generic:Value id="GEO" value="BE"></generic:Value>
+                <generic:Value id="FREQ" value="A"></generic:Value>
+            </generic:SeriesKey>
+            <generic:Obs>
+                <generic:ObsDimension value="2009"></generic:ObsDimension>
+                <generic:ObsValue value="609335.0"></generic:ObsValue>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension value="2008"></generic:ObsDimension>
+                <generic:ObsValue value="579931.0"></generic:ObsValue>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension value="2007"></generic:ObsDimension>
+                <generic:ObsValue value="593418.0"></generic:ObsValue>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension value="2006"></generic:ObsDimension>
+                <generic:ObsValue value="567956.0"></generic:ObsValue>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension value="2005"></generic:ObsDimension>
+                <generic:ObsValue value="571678.0"></generic:ObsValue>
+            </generic:Obs>
+        </generic:Series>
+        <generic:Series>
+            <generic:SeriesKey>
+                <generic:Value id="UNIT" value="TJ"></generic:Value>
+                <generic:Value id="PRODUCT" value="0000"></generic:Value>
+                <generic:Value id="INDIC_NRG" value="B_100100"></generic:Value>
+                <generic:Value id="GEO" value="BG"></generic:Value>
+                <generic:Value id="FREQ" value="A"></generic:Value>
+            </generic:SeriesKey>
+            <generic:Obs>
+                <generic:ObsDimension value="2009"></generic:ObsDimension>
+                <generic:ObsValue value="406771.0"></generic:ObsValue>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension value="2008"></generic:ObsDimension>
+                <generic:ObsValue value="426145.0"></generic:ObsValue>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension value="2007"></generic:ObsDimension>
+                <generic:ObsValue value="413105.0"></generic:ObsValue>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension value="2006"></generic:ObsDimension>
+                <generic:ObsValue value="459838.0"></generic:ObsValue>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension value="2005"></generic:ObsDimension>
+                <generic:ObsValue value="443778.0"></generic:ObsValue>
+            </generic:Obs>
+        </generic:Series>
+        <generic:Series>
+            <generic:SeriesKey>
+                <generic:Value id="UNIT" value="TJ"></generic:Value>
+                <generic:Value id="PRODUCT" value="0000"></generic:Value>
+                <generic:Value id="INDIC_NRG" value="B_100100"></generic:Value>
+                <generic:Value id="GEO" value="CY"></generic:Value>
+                <generic:Value id="FREQ" value="A"></generic:Value>
+            </generic:SeriesKey>
+            <generic:Obs>
+                <generic:ObsDimension value="2009"></generic:ObsDimension>
+                <generic:ObsValue value="3504.0"></generic:ObsValue>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension value="2008"></generic:ObsDimension>
+                <generic:ObsValue value="3385.0"></generic:ObsValue>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension value="2007"></generic:ObsDimension>
+                <generic:ObsValue value="3075.0"></generic:ObsValue>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension value="2006"></generic:ObsDimension>
+                <generic:ObsValue value="2159.0"></generic:ObsValue>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension value="2005"></generic:ObsDimension>
+                <generic:ObsValue value="2135.0"></generic:ObsValue>
+            </generic:Obs>
+        </generic:Series>
+        <generic:Series>
+            <generic:SeriesKey>
+                <generic:Value id="UNIT" value="TJ"></generic:Value>
+                <generic:Value id="PRODUCT" value="0000"></generic:Value>
+                <generic:Value id="INDIC_NRG" value="B_100100"></generic:Value>
+                <generic:Value id="GEO" value="CZ"></generic:Value>
+                <generic:Value id="FREQ" value="A"></generic:Value>
+            </generic:SeriesKey>
+            <generic:Obs>
+                <generic:ObsDimension value="2009"></generic:ObsDimension>
+                <generic:ObsValue value="1304998.0"></generic:ObsValue>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension value="2008"></generic:ObsDimension>
+                <generic:ObsValue value="1371802.0"></generic:ObsValue>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension value="2007"></generic:ObsDimension>
+                <generic:ObsValue value="1411145.0"></generic:ObsValue>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension value="2006"></generic:ObsDimension>
+                <generic:ObsValue value="1403038.0"></generic:ObsValue>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension value="2005"></generic:ObsDimension>
+                <generic:ObsValue value="1375837.0"></generic:ObsValue>
+            </generic:Obs>
+        </generic:Series>
+        <generic:Series>
+            <generic:SeriesKey>
+                <generic:Value id="UNIT" value="TJ"></generic:Value>
+                <generic:Value id="PRODUCT" value="0000"></generic:Value>
+                <generic:Value id="INDIC_NRG" value="B_100100"></generic:Value>
+                <generic:Value id="GEO" value="DE"></generic:Value>
+                <generic:Value id="FREQ" value="A"></generic:Value>
+            </generic:SeriesKey>
+            <generic:Obs>
+                <generic:ObsDimension value="2009"></generic:ObsDimension>
+                <generic:ObsValue value="5298723.0"></generic:ObsValue>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension value="2008"></generic:ObsDimension>
+                <generic:ObsValue value="5562042.0"></generic:ObsValue>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension value="2007"></generic:ObsDimension>
+                <generic:ObsValue value="5711754.0"></generic:ObsValue>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension value="2006"></generic:ObsDimension>
+                <generic:ObsValue value="5805617.0"></generic:ObsValue>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension value="2005"></generic:ObsDimension>
+                <generic:ObsValue value="5724837.0"></generic:ObsValue>
+            </generic:Obs>
+        </generic:Series>
+        <generic:Series>
+            <generic:SeriesKey>
+                <generic:Value id="UNIT" value="TJ"></generic:Value>
+                <generic:Value id="PRODUCT" value="0000"></generic:Value>
+                <generic:Value id="INDIC_NRG" value="B_100100"></generic:Value>
+                <generic:Value id="GEO" value="DK"></generic:Value>
+                <generic:Value id="FREQ" value="A"></generic:Value>
+            </generic:SeriesKey>
+            <generic:Obs>
+                <generic:ObsDimension value="2009"></generic:ObsDimension>
+                <generic:ObsValue value="1004045.0"></generic:ObsValue>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension value="2008"></generic:ObsDimension>
+                <generic:ObsValue value="1106839.0"></generic:ObsValue>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension value="2007"></generic:ObsDimension>
+                <generic:ObsValue value="1121921.0"></generic:ObsValue>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension value="2006"></generic:ObsDimension>
+                <generic:ObsValue value="1228819.0"></generic:ObsValue>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension value="2005"></generic:ObsDimension>
+                <generic:ObsValue value="1289605.0"></generic:ObsValue>
+            </generic:Obs>
+        </generic:Series>
+        <generic:Series>
+            <generic:SeriesKey>
+                <generic:Value id="UNIT" value="TJ"></generic:Value>
+                <generic:Value id="PRODUCT" value="0000"></generic:Value>
+                <generic:Value id="INDIC_NRG" value="B_100100"></generic:Value>
+                <generic:Value id="GEO" value="EA18"></generic:Value>
+                <generic:Value id="FREQ" value="A"></generic:Value>
+            </generic:SeriesKey>
+            <generic:Obs>
+                <generic:ObsDimension value="2009"></generic:ObsDimension>
+                <generic:ObsValue value="1.8802295E7"></generic:ObsValue>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension value="2008"></generic:ObsDimension>
+                <generic:ObsValue value="1.9471333E7"></generic:ObsValue>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension value="2007"></generic:ObsDimension>
+                <generic:ObsValue value="1.926217E7"></generic:ObsValue>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension value="2006"></generic:ObsDimension>
+                <generic:ObsValue value="1.9539991E7"></generic:ObsValue>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension value="2005"></generic:ObsDimension>
+                <generic:ObsValue value="1.9409917E7"></generic:ObsValue>
+            </generic:Obs>
+        </generic:Series>
+        <generic:Series>
+            <generic:SeriesKey>
+                <generic:Value id="UNIT" value="TJ"></generic:Value>
+                <generic:Value id="PRODUCT" value="0000"></generic:Value>
+                <generic:Value id="INDIC_NRG" value="B_100100"></generic:Value>
+                <generic:Value id="GEO" value="EE"></generic:Value>
+                <generic:Value id="FREQ" value="A"></generic:Value>
+            </generic:SeriesKey>
+            <generic:Obs>
+                <generic:ObsDimension value="2009"></generic:ObsDimension>
+                <generic:ObsValue value="174077.0"></generic:ObsValue>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension value="2008"></generic:ObsDimension>
+                <generic:ObsValue value="176913.0"></generic:ObsValue>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension value="2007"></generic:ObsDimension>
+                <generic:ObsValue value="184559.0"></generic:ObsValue>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension value="2006"></generic:ObsDimension>
+                <generic:ObsValue value="156848.0"></generic:ObsValue>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension value="2005"></generic:ObsDimension>
+                <generic:ObsValue value="161959.0"></generic:ObsValue>
+            </generic:Obs>
+        </generic:Series>
+        <generic:Series>
+            <generic:SeriesKey>
+                <generic:Value id="UNIT" value="TJ"></generic:Value>
+                <generic:Value id="PRODUCT" value="0000"></generic:Value>
+                <generic:Value id="INDIC_NRG" value="B_100100"></generic:Value>
+                <generic:Value id="GEO" value="EL"></generic:Value>
+                <generic:Value id="FREQ" value="A"></generic:Value>
+            </generic:SeriesKey>
+            <generic:Obs>
+                <generic:ObsDimension value="2009"></generic:ObsDimension>
+                <generic:ObsValue value="422245.0"></generic:ObsValue>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension value="2008"></generic:ObsDimension>
+                <generic:ObsValue value="413199.0"></generic:ObsValue>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension value="2007"></generic:ObsDimension>
+                <generic:ObsValue value="426163.0"></generic:ObsValue>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension value="2006"></generic:ObsDimension>
+                <generic:ObsValue value="421784.0"></generic:ObsValue>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension value="2005"></generic:ObsDimension>
+                <generic:ObsValue value="432225.0"></generic:ObsValue>
+            </generic:Obs>
+        </generic:Series>
+        <generic:Series>
+            <generic:SeriesKey>
+                <generic:Value id="UNIT" value="TJ"></generic:Value>
+                <generic:Value id="PRODUCT" value="0000"></generic:Value>
+                <generic:Value id="INDIC_NRG" value="B_100100"></generic:Value>
+                <generic:Value id="GEO" value="ES"></generic:Value>
+                <generic:Value id="FREQ" value="A"></generic:Value>
+            </generic:SeriesKey>
+            <generic:Obs>
+                <generic:ObsDimension value="2009"></generic:ObsDimension>
+                <generic:ObsValue value="1260625.0"></generic:ObsValue>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension value="2008"></generic:ObsDimension>
+                <generic:ObsValue value="1264075.0"></generic:ObsValue>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension value="2007"></generic:ObsDimension>
+                <generic:ObsValue value="1261956.0"></generic:ObsValue>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension value="2006"></generic:ObsDimension>
+                <generic:ObsValue value="1305343.0"></generic:ObsValue>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension value="2005"></generic:ObsDimension>
+                <generic:ObsValue value="1256256.0"></generic:ObsValue>
+            </generic:Obs>
+        </generic:Series>
+        <generic:Series>
+            <generic:SeriesKey>
+                <generic:Value id="UNIT" value="TJ"></generic:Value>
+                <generic:Value id="PRODUCT" value="0000"></generic:Value>
+                <generic:Value id="INDIC_NRG" value="B_100100"></generic:Value>
+                <generic:Value id="GEO" value="EU15"></generic:Value>
+                <generic:Value id="FREQ" value="A"></generic:Value>
+            </generic:SeriesKey>
+            <generic:Obs>
+                <generic:ObsDimension value="2009"></generic:ObsDimension>
+                <generic:ObsValue value="2.6970443E7"></generic:ObsValue>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension value="2008"></generic:ObsDimension>
+                <generic:ObsValue value="2.8206223E7"></generic:ObsValue>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension value="2007"></generic:ObsDimension>
+                <generic:ObsValue value="2.8450221E7"></generic:ObsValue>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension value="2006"></generic:ObsDimension>
+                <generic:ObsValue value="2.9243489E7"></generic:ObsValue>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension value="2005"></generic:ObsDimension>
+                <generic:ObsValue value="3.0010222E7"></generic:ObsValue>
+            </generic:Obs>
+        </generic:Series>
+        <generic:Series>
+            <generic:SeriesKey>
+                <generic:Value id="UNIT" value="TJ"></generic:Value>
+                <generic:Value id="PRODUCT" value="0000"></generic:Value>
+                <generic:Value id="INDIC_NRG" value="B_100100"></generic:Value>
+                <generic:Value id="GEO" value="EU28"></generic:Value>
+                <generic:Value id="FREQ" value="A"></generic:Value>
+            </generic:SeriesKey>
+            <generic:Obs>
+                <generic:ObsDimension value="2009"></generic:ObsDimension>
+                <generic:ObsValue value="3.4144017E7"></generic:ObsValue>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension value="2008"></generic:ObsDimension>
+                <generic:ObsValue value="3.5619165E7"></generic:ObsValue>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension value="2007"></generic:ObsDimension>
+                <generic:ObsValue value="3.5859052E7"></generic:ObsValue>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension value="2006"></generic:ObsDimension>
+                <generic:ObsValue value="3.6913896E7"></generic:ObsValue>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension value="2005"></generic:ObsDimension>
+                <generic:ObsValue value="3.768925E7"></generic:ObsValue>
+            </generic:Obs>
+        </generic:Series>
+        <generic:Series>
+            <generic:SeriesKey>
+                <generic:Value id="UNIT" value="TJ"></generic:Value>
+                <generic:Value id="PRODUCT" value="0000"></generic:Value>
+                <generic:Value id="INDIC_NRG" value="B_100100"></generic:Value>
+                <generic:Value id="GEO" value="FI"></generic:Value>
+                <generic:Value id="FREQ" value="A"></generic:Value>
+            </generic:SeriesKey>
+            <generic:Obs>
+                <generic:ObsDimension value="2009"></generic:ObsDimension>
+                <generic:ObsValue value="688124.0"></generic:ObsValue>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension value="2008"></generic:ObsDimension>
+                <generic:ObsValue value="681958.0"></generic:ObsValue>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension value="2007"></generic:ObsDimension>
+                <generic:ObsValue value="669436.0"></generic:ObsValue>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension value="2006"></generic:ObsDimension>
+                <generic:ObsValue value="757230.0"></generic:ObsValue>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension value="2005"></generic:ObsDimension>
+                <generic:ObsValue value="693395.0"></generic:ObsValue>
+            </generic:Obs>
+        </generic:Series>
+        <generic:Series>
+            <generic:SeriesKey>
+                <generic:Value id="UNIT" value="TJ"></generic:Value>
+                <generic:Value id="PRODUCT" value="0000"></generic:Value>
+                <generic:Value id="INDIC_NRG" value="B_100100"></generic:Value>
+                <generic:Value id="GEO" value="FR"></generic:Value>
+                <generic:Value id="FREQ" value="A"></generic:Value>
+            </generic:SeriesKey>
+            <generic:Obs>
+                <generic:ObsDimension value="2009"></generic:ObsDimension>
+                <generic:ObsValue value="5346455.0"></generic:ObsValue>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension value="2008"></generic:ObsDimension>
+                <generic:ObsValue value="5659897.0"></generic:ObsValue>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension value="2007"></generic:ObsDimension>
+                <generic:ObsValue value="5571162.0"></generic:ObsValue>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension value="2006"></generic:ObsDimension>
+                <generic:ObsValue value="5654023.0"></generic:ObsValue>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension value="2005"></generic:ObsDimension>
+                <generic:ObsValue value="5668561.0"></generic:ObsValue>
+            </generic:Obs>
+        </generic:Series>
+        <generic:Series>
+            <generic:SeriesKey>
+                <generic:Value id="UNIT" value="TJ"></generic:Value>
+                <generic:Value id="PRODUCT" value="0000"></generic:Value>
+                <generic:Value id="INDIC_NRG" value="B_100100"></generic:Value>
+                <generic:Value id="GEO" value="HR"></generic:Value>
+                <generic:Value id="FREQ" value="A"></generic:Value>
+            </generic:SeriesKey>
+            <generic:Obs>
+                <generic:ObsDimension value="2009"></generic:ObsDimension>
+                <generic:ObsValue value="170158.0"></generic:ObsValue>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension value="2008"></generic:ObsDimension>
+                <generic:ObsValue value="165170.0"></generic:ObsValue>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension value="2007"></generic:ObsDimension>
+                <generic:ObsValue value="169765.0"></generic:ObsValue>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension value="2006"></generic:ObsDimension>
+                <generic:ObsValue value="173470.0"></generic:ObsValue>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension value="2005"></generic:ObsDimension>
+                <generic:ObsValue value="159349.0"></generic:ObsValue>
+            </generic:Obs>
+        </generic:Series>
+        <generic:Series>
+            <generic:SeriesKey>
+                <generic:Value id="UNIT" value="TJ"></generic:Value>
+                <generic:Value id="PRODUCT" value="0000"></generic:Value>
+                <generic:Value id="INDIC_NRG" value="B_100100"></generic:Value>
+                <generic:Value id="GEO" value="HU"></generic:Value>
+                <generic:Value id="FREQ" value="A"></generic:Value>
+            </generic:SeriesKey>
+            <generic:Obs>
+                <generic:ObsDimension value="2009"></generic:ObsDimension>
+                <generic:ObsValue value="458080.0"></generic:ObsValue>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension value="2008"></generic:ObsDimension>
+                <generic:ObsValue value="436860.0"></generic:ObsValue>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension value="2007"></generic:ObsDimension>
+                <generic:ObsValue value="426323.0"></generic:ObsValue>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension value="2006"></generic:ObsDimension>
+                <generic:ObsValue value="430305.0"></generic:ObsValue>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension value="2005"></generic:ObsDimension>
+                <generic:ObsValue value="431576.0"></generic:ObsValue>
+            </generic:Obs>
+        </generic:Series>
+        <generic:Series>
+            <generic:SeriesKey>
+                <generic:Value id="UNIT" value="TJ"></generic:Value>
+                <generic:Value id="PRODUCT" value="0000"></generic:Value>
+                <generic:Value id="INDIC_NRG" value="B_100100"></generic:Value>
+                <generic:Value id="GEO" value="IE"></generic:Value>
+                <generic:Value id="FREQ" value="A"></generic:Value>
+            </generic:SeriesKey>
+            <generic:Obs>
+                <generic:ObsDimension value="2009"></generic:ObsDimension>
+                <generic:ObsValue value="61088.0"></generic:ObsValue>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension value="2008"></generic:ObsDimension>
+                <generic:ObsValue value="64821.0"></generic:ObsValue>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension value="2007"></generic:ObsDimension>
+                <generic:ObsValue value="58667.0"></generic:ObsValue>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension value="2006"></generic:ObsDimension>
+                <generic:ObsValue value="68837.0"></generic:ObsValue>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension value="2005"></generic:ObsDimension>
+                <generic:ObsValue value="68959.0"></generic:ObsValue>
+            </generic:Obs>
+        </generic:Series>
+        <generic:Series>
+            <generic:SeriesKey>
+                <generic:Value id="UNIT" value="TJ"></generic:Value>
+                <generic:Value id="PRODUCT" value="0000"></generic:Value>
+                <generic:Value id="INDIC_NRG" value="B_100100"></generic:Value>
+                <generic:Value id="GEO" value="IS"></generic:Value>
+                <generic:Value id="FREQ" value="A"></generic:Value>
+            </generic:SeriesKey>
+            <generic:Obs>
+                <generic:ObsDimension value="2009"></generic:ObsDimension>
+                <generic:ObsValue value="184335.0"></generic:ObsValue>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension value="2008"></generic:ObsDimension>
+                <generic:ObsValue value="182359.0"></generic:ObsValue>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension value="2007"></generic:ObsDimension>
+                <generic:ObsValue value="165481.0"></generic:ObsValue>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension value="2006"></generic:ObsDimension>
+                <generic:ObsValue value="136451.0"></generic:ObsValue>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension value="2005"></generic:ObsDimension>
+                <generic:ObsValue value="110380.0"></generic:ObsValue>
+            </generic:Obs>
+        </generic:Series>
+        <generic:Series>
+            <generic:SeriesKey>
+                <generic:Value id="UNIT" value="TJ"></generic:Value>
+                <generic:Value id="PRODUCT" value="0000"></generic:Value>
+                <generic:Value id="INDIC_NRG" value="B_100100"></generic:Value>
+                <generic:Value id="GEO" value="IT"></generic:Value>
+                <generic:Value id="FREQ" value="A"></generic:Value>
+            </generic:SeriesKey>
+            <generic:Obs>
+                <generic:ObsDimension value="2009"></generic:ObsDimension>
+                <generic:ObsValue value="1115233.0"></generic:ObsValue>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension value="2008"></generic:ObsDimension>
+                <generic:ObsValue value="1121999.0"></generic:ObsValue>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension value="2007"></generic:ObsDimension>
+                <generic:ObsValue value="1098071.0"></generic:ObsValue>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension value="2006"></generic:ObsDimension>
+                <generic:ObsValue value="1143203.0"></generic:ObsValue>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension value="2005"></generic:ObsDimension>
+                <generic:ObsValue value="1162455.0"></generic:ObsValue>
+            </generic:Obs>
+        </generic:Series>
+        <generic:Series>
+            <generic:SeriesKey>
+                <generic:Value id="UNIT" value="TJ"></generic:Value>
+                <generic:Value id="PRODUCT" value="0000"></generic:Value>
+                <generic:Value id="INDIC_NRG" value="B_100100"></generic:Value>
+                <generic:Value id="GEO" value="LT"></generic:Value>
+                <generic:Value id="FREQ" value="A"></generic:Value>
+            </generic:SeriesKey>
+            <generic:Obs>
+                <generic:ObsDimension value="2009"></generic:ObsDimension>
+                <generic:ObsValue value="173663.0"></generic:ObsValue>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension value="2008"></generic:ObsDimension>
+                <generic:ObsValue value="159090.0"></generic:ObsValue>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension value="2007"></generic:ObsDimension>
+                <generic:ObsValue value="155728.0"></generic:ObsValue>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension value="2006"></generic:ObsDimension>
+                <generic:ObsValue value="143770.0"></generic:ObsValue>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension value="2005"></generic:ObsDimension>
+                <generic:ObsValue value="161248.0"></generic:ObsValue>
+            </generic:Obs>
+        </generic:Series>
+        <generic:Series>
+            <generic:SeriesKey>
+                <generic:Value id="UNIT" value="TJ"></generic:Value>
+                <generic:Value id="PRODUCT" value="0000"></generic:Value>
+                <generic:Value id="INDIC_NRG" value="B_100100"></generic:Value>
+                <generic:Value id="GEO" value="LU"></generic:Value>
+                <generic:Value id="FREQ" value="A"></generic:Value>
+            </generic:SeriesKey>
+            <generic:Obs>
+                <generic:ObsDimension value="2009"></generic:ObsDimension>
+                <generic:ObsValue value="4737.0"></generic:ObsValue>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension value="2008"></generic:ObsDimension>
+                <generic:ObsValue value="5317.0"></generic:ObsValue>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension value="2007"></generic:ObsDimension>
+                <generic:ObsValue value="5202.0"></generic:ObsValue>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension value="2006"></generic:ObsDimension>
+                <generic:ObsValue value="4956.0"></generic:ObsValue>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension value="2005"></generic:ObsDimension>
+                <generic:ObsValue value="4650.0"></generic:ObsValue>
+            </generic:Obs>
+        </generic:Series>
+        <generic:Series>
+            <generic:SeriesKey>
+                <generic:Value id="UNIT" value="TJ"></generic:Value>
+                <generic:Value id="PRODUCT" value="0000"></generic:Value>
+                <generic:Value id="INDIC_NRG" value="B_100100"></generic:Value>
+                <generic:Value id="GEO" value="LV"></generic:Value>
+                <generic:Value id="FREQ" value="A"></generic:Value>
+            </generic:SeriesKey>
+            <generic:Obs>
+                <generic:ObsDimension value="2009"></generic:ObsDimension>
+                <generic:ObsValue value="87812.0"></generic:ObsValue>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension value="2008"></generic:ObsDimension>
+                <generic:ObsValue value="74915.0"></generic:ObsValue>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension value="2007"></generic:ObsDimension>
+                <generic:ObsValue value="75436.0"></generic:ObsValue>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension value="2006"></generic:ObsDimension>
+                <generic:ObsValue value="77302.0"></generic:ObsValue>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension value="2005"></generic:ObsDimension>
+                <generic:ObsValue value="77917.0"></generic:ObsValue>
+            </generic:Obs>
+        </generic:Series>
+        <generic:Series>
+            <generic:SeriesKey>
+                <generic:Value id="UNIT" value="TJ"></generic:Value>
+                <generic:Value id="PRODUCT" value="0000"></generic:Value>
+                <generic:Value id="INDIC_NRG" value="B_100100"></generic:Value>
+                <generic:Value id="GEO" value="ME"></generic:Value>
+                <generic:Value id="FREQ" value="A"></generic:Value>
+            </generic:SeriesKey>
+            <generic:Obs>
+                <generic:ObsDimension value="2009"></generic:ObsDimension>
+                <generic:ObsValue value="25711.0"></generic:ObsValue>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension value="2008"></generic:ObsDimension>
+                <generic:ObsValue value="30503.0"></generic:ObsValue>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension value="2007"></generic:ObsDimension>
+                <generic:ObsValue value="24800.0"></generic:ObsValue>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension value="2006"></generic:ObsDimension>
+                <generic:ObsValue value="28845.0"></generic:ObsValue>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension value="2005"></generic:ObsDimension>
+                <generic:ObsValue value="27278.0"></generic:ObsValue>
+            </generic:Obs>
+        </generic:Series>
+        <generic:Series>
+            <generic:SeriesKey>
+                <generic:Value id="UNIT" value="TJ"></generic:Value>
+                <generic:Value id="PRODUCT" value="0000"></generic:Value>
+                <generic:Value id="INDIC_NRG" value="B_100100"></generic:Value>
+                <generic:Value id="GEO" value="MK"></generic:Value>
+                <generic:Value id="FREQ" value="A"></generic:Value>
+            </generic:SeriesKey>
+            <generic:Obs>
+                <generic:ObsDimension value="2009"></generic:ObsDimension>
+                <generic:ObsValue value="67287.0"></generic:ObsValue>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension value="2008"></generic:ObsDimension>
+                <generic:ObsValue value="68002.0"></generic:ObsValue>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension value="2007"></generic:ObsDimension>
+                <generic:ObsValue value="62965.0"></generic:ObsValue>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension value="2006"></generic:ObsDimension>
+                <generic:ObsValue value="67719.0"></generic:ObsValue>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension value="2005"></generic:ObsDimension>
+                <generic:ObsValue value="63556.0"></generic:ObsValue>
+            </generic:Obs>
+        </generic:Series>
+        <generic:Series>
+            <generic:SeriesKey>
+                <generic:Value id="UNIT" value="TJ"></generic:Value>
+                <generic:Value id="PRODUCT" value="0000"></generic:Value>
+                <generic:Value id="INDIC_NRG" value="B_100100"></generic:Value>
+                <generic:Value id="GEO" value="MT"></generic:Value>
+                <generic:Value id="FREQ" value="A"></generic:Value>
+            </generic:SeriesKey>
+            <generic:Obs>
+                <generic:ObsDimension value="2009"></generic:ObsDimension>
+                <generic:ObsValue value="65.0"></generic:ObsValue>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension value="2008"></generic:ObsDimension>
+                <generic:ObsValue value="64.0"></generic:ObsValue>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension value="2007"></generic:ObsDimension>
+                <generic:ObsValue value="59.0"></generic:ObsValue>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension value="2006"></generic:ObsDimension>
+                <generic:ObsValue value="52.0"></generic:ObsValue>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension value="2005"></generic:ObsDimension>
+                <generic:ObsValue value="47.0"></generic:ObsValue>
+            </generic:Obs>
+        </generic:Series>
+        <generic:Series>
+            <generic:SeriesKey>
+                <generic:Value id="UNIT" value="TJ"></generic:Value>
+                <generic:Value id="PRODUCT" value="0000"></generic:Value>
+                <generic:Value id="INDIC_NRG" value="B_100100"></generic:Value>
+                <generic:Value id="GEO" value="NL"></generic:Value>
+                <generic:Value id="FREQ" value="A"></generic:Value>
+            </generic:SeriesKey>
+            <generic:Obs>
+                <generic:ObsDimension value="2009"></generic:ObsDimension>
+                <generic:ObsValue value="2647054.0"></generic:ObsValue>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension value="2008"></generic:ObsDimension>
+                <generic:ObsValue value="2794334.0"></generic:ObsValue>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension value="2007"></generic:ObsDimension>
+                <generic:ObsValue value="2569578.0"></generic:ObsValue>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension value="2006"></generic:ObsDimension>
+                <generic:ObsValue value="2556754.0"></generic:ObsValue>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension value="2005"></generic:ObsDimension>
+                <generic:ObsValue value="2604231.0"></generic:ObsValue>
+            </generic:Obs>
+        </generic:Series>
+        <generic:Series>
+            <generic:SeriesKey>
+                <generic:Value id="UNIT" value="TJ"></generic:Value>
+                <generic:Value id="PRODUCT" value="0000"></generic:Value>
+                <generic:Value id="INDIC_NRG" value="B_100100"></generic:Value>
+                <generic:Value id="GEO" value="NO"></generic:Value>
+                <generic:Value id="FREQ" value="A"></generic:Value>
+            </generic:SeriesKey>
+            <generic:Obs>
+                <generic:ObsDimension value="2009"></generic:ObsDimension>
+                <generic:ObsValue value="9010276.0"></generic:ObsValue>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension value="2008"></generic:ObsDimension>
+                <generic:ObsValue value="9191119.0"></generic:ObsValue>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension value="2007"></generic:ObsDimension>
+                <generic:ObsValue value="9017994.0"></generic:ObsValue>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension value="2006"></generic:ObsDimension>
+                <generic:ObsValue value="9025565.0"></generic:ObsValue>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension value="2005"></generic:ObsDimension>
+                <generic:ObsValue value="9386331.0"></generic:ObsValue>
+            </generic:Obs>
+        </generic:Series>
+        <generic:Series>
+            <generic:SeriesKey>
+                <generic:Value id="UNIT" value="TJ"></generic:Value>
+                <generic:Value id="PRODUCT" value="0000"></generic:Value>
+                <generic:Value id="INDIC_NRG" value="B_100100"></generic:Value>
+                <generic:Value id="GEO" value="PL"></generic:Value>
+                <generic:Value id="FREQ" value="A"></generic:Value>
+            </generic:SeriesKey>
+            <generic:Obs>
+                <generic:ObsDimension value="2009"></generic:ObsDimension>
+                <generic:ObsValue value="2807760.0"></generic:ObsValue>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension value="2008"></generic:ObsDimension>
+                <generic:ObsValue value="2965027.0"></generic:ObsValue>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension value="2007"></generic:ObsDimension>
+                <generic:ObsValue value="3014882.0"></generic:ObsValue>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension value="2006"></generic:ObsDimension>
+                <generic:ObsValue value="3230444.0"></generic:ObsValue>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension value="2005"></generic:ObsDimension>
+                <generic:ObsValue value="3274438.0"></generic:ObsValue>
+            </generic:Obs>
+        </generic:Series>
+        <generic:Series>
+            <generic:SeriesKey>
+                <generic:Value id="UNIT" value="TJ"></generic:Value>
+                <generic:Value id="PRODUCT" value="0000"></generic:Value>
+                <generic:Value id="INDIC_NRG" value="B_100100"></generic:Value>
+                <generic:Value id="GEO" value="PT"></generic:Value>
+                <generic:Value id="FREQ" value="A"></generic:Value>
+            </generic:SeriesKey>
+            <generic:Obs>
+                <generic:ObsDimension value="2009"></generic:ObsDimension>
+                <generic:ObsValue value="206225.0"></generic:ObsValue>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension value="2008"></generic:ObsDimension>
+                <generic:ObsValue value="187287.0"></generic:ObsValue>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension value="2007"></generic:ObsDimension>
+                <generic:ObsValue value="194254.0"></generic:ObsValue>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension value="2006"></generic:ObsDimension>
+                <generic:ObsValue value="182829.0"></generic:ObsValue>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension value="2005"></generic:ObsDimension>
+                <generic:ObsValue value="151341.0"></generic:ObsValue>
+            </generic:Obs>
+        </generic:Series>
+        <generic:Series>
+            <generic:SeriesKey>
+                <generic:Value id="UNIT" value="TJ"></generic:Value>
+                <generic:Value id="PRODUCT" value="0000"></generic:Value>
+                <generic:Value id="INDIC_NRG" value="B_100100"></generic:Value>
+                <generic:Value id="GEO" value="RO"></generic:Value>
+                <generic:Value id="FREQ" value="A"></generic:Value>
+            </generic:SeriesKey>
+            <generic:Obs>
+                <generic:ObsDimension value="2009"></generic:ObsDimension>
+                <generic:ObsValue value="1194782.0"></generic:ObsValue>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension value="2008"></generic:ObsDimension>
+                <generic:ObsValue value="1222437.0"></generic:ObsValue>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension value="2007"></generic:ObsDimension>
+                <generic:ObsValue value="1171731.0"></generic:ObsValue>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension value="2006"></generic:ObsDimension>
+                <generic:ObsValue value="1182652.0"></generic:ObsValue>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension value="2005"></generic:ObsDimension>
+                <generic:ObsValue value="1179258.0"></generic:ObsValue>
+            </generic:Obs>
+        </generic:Series>
+        <generic:Series>
+            <generic:SeriesKey>
+                <generic:Value id="UNIT" value="TJ"></generic:Value>
+                <generic:Value id="PRODUCT" value="0000"></generic:Value>
+                <generic:Value id="INDIC_NRG" value="B_100100"></generic:Value>
+                <generic:Value id="GEO" value="RS"></generic:Value>
+                <generic:Value id="FREQ" value="A"></generic:Value>
+            </generic:SeriesKey>
+            <generic:Obs>
+                <generic:ObsDimension value="2009"></generic:ObsDimension>
+                <generic:ObsValue value="427204.0"></generic:ObsValue>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension value="2008"></generic:ObsDimension>
+                <generic:ObsValue value="448512.0"></generic:ObsValue>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension value="2007"></generic:ObsDimension>
+                <generic:ObsValue value="439879.0"></generic:ObsValue>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension value="2006"></generic:ObsDimension>
+                <generic:ObsValue value="439019.0"></generic:ObsValue>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension value="2005"></generic:ObsDimension>
+                <generic:ObsValue value="427474.0"></generic:ObsValue>
+            </generic:Obs>
+        </generic:Series>
+        <generic:Series>
+            <generic:SeriesKey>
+                <generic:Value id="UNIT" value="TJ"></generic:Value>
+                <generic:Value id="PRODUCT" value="0000"></generic:Value>
+                <generic:Value id="INDIC_NRG" value="B_100100"></generic:Value>
+                <generic:Value id="GEO" value="SE"></generic:Value>
+                <generic:Value id="FREQ" value="A"></generic:Value>
+            </generic:SeriesKey>
+            <generic:Obs>
+                <generic:ObsDimension value="2009"></generic:ObsDimension>
+                <generic:ObsValue value="1253422.0"></generic:ObsValue>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension value="2008"></generic:ObsDimension>
+                <generic:ObsValue value="1372627.0"></generic:ObsValue>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension value="2007"></generic:ObsDimension>
+                <generic:ObsValue value="1386852.0"></generic:ObsValue>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension value="2006"></generic:ObsDimension>
+                <generic:ObsValue value="1355234.0"></generic:ObsValue>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension value="2005"></generic:ObsDimension>
+                <generic:ObsValue value="1431426.0"></generic:ObsValue>
+            </generic:Obs>
+        </generic:Series>
+        <generic:Series>
+            <generic:SeriesKey>
+                <generic:Value id="UNIT" value="TJ"></generic:Value>
+                <generic:Value id="PRODUCT" value="0000"></generic:Value>
+                <generic:Value id="INDIC_NRG" value="B_100100"></generic:Value>
+                <generic:Value id="GEO" value="SI"></generic:Value>
+                <generic:Value id="FREQ" value="A"></generic:Value>
+            </generic:SeriesKey>
+            <generic:Obs>
+                <generic:ObsDimension value="2009"></generic:ObsDimension>
+                <generic:ObsValue value="152699.0"></generic:ObsValue>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension value="2008"></generic:ObsDimension>
+                <generic:ObsValue value="153047.0"></generic:ObsValue>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension value="2007"></generic:ObsDimension>
+                <generic:ObsValue value="144431.0"></generic:ObsValue>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension value="2006"></generic:ObsDimension>
+                <generic:ObsValue value="143514.0"></generic:ObsValue>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension value="2005"></generic:ObsDimension>
+                <generic:ObsValue value="146205.0"></generic:ObsValue>
+            </generic:Obs>
+        </generic:Series>
+        <generic:Series>
+            <generic:SeriesKey>
+                <generic:Value id="UNIT" value="TJ"></generic:Value>
+                <generic:Value id="PRODUCT" value="0000"></generic:Value>
+                <generic:Value id="INDIC_NRG" value="B_100100"></generic:Value>
+                <generic:Value id="GEO" value="SK"></generic:Value>
+                <generic:Value id="FREQ" value="A"></generic:Value>
+            </generic:SeriesKey>
+            <generic:Obs>
+                <generic:ObsDimension value="2009"></generic:ObsDimension>
+                <generic:ObsValue value="239204.0"></generic:ObsValue>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension value="2008"></generic:ObsDimension>
+                <generic:ObsValue value="258086.0"></generic:ObsValue>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension value="2007"></generic:ObsDimension>
+                <generic:ObsValue value="238593.0"></generic:ObsValue>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension value="2006"></generic:ObsDimension>
+                <generic:ObsValue value="267015.0"></generic:ObsValue>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension value="2005"></generic:ObsDimension>
+                <generic:ObsValue value="265280.0"></generic:ObsValue>
+            </generic:Obs>
+        </generic:Series>
+        <generic:Series>
+            <generic:SeriesKey>
+                <generic:Value id="UNIT" value="TJ"></generic:Value>
+                <generic:Value id="PRODUCT" value="0000"></generic:Value>
+                <generic:Value id="INDIC_NRG" value="B_100100"></generic:Value>
+                <generic:Value id="GEO" value="TR"></generic:Value>
+                <generic:Value id="FREQ" value="A"></generic:Value>
+            </generic:SeriesKey>
+            <generic:Obs>
+                <generic:ObsDimension value="2009"></generic:ObsDimension>
+                <generic:ObsValue value="1270760.0"></generic:ObsValue>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension value="2008"></generic:ObsDimension>
+                <generic:ObsValue value="1214946.0"></generic:ObsValue>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension value="2007"></generic:ObsDimension>
+                <generic:ObsValue value="1142982.0"></generic:ObsValue>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension value="2006"></generic:ObsDimension>
+                <generic:ObsValue value="1104178.0"></generic:ObsValue>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension value="2005"></generic:ObsDimension>
+                <generic:ObsValue value="1003337.0"></generic:ObsValue>
+            </generic:Obs>
+        </generic:Series>
+        <generic:Series>
+            <generic:SeriesKey>
+                <generic:Value id="UNIT" value="TJ"></generic:Value>
+                <generic:Value id="PRODUCT" value="0000"></generic:Value>
+                <generic:Value id="INDIC_NRG" value="B_100100"></generic:Value>
+                <generic:Value id="GEO" value="UK"></generic:Value>
+                <generic:Value id="FREQ" value="A"></generic:Value>
+            </generic:SeriesKey>
+            <generic:Obs>
+                <generic:ObsDimension value="2009"></generic:ObsDimension>
+                <generic:ObsValue value="6568042.0"></generic:ObsValue>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension value="2008"></generic:ObsDimension>
+                <generic:ObsValue value="6921836.0"></generic:ObsValue>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension value="2007"></generic:ObsDimension>
+                <generic:ObsValue value="7325432.0"></generic:ObsValue>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension value="2006"></generic:ObsDimension>
+                <generic:ObsValue value="7766335.0"></generic:ObsValue>
+            </generic:Obs>
+            <generic:Obs>
+                <generic:ObsDimension value="2005"></generic:ObsDimension>
+                <generic:ObsValue value="8532816.0"></generic:ObsValue>
+            </generic:Obs>
+        </generic:Series>
+    </message:DataSet>
+</message:GenericData>
