@@ -1,0 +1,58 @@
+[
+    {
+        "name": "2000",
+        "descr": "Solid fuels"
+    },
+    {
+        "name": "2112",
+        "descr": "Patent Fuels"
+    },
+    {
+        "name": "2115",
+        "descr": "Anthracite"
+    },
+    {
+        "name": "2116",
+        "descr": "Coking Coal"
+    },
+    {
+        "name": "2117",
+        "descr": "Other Bituminous Coal"
+    },
+    {
+        "name": "2118",
+        "descr": "Sub-bituminous Coal"
+    },
+    {
+        "name": "2121",
+        "descr": "Coke Oven Coke"
+    },
+    {
+        "name": "2122",
+        "descr": "Gas Coke"
+    },
+    {
+        "name": "2130",
+        "descr": "Coal Tar"
+    },
+    {
+        "name": "2210",
+        "descr": "Lignite/Brown Coal"
+    },
+    {
+        "name": "2230",
+        "descr": "BKB (brown coal briquettes)"
+    },
+    {
+        "name": "2310",
+        "descr": "Peat"
+    },
+    {
+        "name": "2330",
+        "descr": "Peat products"
+    },
+    {
+        "name": "2410",
+        "descr": "Oil shale and oil sands"
+    }
+]

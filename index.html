@@ -2,17 +2,39 @@
 <html>
 <head lang="en">
     <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="css/energizer.css"></link>
+    <link rel="stylesheet" type="text/css" href="css/energizer.css" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.css" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+
     <title>Energizer</title>
+
 </head>
-<body>
+<body ng-app="myApp">
+    <form name="selectForm" ng-controller="DataController as dataCtrl"
+          ng-submit="selectForm.$valid && dataCtrl.applySelection(selected)" novalidate>
+        Select country:
+        <select ng-model="dataCtrl.selection.geo" ng-options="geo.name for geo in dataCtrl.geos" required>
+            <option value="">--select--</option>
+        </select>
+        <p ng-show="dataCtrl.selection.geo.name">You selected {{dataCtrl.selection.geo.name}}</p>
+        <br/>
+        Select products:
+        <select ng-model="dataCtrl.selection.products" ng-options="product.name for product in dataCtrl.products" multiple required></select>
+        <p ng-show="dataCtrl.selection.products">You selected {{dataCtrl.selection.products}}</p> <!--TODO-->
+        <br/>
+        Form is valid: {{selectForm.$valid}}.
+        <input type="submit" value="Submit"></input>
+
+    </form>
     <div id="inf"></div>
 
     <script type="text/javascript" src="js/vendor/jQuery/jquery-2.1.1"></script>
     <script type="text/javascript" src="js/vendor/d3/d3.js"></script>
-    <script type="text/javascript" src="js/vendor/json2xml/xml2json.js"></script>
+    <script type="text/javascript" src="js/vendor/angular/angular.min.js"></script>
     <script type="text/javascript" src="js/vendor/x2js-v1.1.5/xml2json.js"></script>
-    <script type="text/javascript" src="js/convert.js"></script>
-
+    <script type="text/javascript" src="js/vendor/taffy/taffy.js"></script>
+    <!--<script type="text/javascript" src="js/main.js"></script>-->
+    <!--<script type="text/javascript" src="js/convert.js"></script>-->
+    <script type="text/javascript" src="js/makedb.js"></script>
 </body>
 </html>

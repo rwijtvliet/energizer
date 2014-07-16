@@ -1,0 +1,643 @@
+{"GenericData": {
+    "Header": {
+        "ID": {
+            "__prefix": "message",
+            "__text": "b5ca1a7964ed0d5e60843170a449ac59"
+        },
+        "Test": {
+            "__prefix": "message",
+            "__text": "false"
+        },
+        "Prepared": {
+            "__prefix": "message",
+            "__text": "2014-06-23T00:14:49"
+        },
+        "Sender": {
+            "Name": {
+                "_xml:lang": "en",
+                "__prefix": "common",
+                "__text": "Eurostat"
+            },
+            "Timezone": {
+                "__prefix": "message",
+                "__text": "+01:00"
+            },
+            "_id": "ESTAT",
+            "__prefix": "message"
+        },
+        "Receiver": {
+            "_id": "RECEIVER",
+            "__prefix": "message"
+        },
+        "Structure": {
+            "Structure": {
+                "Ref": {
+                    "_agencyID": "ESTAT",
+                    "_id": "DSD_nrg_100a",
+                    "_version": "1.0"
+                },
+                "__prefix": "common"
+            },
+            "_structureID": "ESTAT_DSD_nrg_100a_1_0",
+            "_dimensionAtObservation": "TIME_PERIOD",
+            "__prefix": "message"
+        },
+        "DataSetAction": {
+            "__prefix": "message",
+            "__text": "Append"
+        },
+        "DataSetID": {
+            "__prefix": "message",
+            "__text": "nrg_100a"
+        },
+        "__prefix": "message"
+    },
+    "DataSet": {
+        "Series": [
+            {
+                "SeriesKey": {
+                    "Value": [
+                        {
+                            "_id": "UNIT",
+                            "_value": "TJ",
+                            "__prefix": "generic"
+                        },
+                        {
+                            "_id": "PRODUCT",
+                            "_value": "0000",
+                            "__prefix": "generic"
+                        },
+                        {
+                            "_id": "INDIC_NRG",
+                            "_value": "B_100100",
+                            "__prefix": "generic"
+                        },
+                        {
+                            "_id": "GEO",
+                            "_value": "DE",
+                            "__prefix": "generic"
+                        },
+                        {
+                            "_id": "FREQ",
+                            "_value": "A",
+                            "__prefix": "generic"
+                        }
+                    ],
+                    "__prefix": "generic"
+                },
+                "Obs": [
+                    {
+                        "ObsDimension": {
+                            "_value": "2012",
+                            "__prefix": "generic"
+                        },
+                        "ObsValue": {
+                            "_value": "5172235.0",
+                            "__prefix": "generic"
+                        },
+                        "__prefix": "generic"
+                    },
+                    {
+                        "ObsDimension": {
+                            "_value": "2011",
+                            "__prefix": "generic"
+                        },
+                        "ObsValue": {
+                            "_value": "5152455.0",
+                            "__prefix": "generic"
+                        },
+                        "__prefix": "generic"
+                    },
+                    {
+                        "ObsDimension": {
+                            "_value": "2010",
+                            "__prefix": "generic"
+                        },
+                        "ObsValue": {
+                            "_value": "5416659.0",
+                            "__prefix": "generic"
+                        },
+                        "__prefix": "generic"
+                    },
+                    {
+                        "ObsDimension": {
+                            "_value": "2009",
+                            "__prefix": "generic"
+                        },
+                        "ObsValue": {
+                            "_value": "5298723.0",
+                            "__prefix": "generic"
+                        },
+                        "__prefix": "generic"
+                    },
+                    {
+                        "ObsDimension": {
+                            "_value": "2008",
+                            "__prefix": "generic"
+                        },
+                        "ObsValue": {
+                            "_value": "5562042.0",
+                            "__prefix": "generic"
+                        },
+                        "__prefix": "generic"
+                    },
+                    {
+                        "ObsDimension": {
+                            "_value": "2007",
+                            "__prefix": "generic"
+                        },
+                        "ObsValue": {
+                            "_value": "5711754.0",
+                            "__prefix": "generic"
+                        },
+                        "__prefix": "generic"
+                    },
+                    {
+                        "ObsDimension": {
+                            "_value": "2006",
+                            "__prefix": "generic"
+                        },
+                        "ObsValue": {
+                            "_value": "5805617.0",
+                            "__prefix": "generic"
+                        },
+                        "__prefix": "generic"
+                    },
+                    {
+                        "ObsDimension": {
+                            "_value": "2005",
+                            "__prefix": "generic"
+                        },
+                        "ObsValue": {
+                            "_value": "5724837.0",
+                            "__prefix": "generic"
+                        },
+                        "__prefix": "generic"
+                    },
+                    {
+                        "ObsDimension": {
+                            "_value": "2004",
+                            "__prefix": "generic"
+                        },
+                        "ObsValue": {
+                            "_value": "5723719.0",
+                            "__prefix": "generic"
+                        },
+                        "__prefix": "generic"
+                    },
+                    {
+                        "ObsDimension": {
+                            "_value": "2003",
+                            "__prefix": "generic"
+                        },
+                        "ObsValue": {
+                            "_value": "5643960.0",
+                            "__prefix": "generic"
+                        },
+                        "__prefix": "generic"
+                    },
+                    {
+                        "ObsDimension": {
+                            "_value": "2002",
+                            "__prefix": "generic"
+                        },
+                        "ObsValue": {
+                            "_value": "5624015.0",
+                            "__prefix": "generic"
+                        },
+                        "__prefix": "generic"
+                    },
+                    {
+                        "ObsDimension": {
+                            "_value": "2001",
+                            "__prefix": "generic"
+                        },
+                        "ObsValue": {
+                            "_value": "5630380.0",
+                            "__prefix": "generic"
+                        },
+                        "__prefix": "generic"
+                    },
+                    {
+                        "ObsDimension": {
+                            "_value": "2000",
+                            "__prefix": "generic"
+                        },
+                        "ObsValue": {
+                            "_value": "5659619.0",
+                            "__prefix": "generic"
+                        },
+                        "__prefix": "generic"
+                    },
+                    {
+                        "ObsDimension": {
+                            "_value": "1999",
+                            "__prefix": "generic"
+                        },
+                        "ObsValue": {
+                            "_value": "5734856.0",
+                            "__prefix": "generic"
+                        },
+                        "__prefix": "generic"
+                    },
+                    {
+                        "ObsDimension": {
+                            "_value": "1998",
+                            "__prefix": "generic"
+                        },
+                        "ObsValue": {
+                            "_value": "5682767.0",
+                            "__prefix": "generic"
+                        },
+                        "__prefix": "generic"
+                    },
+                    {
+                        "ObsDimension": {
+                            "_value": "1997",
+                            "__prefix": "generic"
+                        },
+                        "ObsValue": {
+                            "_value": "6000929.0",
+                            "__prefix": "generic"
+                        },
+                        "__prefix": "generic"
+                    },
+                    {
+                        "ObsDimension": {
+                            "_value": "1996",
+                            "__prefix": "generic"
+                        },
+                        "ObsValue": {
+                            "_value": "5987757.0",
+                            "__prefix": "generic"
+                        },
+                        "__prefix": "generic"
+                    },
+                    {
+                        "ObsDimension": {
+                            "_value": "1995",
+                            "__prefix": "generic"
+                        },
+                        "ObsValue": {
+                            "_value": "6062652.0",
+                            "__prefix": "generic"
+                        },
+                        "__prefix": "generic"
+                    },
+                    {
+                        "ObsDimension": {
+                            "_value": "1994",
+                            "__prefix": "generic"
+                        },
+                        "ObsValue": {
+                            "_value": "6073445.0",
+                            "__prefix": "generic"
+                        },
+                        "__prefix": "generic"
+                    },
+                    {
+                        "ObsDimension": {
+                            "_value": "1993",
+                            "__prefix": "generic"
+                        },
+                        "ObsValue": {
+                            "_value": "6362536.0",
+                            "__prefix": "generic"
+                        },
+                        "__prefix": "generic"
+                    },
+                    {
+                        "ObsDimension": {
+                            "_value": "1992",
+                            "__prefix": "generic"
+                        },
+                        "ObsValue": {
+                            "_value": "6831648.0",
+                            "__prefix": "generic"
+                        },
+                        "__prefix": "generic"
+                    },
+                    {
+                        "ObsDimension": {
+                            "_value": "1991",
+                            "__prefix": "generic"
+                        },
+                        "ObsValue": {
+                            "_value": "7046894.0",
+                            "__prefix": "generic"
+                        },
+                        "__prefix": "generic"
+                    },
+                    {
+                        "ObsDimension": {
+                            "_value": "1990",
+                            "__prefix": "generic"
+                        },
+                        "ObsValue": {
+                            "_value": "7802447.0",
+                            "__prefix": "generic"
+                        },
+                        "__prefix": "generic"
+                    }
+                ],
+                "__prefix": "generic"
+            },
+            {
+                "SeriesKey": {
+                    "Value": [
+                        {
+                            "_id": "UNIT",
+                            "_value": "TJ",
+                            "__prefix": "generic"
+                        },
+                        {
+                            "_id": "PRODUCT",
+                            "_value": "0000",
+                            "__prefix": "generic"
+                        },
+                        {
+                            "_id": "INDIC_NRG",
+                            "_value": "B_100100",
+                            "__prefix": "generic"
+                        },
+                        {
+                            "_id": "GEO",
+                            "_value": "NL",
+                            "__prefix": "generic"
+                        },
+                        {
+                            "_id": "FREQ",
+                            "_value": "A",
+                            "__prefix": "generic"
+                        }
+                    ],
+                    "__prefix": "generic"
+                },
+                "Obs": [
+                    {
+                        "ObsDimension": {
+                            "_value": "2012",
+                            "__prefix": "generic"
+                        },
+                        "ObsValue": {
+                            "_value": "2716947.0",
+                            "__prefix": "generic"
+                        },
+                        "__prefix": "generic"
+                    },
+                    {
+                        "ObsDimension": {
+                            "_value": "2011",
+                            "__prefix": "generic"
+                        },
+                        "ObsValue": {
+                            "_value": "2698904.0",
+                            "__prefix": "generic"
+                        },
+                        "__prefix": "generic"
+                    },
+                    {
+                        "ObsDimension": {
+                            "_value": "2010",
+                            "__prefix": "generic"
+                        },
+                        "ObsValue": {
+                            "_value": "2929142.0",
+                            "__prefix": "generic"
+                        },
+                        "__prefix": "generic"
+                    },
+                    {
+                        "ObsDimension": {
+                            "_value": "2009",
+                            "__prefix": "generic"
+                        },
+                        "ObsValue": {
+                            "_value": "2647054.0",
+                            "__prefix": "generic"
+                        },
+                        "__prefix": "generic"
+                    },
+                    {
+                        "ObsDimension": {
+                            "_value": "2008",
+                            "__prefix": "generic"
+                        },
+                        "ObsValue": {
+                            "_value": "2794334.0",
+                            "__prefix": "generic"
+                        },
+                        "__prefix": "generic"
+                    },
+                    {
+                        "ObsDimension": {
+                            "_value": "2007",
+                            "__prefix": "generic"
+                        },
+                        "ObsValue": {
+                            "_value": "2569578.0",
+                            "__prefix": "generic"
+                        },
+                        "__prefix": "generic"
+                    },
+                    {
+                        "ObsDimension": {
+                            "_value": "2006",
+                            "__prefix": "generic"
+                        },
+                        "ObsValue": {
+                            "_value": "2556754.0",
+                            "__prefix": "generic"
+                        },
+                        "__prefix": "generic"
+                    },
+                    {
+                        "ObsDimension": {
+                            "_value": "2005",
+                            "__prefix": "generic"
+                        },
+                        "ObsValue": {
+                            "_value": "2604231.0",
+                            "__prefix": "generic"
+                        },
+                        "__prefix": "generic"
+                    },
+                    {
+                        "ObsDimension": {
+                            "_value": "2004",
+                            "__prefix": "generic"
+                        },
+                        "ObsValue": {
+                            "_value": "2846651.0",
+                            "__prefix": "generic"
+                        },
+                        "__prefix": "generic"
+                    },
+                    {
+                        "ObsDimension": {
+                            "_value": "2003",
+                            "__prefix": "generic"
+                        },
+                        "ObsValue": {
+                            "_value": "2456471.0",
+                            "__prefix": "generic"
+                        },
+                        "__prefix": "generic"
+                    },
+                    {
+                        "ObsDimension": {
+                            "_value": "2002",
+                            "__prefix": "generic"
+                        },
+                        "ObsValue": {
+                            "_value": "2536981.0",
+                            "__prefix": "generic"
+                        },
+                        "__prefix": "generic"
+                    },
+                    {
+                        "ObsDimension": {
+                            "_value": "2001",
+                            "__prefix": "generic"
+                        },
+                        "ObsValue": {
+                            "_value": "2571597.0",
+                            "__prefix": "generic"
+                        },
+                        "__prefix": "generic"
+                    },
+                    {
+                        "ObsDimension": {
+                            "_value": "2000",
+                            "__prefix": "generic"
+                        },
+                        "ObsValue": {
+                            "_value": "2408771.0",
+                            "__prefix": "generic"
+                        },
+                        "__prefix": "generic"
+                    },
+                    {
+                        "ObsDimension": {
+                            "_value": "1999",
+                            "__prefix": "generic"
+                        },
+                        "ObsValue": {
+                            "_value": "2490626.0",
+                            "__prefix": "generic"
+                        },
+                        "__prefix": "generic"
+                    },
+                    {
+                        "ObsDimension": {
+                            "_value": "1998",
+                            "__prefix": "generic"
+                        },
+                        "ObsValue": {
+                            "_value": "2663235.0",
+                            "__prefix": "generic"
+                        },
+                        "__prefix": "generic"
+                    },
+                    {
+                        "ObsDimension": {
+                            "_value": "1997",
+                            "__prefix": "generic"
+                        },
+                        "ObsValue": {
+                            "_value": "2771137.0",
+                            "__prefix": "generic"
+                        },
+                        "__prefix": "generic"
+                    },
+                    {
+                        "ObsDimension": {
+                            "_value": "1996",
+                            "__prefix": "generic"
+                        },
+                        "ObsValue": {
+                            "_value": "3120308.0",
+                            "__prefix": "generic"
+                        },
+                        "__prefix": "generic"
+                    },
+                    {
+                        "ObsDimension": {
+                            "_value": "1995",
+                            "__prefix": "generic"
+                        },
+                        "ObsValue": {
+                            "_value": "2790623.0",
+                            "__prefix": "generic"
+                        },
+                        "__prefix": "generic"
+                    },
+                    {
+                        "ObsDimension": {
+                            "_value": "1994",
+                            "__prefix": "generic"
+                        },
+                        "ObsValue": {
+                            "_value": "2780511.0",
+                            "__prefix": "generic"
+                        },
+                        "__prefix": "generic"
+                    },
+                    {
+                        "ObsDimension": {
+                            "_value": "1993",
+                            "__prefix": "generic"
+                        },
+                        "ObsValue": {
+                            "_value": "2869442.0",
+                            "__prefix": "generic"
+                        },
+                        "__prefix": "generic"
+                    },
+                    {
+                        "ObsDimension": {
+                            "_value": "1992",
+                            "__prefix": "generic"
+                        },
+                        "ObsValue": {
+                            "_value": "2821224.0",
+                            "__prefix": "generic"
+                        },
+                        "__prefix": "generic"
+                    },
+                    {
+                        "ObsDimension": {
+                            "_value": "1991",
+                            "__prefix": "generic"
+                        },
+                        "ObsValue": {
+                            "_value": "2820194.0",
+                            "__prefix": "generic"
+                        },
+                        "__prefix": "generic"
+                    },
+                    {
+                        "ObsDimension": {
+                            "_value": "1990",
+                            "__prefix": "generic"
+                        },
+                        "ObsValue": {
+                            "_value": "2534011.0",
+                            "__prefix": "generic"
+                        },
+                        "__prefix": "generic"
+                    }
+                ],
+                "__prefix": "generic"
+            }
+        ],
+        "_structureRef": "ESTAT_DSD_nrg_100a_1_0",
+        "__prefix": "message"
+    },
+    "_xmlns:footer": "http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message/footer",
+    "_xmlns:generic": "http://www.sdmx.org/resources/sdmxml/schemas/v2_1/data/generic",
+    "_xmlns:common": "http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common",
+    "_xmlns:message": "http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message",
+    "_xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "__prefix": "message"
+}}

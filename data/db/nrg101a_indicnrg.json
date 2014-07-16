@@ -1,0 +1,290 @@
+[
+    {
+        "name": "B_100900",
+        "descr": "Gross inland consumption"
+    },
+    {
+        "name": "B_101500",
+        "descr": "Energy Available for Final Consumption"
+    },
+    {
+        "name": "B_102200",
+        "descr": "Statistical Difference"
+    },
+    {
+        "name": "B_100100",
+        "descr": "Primary production"
+    },
+    {
+        "name": "B_100200",
+        "descr": "From Other Sources"
+    },
+    {
+        "name": "B_100300",
+        "descr": "Imports"
+    },
+    {
+        "name": "B_100500",
+        "descr": "Exports"
+    },
+    {
+        "name": "B_100400",
+        "descr": "Stock Changes"
+    },
+    {
+        "name": "B_100800",
+        "descr": "International Marine Bunkers"
+    },
+    {
+        "name": "B_101000",
+        "descr": "Transformation input"
+    },
+    {
+        "name": "B_101004",
+        "descr": "Transformation input in Coke Ovens"
+    },
+    {
+        "name": "B_101006",
+        "descr": "Transformation input in Blast Furnaces"
+    },
+    {
+        "name": "B_101007",
+        "descr": "Transformation input in Gas Works"
+    },
+    {
+        "name": "B_101010",
+        "descr": "Transformation input in Patent Fuel Plants"
+    },
+    {
+        "name": "B_101011",
+        "descr": "Transformation input in BKB / PB Plants"
+    },
+    {
+        "name": "B_101012",
+        "descr": "Transformation input in Coal Liquefaction Plants"
+    },
+    {
+        "name": "B_101020",
+        "descr": "Non-specified Transformation input"
+    },
+    {
+        "name": "B_101001",
+        "descr": "Transformation input - Conventional Thermal Power Stations"
+    },
+    {
+        "name": "B_101021",
+        "descr": "Transformation input in Main Activity Producer Conventional Power Stations"
+    },
+    {
+        "name": "B_101031",
+        "descr": "Transformation input in Main Activity Producer Electricity Plants"
+    },
+    {
+        "name": "B_101032",
+        "descr": "Transformation input in Main Activity Producer CHP Plants"
+    },
+    {
+        "name": "B_101022",
+        "descr": "Transformation input in Autoproducer Conventional Power Stations"
+    },
+    {
+        "name": "B_101034",
+        "descr": "Transformation input in Autoproducer Electricity Plants"
+    },
+    {
+        "name": "B_101035",
+        "descr": "Transformation input in Autoproducer CHP Plants"
+    },
+    {
+        "name": "B_101009",
+        "descr": "Transformation input - District heating plants"
+    },
+    {
+        "name": "B_101038",
+        "descr": "Transformation input in Main Activity Producer Heat Plants"
+    },
+    {
+        "name": "B_101039",
+        "descr": "Transformation input in Autoproducer Heat Plants"
+    },
+    {
+        "name": "B_101100",
+        "descr": "Transformation output"
+    },
+    {
+        "name": "B_101104",
+        "descr": "Transformation output from Coke Ovens"
+    },
+    {
+        "name": "B_101107",
+        "descr": "Transformation output from Gas Works"
+    },
+    {
+        "name": "B_101110",
+        "descr": "Transformation output from Patent Fuel Plants"
+    },
+    {
+        "name": "B_101111",
+        "descr": "Transformation output from BKB / PB Plants"
+    },
+    {
+        "name": "B_101300",
+        "descr": "Consumption in Energy Sector"
+    },
+    {
+        "name": "B_101301",
+        "descr": "Own Use in Electricity, CHP and Heat Plants"
+    },
+    {
+        "name": "B_101307",
+        "descr": "Consumption in Petroleum Refineries"
+    },
+    {
+        "name": "B_101310",
+        "descr": "Consumption in Coal Mines"
+    },
+    {
+        "name": "B_101311",
+        "descr": "Consumption in Patent Fuel Plants"
+    },
+    {
+        "name": "B_101312",
+        "descr": "Consumption in Coke Ovens"
+    },
+    {
+        "name": "B_101313",
+        "descr": "Consumption in BKB / PB Plants"
+    },
+    {
+        "name": "B_101314",
+        "descr": "Consumption in Gas Works"
+    },
+    {
+        "name": "B_101316",
+        "descr": "Consumption in Coal Liquefaction Plants"
+    },
+    {
+        "name": "B_101320",
+        "descr": "Consumption in Non-specified (Energy)"
+    },
+    {
+        "name": "B_101400",
+        "descr": "Distribution Losses"
+    },
+    {
+        "name": "B_101600",
+        "descr": "Final Non-energy Consumption"
+    },
+    {
+        "name": "B_101606",
+        "descr": "Non-energy use in Transport Sector"
+    },
+    {
+        "name": "B_101607",
+        "descr": "Non-energy use in Other Sectors"
+    },
+    {
+        "name": "B_101608",
+        "descr": "Non-energy use in Industry, Transformation & Energy Sectors"
+    },
+    {
+        "name": "B_101700",
+        "descr": "Final Energy Consumption"
+    },
+    {
+        "name": "B_101800",
+        "descr": "Final Energy Consumption - Industry"
+    },
+    {
+        "name": "B_101805",
+        "descr": "Iron and Steel"
+    },
+    {
+        "name": "B_101810",
+        "descr": "Non-Ferrous Metals"
+    },
+    {
+        "name": "B_101815",
+        "descr": "Chemical and Petrochemical"
+    },
+    {
+        "name": "B_101820",
+        "descr": "Non-Metallic Minerals"
+    },
+    {
+        "name": "B_101825",
+        "descr": "Mining and Quarrying"
+    },
+    {
+        "name": "B_101830",
+        "descr": "Food and Tobacco"
+    },
+    {
+        "name": "B_101835",
+        "descr": "Textile and Leather"
+    },
+    {
+        "name": "B_101840",
+        "descr": "Paper, Pulp and Print"
+    },
+    {
+        "name": "B_101846",
+        "descr": "Transport Equipment"
+    },
+    {
+        "name": "B_101847",
+        "descr": "Machinery"
+    },
+    {
+        "name": "B_101851",
+        "descr": "Wood and Wood Products"
+    },
+    {
+        "name": "B_101852",
+        "descr": "Construction"
+    },
+    {
+        "name": "B_101853",
+        "descr": "Non-specified (Industry)"
+    },
+    {
+        "name": "B_101900",
+        "descr": "Final Energy Consumption - Transport"
+    },
+    {
+        "name": "B_101910",
+        "descr": "Rail"
+    },
+    {
+        "name": "B_101940",
+        "descr": "Domestic Navigation"
+    },
+    {
+        "name": "B_101950",
+        "descr": "Non-specified (Transport)"
+    },
+    {
+        "name": "B_102000",
+        "descr": "Final Energy Consumption - Other Sectors"
+    },
+    {
+        "name": "B_102010",
+        "descr": "Residential"
+    },
+    {
+        "name": "B_102020",
+        "descr": "Fishing"
+    },
+    {
+        "name": "B_102030",
+        "descr": "Agriculture/Forestry"
+    },
+    {
+        "name": "B_102035",
+        "descr": "Services"
+    },
+    {
+        "name": "B_102040",
+        "descr": "Non-specified (Other)"
+    }
+]

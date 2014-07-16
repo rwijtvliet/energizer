@@ -1,0 +1,146 @@
+[
+    {
+        "name": "EU28",
+        "descr": "European Union (28 countries)"
+    },
+    {
+        "name": "EA18",
+        "descr": "Euro area (18 countries)"
+    },
+    {
+        "name": "BE",
+        "descr": "Belgium"
+    },
+    {
+        "name": "BG",
+        "descr": "Bulgaria"
+    },
+    {
+        "name": "CZ",
+        "descr": "Czech Republic"
+    },
+    {
+        "name": "DK",
+        "descr": "Denmark"
+    },
+    {
+        "name": "DE",
+        "descr": "Germany (until 1990 former territory of the FRG)"
+    },
+    {
+        "name": "EE",
+        "descr": "Estonia"
+    },
+    {
+        "name": "IE",
+        "descr": "Ireland"
+    },
+    {
+        "name": "EL",
+        "descr": "Greece"
+    },
+    {
+        "name": "ES",
+        "descr": "Spain"
+    },
+    {
+        "name": "FR",
+        "descr": "France"
+    },
+    {
+        "name": "HR",
+        "descr": "Croatia"
+    },
+    {
+        "name": "IT",
+        "descr": "Italy"
+    },
+    {
+        "name": "CY",
+        "descr": "Cyprus"
+    },
+    {
+        "name": "LV",
+        "descr": "Latvia"
+    },
+    {
+        "name": "LT",
+        "descr": "Lithuania"
+    },
+    {
+        "name": "LU",
+        "descr": "Luxembourg"
+    },
+    {
+        "name": "HU",
+        "descr": "Hungary"
+    },
+    {
+        "name": "MT",
+        "descr": "Malta"
+    },
+    {
+        "name": "NL",
+        "descr": "Netherlands"
+    },
+    {
+        "name": "AT",
+        "descr": "Austria"
+    },
+    {
+        "name": "PL",
+        "descr": "Poland"
+    },
+    {
+        "name": "PT",
+        "descr": "Portugal"
+    },
+    {
+        "name": "RO",
+        "descr": "Romania"
+    },
+    {
+        "name": "SI",
+        "descr": "Slovenia"
+    },
+    {
+        "name": "SK",
+        "descr": "Slovakia"
+    },
+    {
+        "name": "FI",
+        "descr": "Finland"
+    },
+    {
+        "name": "SE",
+        "descr": "Sweden"
+    },
+    {
+        "name": "UK",
+        "descr": "United Kingdom"
+    },
+    {
+        "name": "IS",
+        "descr": "Iceland"
+    },
+    {
+        "name": "NO",
+        "descr": "Norway"
+    },
+    {
+        "name": "ME",
+        "descr": "Montenegro"
+    },
+    {
+        "name": "MK",
+        "descr": "Former Yugoslav Republic of Macedonia, the"
+    },
+    {
+        "name": "RS",
+        "descr": "Serbia"
+    },
+    {
+        "name": "TR",
+        "descr": "Turkey"
+    }
+]

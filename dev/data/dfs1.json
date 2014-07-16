@@ -1,0 +1,3198 @@
+[
+    {
+        "name": "bop_q_gdp",
+        "descrs": [
+            {
+                "descr": "Main Balance of Payments and International Investment Position items as share of GDP",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Haupt Zahlungsbilanz und Auslandsvermögensstatus Posten als BIP Anteil",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Principaux postes de la balance des paiements et de la position extérieure en pourcentage du PIB",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "cens_01napop",
+        "descrs": [
+            {
+                "descr": "Population by sex, age and current activity status",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Bevölkerung nach Geschlecht, Alter und derzeitigem Erwerbsstatus",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Population par sexe, âge et activité professionnelle actuelle",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "cens_01rapop",
+        "descrs": [
+            {
+                "descr": "Population by sex, age group, current activity status and NUTS 3 regions",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Bevölkerung nach Geschlecht, Altersklasse, derzeitigem Erwerbsstatus und NUTS-3-Regionen",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Population par sexe, groupe d'âge, activité professionnelle actuelle et région NUTS 3",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "cpc_ecnagdp",
+        "descrs": [
+            {
+                "descr": "Candidate countries and potential candidates: GDP and main aggregates",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Kandidaten- und potentielle Kandidatenländer: BIP und Hauptaggregate",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Pays candidats et candidats potentiels: PIB et principaux agrégats",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "cpc_psdemo",
+        "descrs": [
+            {
+                "descr": "Candidate countries and potential candidates: population - demography",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Kandidaten- und potentielle Kandidatenländer: Bevölkerung - Demographie",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Pays candidats et candidats potentiels: population - démographie",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "demo_divcb",
+        "descrs": [
+            {
+                "descr": "Divorces by country of birth of wife (C_BIRTH) and husband (PARTNER)",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Scheidungen nach Geburtsland der Ehefrau (C_BIRTH) und des Ehemannes (PARTNER)",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Divorces par pays de naissance de l'épouse (C_BIRTH) et de l'époux (PARTNER)",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "demo_divcz",
+        "descrs": [
+            {
+                "descr": "Divorces by citizenship of wife (CITIZEN) and husband (PARTNER)",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Scheidungen nach Staatsangehörigkeit der Ehefrau (CITIZEN) und des Ehemannes (PARTNER)",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Divorces par citoyenneté de l'épouse (CITIZEN) et de l'époux (PARTNER)",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "demo_fabort",
+        "descrs": [
+            {
+                "descr": "Legally induced abortions by mother's age",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Gesetzliche Schwangerschaftsabbrüche nach Alter der Mutter",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Interruptions volontaires de grossesse légales par âge de la mère",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "demo_fabortord",
+        "descrs": [
+            {
+                "descr": "Legally induced abortions by mother's age and number of previous live births",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Gesetzliche Schwangerschaftsabbrüche nach Alter der Mutter und vorangegangenen Lebendgeborenen",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Interruptions volontaires de grossesse légales par âge de la mère et par le nombre des naissances vivantes précédentes",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "demo_facbc",
+        "descrs": [
+            {
+                "descr": "Live births by mother's age at last birthday and country of birth",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Lebendgeburten nach vollendetem Lebensjahr der Mutter und Geburtsland",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Naissances vivantes par âge de la mère en années révolues et pays de naissance",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "demo_faczc",
+        "descrs": [
+            {
+                "descr": "Live births by mother's age at last birthday and citizenship",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Lebendgeburten nach vollendetem Lebensjahr der Mutter und Staatsbürgerschaft",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Naissances vivantes par âge de la mère en années révolues et citoyenneté",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "demo_faeduc",
+        "descrs": [
+            {
+                "descr": "Live births by mother's age at last birthday and educational attainment (ISCED 1997)",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Lebendgeburten nach vollendetem Lebensjahr der Mutter und Bildungsgrad (ISCED 1997)",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Naissances vivantes par âge de la mère en années révolues et niveau d'éducation (CITE 1997)",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "demo_faemplc",
+        "descrs": [
+            {
+                "descr": "Live births by mother's age at last birthday and activity status",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Lebendgeburten nach vollendetem Lebensjahr der Mutter und Erwerbstätigkeit",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Naissances vivantes par âge de la mère en années révolues et activité",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "demo_fagec",
+        "descrs": [
+            {
+                "descr": "Live births by mother's age at last birthday and legal marital status",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Lebendgeburten nach vollendetem Lebensjahr der Mutter und Familienstand",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Naissances vivantes par âge de la mère en années révolues et statut matrimonial",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "demo_fager",
+        "descrs": [
+            {
+                "descr": "Live births by mother's age reached during the year and legal marital status",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Lebendgeburten nach im laufenden Jahr erreichtem Alter der Mutter und Familienstand",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Naissances vivantes par âge de la mère atteint dans l'année et statut matrimonial",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "demo_fasec",
+        "descrs": [
+            {
+                "descr": "Live births by mother's age at last birthday and by newborn's sex",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Lebendgeburten nach vollendetem Lebensjahr der Mutter und Geschlecht",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Naissances vivantes par âge de la mère en années révolues et sexe",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "demo_find",
+        "descrs": [
+            {
+                "descr": "Fertility indicators",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Fruchtbarkeitsziffern",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Indicateurs de fécondité",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "demo_fmonth",
+        "descrs": [
+            {
+                "descr": "Live births by month",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Lebendgeburten nach Monat",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Naissances vivantes par mois",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "demo_fordagec",
+        "descrs": [
+            {
+                "descr": "Live births by mother's age at last birthday and by birth order",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Lebendgeburten nach vollendetem Lebensjahr der Mutter und Rangfolge",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Naissances vivantes par âge de la mère en années révolues et rang",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "demo_fordager",
+        "descrs": [
+            {
+                "descr": "Live births by mother's age reached during the year and by birth order",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Lebendgeburten nach im laufenden Jahr erreichtem Alter der Mutter und Rangfolge",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Naissances vivantes par âge de la mère atteint dans l'année et rang",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "demo_frate",
+        "descrs": [
+            {
+                "descr": "Fertility rates by age",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Fruchbarkeitsziffern nach Alter",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Taux de fécondité par âge",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "demo_gind",
+        "descrs": [
+            {
+                "descr": "Demographic balance and crude rates",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Absolute und relative Bevölkerungsveränderung",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Bilan démographique et taux bruts",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "demo_macbc",
+        "descrs": [
+            {
+                "descr": "Deaths by age at last birthday, sex and country of birth",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Todesfälle nach vollendetem Lebensjahr, Geschlecht und Geburtsland",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Décès par âge en années révolues, sexe et pays de naissance",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "demo_maczc",
+        "descrs": [
+            {
+                "descr": "Deaths by age at last birthday, sex and citizenship",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Todesfälle nach vollendetem Lebensjahr, Geschlecht und Staatsbürgerschaft",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Décès par âge en années révolues, sexe et citoyenneté",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "demo_maeduc",
+        "descrs": [
+            {
+                "descr": "Deaths by age at last birthday, sex and educational attainment (ISCED 1997)",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Sterblichkeit nach am letzten Geburtstag erreichtem Alter, Geschlecht und Bildungsgrad (ISCED 1997)",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Décès par âge en années révolues, sexe et niveau d'éducation (CITE 1997)",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "demo_magec",
+        "descrs": [
+            {
+                "descr": "Deaths by age at last birthday and sex",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Todesfälle nach vollendetem Lebensjahr und Geschlecht",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Décès par âge en années révolues et sexe",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "demo_mager",
+        "descrs": [
+            {
+                "descr": "Deaths by age reached during the year and sex",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Todesfälle nach im laufenden Jahr erreichtem Alter und Geschlecht",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Décès par âge atteint dans l'année et sexe",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "demo_marcb",
+        "descrs": [
+            {
+                "descr": "Marriages by country of birth of bride (C_BIRTH) and groom (PARTNER)",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Eheschließungen nach Geburtsland der Braut (C_BIRTH) und des Bräutigams (PARTNER)",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Mariages par pays de naissance de la mariée (C_BIRTH) et du marié (PARTNER)",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "demo_marcz",
+        "descrs": [
+            {
+                "descr": "Marriages by citizenship of bride (CITIZEN) and groom (PARTNER)",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Eheschließungen nach Staatsangehörigkeit der Braut (CITIZEN) und des Bräutigams (PARTNER)",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Mariages par citoyenneté de la mariée (CITIZEN) et du marié (PARTNER)",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "demo_marstac",
+        "descrs": [
+            {
+                "descr": "Deaths by age at last birthday, sex and legal marital status",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Todesfälle nach vollendetem Lebensjahr, Geschlecht und Familienstand",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Décès par âge en années révolues, sexe et statut matrimonial",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "demo_mfoet",
+        "descrs": [
+            {
+                "descr": "Late foetal deaths by mother's age",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Später Fetaltod nach Alter der Mutter",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Morts foetales tardives par âge de la mère",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "demo_minf",
+        "descrs": [
+            {
+                "descr": "Infant mortality",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Säuglingssterblichkeit",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Mortalité infantile",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "demo_minfind",
+        "descrs": [
+            {
+                "descr": "Infant mortality rates",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Säuglingssterbeziffer",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Taux de mortalité infantile",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "demo_minfs",
+        "descrs": [
+            {
+                "descr": "Infant mortality by age and sex",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Säuglingssterblichkeit nach Alter und Geschlecht",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Mortalité infantile par âge et sexe",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "demo_mlexpec",
+        "descrs": [
+            {
+                "descr": "Life expectancy by age and sex",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Lebenserwartung nach Alter und Geschlecht",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Espérance de vie par âge et sexe",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "demo_mlexpecedu",
+        "descrs": [
+            {
+                "descr": "Life expectancy by age, sex and educational attainment (ISCED 1997)",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Lebenserwartung nach Alter, Geschlecht und Bildungsgrad (ISCED 1997)",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Espérance de vie par âge, sexe et niveau d'éducation (CITE 1997)",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "demo_mlifetable",
+        "descrs": [
+            {
+                "descr": "Life table",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Sterbetafel",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Table de mortalité",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "demo_mmonth",
+        "descrs": [
+            {
+                "descr": "Deaths by month",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Sterbefälle nach Monat",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Décès par mois",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "demo_ndivdur",
+        "descrs": [
+            {
+                "descr": "Divorces by duration of marriage (reached during the year)",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Scheidungen nach der Ehedauer (erreicht im jeweiligen Jahr)",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Divorces par durée de mariage (atteinte dans l'année)",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "demo_ndivind",
+        "descrs": [
+            {
+                "descr": "Divorce indicators",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Ehescheidungsziffern",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Indicateurs de divortialité",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "demo_nind",
+        "descrs": [
+            {
+                "descr": "Marriage indicators",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Eheschließungsziffern",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Indicateurs de nuptialité",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "demo_nmsta",
+        "descrs": [
+            {
+                "descr": "Marriages by previous marital status and sex",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Eheschließung nach vorherigem Familienstand und Geschlecht",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Mariages par statut matrimonial antérieur et sexe",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "demo_nsinagec",
+        "descrs": [
+            {
+                "descr": "First-time marrying persons by age and sex",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Erste Eheschließung von Personen nach Alter und Geschlecht",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Personnes se mariant pour la première fois, par âge et par sexe",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "demo_nsinrt",
+        "descrs": [
+            {
+                "descr": "First marriage rates by sex and age",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Ersteheschließungsziffer nach Alter",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Taux de primo-nuptialité par sexe et âge",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "demo_pjan",
+        "descrs": [
+            {
+                "descr": "Population on 1 January by age and sex",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Bevölkerung am 1. Januar nach Alter und Geschlecht",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Population au 1er janvier par âge et sexe",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "demo_pjanbroad",
+        "descrs": [
+            {
+                "descr": "Population on 1 January by broad age group and sex",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Bevölkerung am 1. Januar nach breite Altersgruppe und Geschlecht",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Population au 1er janvier par grand groupe d'âges et sexe",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "demo_pjanedu",
+        "descrs": [
+            {
+                "descr": "Population on 1 January by age, sex and educational attainment (ISCED 1997)",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Bevölkerung am 1. Januar nach Alter, Geschlecht und Bildungsgrad (ISCED 1997)",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Population au 1er janvier par âge, sexe et niveau d'éducation (CITE 1997)",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "demo_pjangroup",
+        "descrs": [
+            {
+                "descr": "Population on 1 January by five years age groups and sex",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Bevölkerung am 1. Januar nach Altersgruppe und Geschlecht",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Population au 1er janvier par groupe d'âge et sexe",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "demo_pjanind",
+        "descrs": [
+            {
+                "descr": "Population on 1 January: Structure indicators",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Bevölkerung am 1. Januar: Strukturindikatoren",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Population au 1er janvier: Indicateurs de structure",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "demo_pjanmarsta",
+        "descrs": [
+            {
+                "descr": "Population on 1 January by age, sex and legal marital status",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Bevölkerung am 1. Januar nach Alter, Geschlecht und gesetzlichem Familienstand",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Population au 1er janvier par âge, sexe et situation matrimoniale légale",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "demo_r_births",
+        "descrs": [
+            {
+                "descr": "Live births (total) - NUTS 3 regions",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Lebendgeburten (insgesamt) - NUTS-3-Regionen",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Naissances vivantes (totales) - régions NUTS 3",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "demo_r_d2jan",
+        "descrs": [
+            {
+                "descr": "Population on 1 January by age and sex - NUTS 2 regions",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Bevölkerung am 1. Januar nach Alter und Geschlecht - NUTS-2-Regionen",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Population au 1er janvier par âge et sexe - régions NUTS 2",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "demo_r_d3area",
+        "descrs": [
+            {
+                "descr": "Area - NUTS 3 regions",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Fläche - NUTS-3-Regionen",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Superficie - régions NUTS 3",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "demo_r_d3avg",
+        "descrs": [
+            {
+                "descr": "Annual average population (1 000) by sex - NUTS 3 regions",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Bevölkerung im Jahresdurchschnitt (1 000) nach Geschlecht - NUTS-3-Regionen",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Population moyenne annuelle (1 000) par sexe - régions NUTS 3",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "demo_r_d3dens",
+        "descrs": [
+            {
+                "descr": "Population density - NUTS 3 regions",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Bevölkerungsdichte - NUTS-3-Regionen",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Densité de la population - régions NUTS 3",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "demo_r_deaths",
+        "descrs": [
+            {
+                "descr": "Deaths (total) - NUTS 3 regions",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Sterbefälle (insgesamt) - NUTS-3-Regionen",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Décès (totaux) - régions NUTS 3",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "demo_r_fagec",
+        "descrs": [
+            {
+                "descr": "Live births by mother's age at last birthday - NUTS 2 regions",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Lebendgeburten nach vollendetem Lebensjahr der Mutter - NUTS-2-Regionen",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Naissances vivantes par âge de la mère en années révolues - régions NUTS 2",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "demo_r_frate2",
+        "descrs": [
+            {
+                "descr": "Fertility rates by age - NUTS 2 regions",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Fruchbarkeitsziffern nach Alter - NUTS-2-Regionen",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Taux de fécondité par âge - régions NUTS 2",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "demo_r_gind3",
+        "descrs": [
+            {
+                "descr": "Demographic balance and crude rates - NUTS 3 regions",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Absolute und relative Bevölkerungsveränderung - NUTS-3-Regionen",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Bilan démographique et taux bruts - régions NUTS 3",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "demo_r_magec",
+        "descrs": [
+            {
+                "descr": "Deaths by age at last birthday and sex - NUTS 2 regions",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Todesfälle nach vollendetem Lebensjahr und Geschlecht - NUTS-2-Regionen",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Décès par âge en années révolues et sexe - régions NUTS 2",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "demo_r_mdie",
+        "descrs": [
+            {
+                "descr": "Number dying between exact ages (dx) by NUTS 2 regions",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Gestorbene im Alter x bis unter x+1 (dx) - NUTS-2-Regionen",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Nombre de décès entre deux âges exacts (dx) - régions NUTS 2",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "demo_r_mdthrt",
+        "descrs": [
+            {
+                "descr": "Age specific death rate (Mx) - NUTS 2 regions",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Altersspezifische Sterbeziffer (Mx) - NUTS-2-Regionen",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Taux de mortalité à l'âge x (Mx) - régions NUTS 2",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "demo_r_minf",
+        "descrs": [
+            {
+                "descr": "Infant mortality - NUTS 2 regions",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Säuglingssterblichkeit - NUTS-2-Regionen",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Mortalité infantile - régions NUTS 2",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "demo_r_minfind",
+        "descrs": [
+            {
+                "descr": "Infant mortality rates - NUTS 2 regions",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Säuglingssterbeziffer - NUTS-2-Regionen",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Taux de mortalité infantile - régions NUTS 2",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "demo_r_mlifexp",
+        "descrs": [
+            {
+                "descr": "Life expectancy at given exact age (ex) - NUTS 2 regions",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Lebenserwartung im Alter x in Jahren (ex) - NUTS-2-Regionen",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Esperance de vie à l'âge exact (ex) - régions NUTS 2",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "demo_r_mpbdth",
+        "descrs": [
+            {
+                "descr": "Probability of dying between exact ages (qx) - NUTS 2 regions",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Sterbewahrscheinlichkeit vom Alter x bis x+1 (qx) - NUTS-2-Regionen",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Probabilité de décès entre deux âges exacts (qx) - régions NUTS 2",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "demo_r_mpbsurv",
+        "descrs": [
+            {
+                "descr": "Probability of surviving between exact ages (px) - NUTS 2 regions",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Überlebenswahrscheinlichkeit vom Alter x bis x+1 (px) - NUTS-2-Regionen",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Probabilité de survie entre deux âges exacts (px) - régions NUTS 2",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "demo_r_mpyliv",
+        "descrs": [
+            {
+                "descr": "Person-years lived between exact ages (Lx) - NUTS 2 regions",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Von den Überlebenden im Alter x bis zum Alter x+1 durchlebte Jahre (Lx) - NUTS-2-Regionen",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Nombre d'années personnes vécues entre deux âges exacts (Lx) - régions NUTS 2",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "demo_r_msurv",
+        "descrs": [
+            {
+                "descr": "Number left alive at given exact age (lx) - NUTS 2 regions",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Überlebende im Alter x (lx) - NUTS-2-Regionen",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Nombre des survivants à l'âge exact (lx) - régions NUTS 2",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "demo_r_mtotpyliv",
+        "descrs": [
+            {
+                "descr": "Total person-years lived above given exact age (Tx) - NUTS 2 regions",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Von den Überlebenden im Alter x insgesamt noch zu durchlebende Jahre (Tx) - NUTS-2-Regionen",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Nombre totale d'années personne vécues après l'âge exact (Tx) - régions NUTS 2",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "demo_r_pjanaggr3",
+        "descrs": [
+            {
+                "descr": "Population on 1 January by broad age groups and sex - NUTS 3 regions",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Bevölkerung am 1. Januar nach breite Altersgruppe und Geschlecht - NUTS-3-Regionen",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Population au 1er janvier par grand groupe d'âges et sexe - régions NUTS 3",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "demo_r_pjangroup",
+        "descrs": [
+            {
+                "descr": "Population on 1 January by five years age groups and sex - NUTS 2 regions",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Bevölkerung am 1. Januar nach Altersgruppe und Geschlecht - NUTS-2-Regionen",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Population au 1er janvier par groupes d'âges quinquennaux et sexe - régions NUTS 2",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "educ_bo_fi_fgdp",
+        "descrs": [
+            {
+                "descr": "Public education expenditure (ISCED 5-6) as % of public expenditure and GDP",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Öffentliche Ausgaben im Tertiärbereich in Prozent des BIP oder der gesamten öffentlichen Ausgaben",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Dépenses publiques (CITE 5-6), en % des dépenses publiques et du PIB",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "educ_figdp",
+        "descrs": [
+            {
+                "descr": "Expenditure on education as % of GDP or public expenditure",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Bildungsausgaben in % des BIP bzw. der öffentlichen Gesamtausgaben",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Dépenses d'éducation en % du PIB ou des dépenses publiques totales",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "ef_popermaa",
+        "descrs": [
+            {
+                "descr": "Permanent crops: number of farms and areas by agricultural size of farm (UAA) and size of permanent crop area",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Dauerkulturen: Anzahl der Betriebe und Flächen mit Dauerkulturen nach landwirtschaftlicher Fläche und Fläche mit Dauerkulturen",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Cultures permanentes: nombre d'exploitations et superficies selon la taille de l'exploitation en SAU et en cultures permanentes",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "ef_popermecs",
+        "descrs": [
+            {
+                "descr": "Permanent crops: number of farms and areas by economic size of farm (SO in Euro) and size of permanent crop area",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Dauerkulturen: Anzahl der Betriebe und Flächen mit Dauerkulturen nach wirtschaftlicher Betriebsgröße (SO in Euro) und Fläche mit Dauerkulturen",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Cultures permanentes: nombre d'exploitations et superficies selon la dimension économique (PS en Euro)de l'exploitation et la taille de l'exploitation en cultures permanentes",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "ef_popermreg",
+        "descrs": [
+            {
+                "descr": "Permanent crops: number of farms and areas by size of permanent crop area and NUTS 2 regions",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Dauerkulturen: Anzahl der Betriebe und Flächen mit Dauerkulturen nach Fläche mit Dauerkulturen und NUTS-2-Regionen",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Cultures permanentes: nombre d'exploitations et superficies selon la taille de l'exploitation en cultures permanentes et par région NUTS 2",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "enpr_ecnagdp",
+        "descrs": [
+            {
+                "descr": "ENP countries: GDP and main aggregates",
+                "descrlan": "en"
+            },
+            {
+                "descr": "ENP-Länder: BIP und Hauptaggregate",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Pays de la PEV: PIB et principaux agrégats",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "enpr_psdemo",
+        "descrs": [
+            {
+                "descr": "ENP countries: population - demography",
+                "descrlan": "en"
+            },
+            {
+                "descr": "ENP-Länder: Bevölkerung - Demographie",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Pays de la PEV: population - démographie",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "env_wat_pop",
+        "descrs": [
+            {
+                "descr": "Population connected to public water supply",
+                "descrlan": "en"
+            },
+            {
+                "descr": "An die öffentliche Wasserversorgung angeschlossene Bevölkerung",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Population raccordée à l'approvisionnement publique en eau",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "env_watpop_r2",
+        "descrs": [
+            {
+                "descr": "Population connected to public water supply by NUTS 2 regions",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Anschlussgrad der Bevölkerung an die öffentliche Wasserversorgung nach NUTS-2-Regionen",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Population raccordée à un système public d'approvisionnement en eau par région NUTS 2",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "env_watpop_rb",
+        "descrs": [
+            {
+                "descr": "Population connected to public water supply by RBD",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Anschlussgrad der Bevölkerung an die öffentliche Wasserversorgung nach RBD",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Population raccordée à un système public d'approvisionnement en eau par RBD",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "ipr_da_gdp",
+        "descrs": [
+            {
+                "descr": "Community design (CD) applications per billion GDP",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Anmeldungen von Gemeinschaftsgeschmacksmustern (CD) pro Milliarden BIP",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Demandes de dessins ou modèles communautaires (CD) par milliards de PIB",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "ipr_da_pop",
+        "descrs": [
+            {
+                "descr": "Community design (CD) applications per million population",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Anmeldungen von Gemeinschaftsgeschmacksmustern (CD) pro Millionen Einwohner",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Demandes de dessins ou modèles communautaires (CD) par millions d'habitants",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "ipr_dfa_gdp",
+        "descrs": [
+            {
+                "descr": "Community designs (CD) per billion GDP",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Gemeinschaftsgeschmacksmuster (CD) pro Milliarden BIP",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Dessins ou modèles communautaires (CD) par milliards de PIB",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "ipr_dfa_pop",
+        "descrs": [
+            {
+                "descr": "Community designs per million population",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Gemeinschaftsgeschmacksmuster (CD) pro Millionen Einwohner",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Dessins ou modèles communautaires (CD) par millions d'habitants",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "ipr_ta_gdp",
+        "descrs": [
+            {
+                "descr": "Community trade mark (CTM) applications per billion GDP",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Anmeldungen von Gemeinschaftsmarken (CTM) pro Milliarden BIP",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Demandes de marques communautaires (CTM) par milliards de PIB",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "ipr_ta_pop",
+        "descrs": [
+            {
+                "descr": "Community trade mark (CTM) applications per million population",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Anmeldungen von Gemeinschaftsmarken (CTM) pro Millionen Einwohner",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Demandes de marques communautaires (CTM) par millions d'habitants",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "ipr_tr_gdp",
+        "descrs": [
+            {
+                "descr": "Community trade mark (CTM) registrations per billion GDP",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Eintragungen von Gemeinschaftsmarken (CTM) pro Milliarden BIP",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Enregistrements de marques communautaires (CTM) par milliards de PIB",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "ipr_tr_pop",
+        "descrs": [
+            {
+                "descr": "Community trade mark (CTM) registrations per million population",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Registrierungen von Gemeinschaftsmarken (CTM) pro Millionen Einwohner",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Enregistrements de marques communautaires (CTM) par millions d'habitants",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "lfst_r_lfsd2pop",
+        "descrs": [
+            {
+                "descr": "Population aged 15 and over by sex, age and NUTS 2 regions (1 000)",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Bevölkerung im Alter von 15 Jahren und mehr nach Geschlecht, Alter und NUTS-2-Regionen (1 000)",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Population âgée de 15 ans et plus par sexe, âge et région NUTS 2 (1 000)",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "met_e3gdp",
+        "descrs": [
+            {
+                "descr": "Gross domestic product (GDP) at current market prices",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Bruttoinlandsprodukt (BIP) zu laufenden Marktpreisen",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Produit intérieur brut (PIB) aux prix courants du marché",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "met_lfp3pop",
+        "descrs": [
+            {
+                "descr": "Economically active population by sex and age (1 000)",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Erwerbspersonen nach Geschlecht und Alter (1 000)",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Population active par sexe et âge (1 000)",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "met_lfsd3pop",
+        "descrs": [
+            {
+                "descr": "Population by sex and age (1 000)",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Personen nach Geschlecht und Alter (1 000)",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Population par sexe et âge (1 000)",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "migr_pop1ctz",
+        "descrs": [
+            {
+                "descr": "Population by sex, age group and citizenship",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Bevölkerung nach Geschlecht, Altersklasse und Staatsangehörigkeit",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Population par sexe, groupe d'âge et nationalité",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "migr_pop2ctz",
+        "descrs": [
+            {
+                "descr": "Population by sex, age and broad group of citizenship",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Bevölkerung nach Geschlecht, Alter und umfassender Staatsangehörigkeitsgruppe",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Population par sexe, âge et grand groupe de nationalité",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "migr_pop3ctb",
+        "descrs": [
+            {
+                "descr": "Population by sex, age group and country of birth",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Bevölkerung nach Geschlecht, Altersklasse und Geburtsland",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Population par sexe, groupe d'âge et pays de naissance",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "migr_pop4ctb",
+        "descrs": [
+            {
+                "descr": "Population by sex, age and broad group of country of birth",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Bevölkerung nach Geschlecht, Alter und umfassender Geburtslandsgruppe",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Population par sexe, âge et grand groupe de pays de naissance",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "migr_pop5ctz",
+        "descrs": [
+            {
+                "descr": "Population by sex, citizenship and broad group of country of birth",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Bevölkerung nach Geschlecht, Staatsangehörigkeit und umfassender Geburtslandsgruppe",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Population par sexe, nationalité et grand groupe de pays de naissance",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "migr_pop6ctb",
+        "descrs": [
+            {
+                "descr": "Population by sex, country of birth and broad group of citizenship",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Bevölkerung nach Geschlecht, Geburtsland und umfassender Staatsangehörigkeitsgruppe",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Population par sexe, pays de naissance et grand groupe de nationalité",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "nama_gdp_c",
+        "descrs": [
+            {
+                "descr": "GDP and main components - Current prices",
+                "descrlan": "en"
+            },
+            {
+                "descr": "BIP und Hauptkomponenten - Jeweilige Preise",
+                "descrlan": "de"
+            },
+            {
+                "descr": "PIB et principales composantes - Prix courants",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "nama_gdp_k",
+        "descrs": [
+            {
+                "descr": "GDP and main components - volumes",
+                "descrlan": "en"
+            },
+            {
+                "descr": "BIP und Hauptkomponenten - Volumen",
+                "descrlan": "de"
+            },
+            {
+                "descr": "PIB et principaux composants - volumes",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "nama_gdp_p",
+        "descrs": [
+            {
+                "descr": "GDP and main components - Price indices",
+                "descrlan": "en"
+            },
+            {
+                "descr": "BIP und Hauptkomponenten - Preisindizes",
+                "descrlan": "de"
+            },
+            {
+                "descr": "PIB et principales composantes - Indices de prix",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "nama_r_e0digdp",
+        "descrs": [
+            {
+                "descr": "Dispersion of regional GDP by NUTS 3 regions (%)",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Streuung des regionalen BIP nach NUTS-3-Regionen (%)",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Dispersion du PIB régional par région NUTS 3 (%)",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "nama_r_e2gdp",
+        "descrs": [
+            {
+                "descr": "Gross domestic product (GDP) at current market prices by NUTS 2 regions",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Bruttoinlandsprodukt (BIP) zu laufenden Marktpreisen nach NUTS-2-Regionen",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Produit intérieur brut (PIB) aux prix courants du marché par région NUTS 2",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "nama_r_e2grgdp",
+        "descrs": [
+            {
+                "descr": "Real growth rate of regional gross value added (GVA) at basic prices by NUTS 2 regions - percentage change on previous year",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Reale Wachstumsrate der regionalen Bruttowertschöpfung (BWS) zu Herstellungspreisen nach NUTS-2-Regionen - Veränderung in Prozent des Vorjahres",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Taux de croissance réel de la valeur ajoutée brute (VAB) aux prix de production par région NUTS 2 - Variation en pourcentage par rapport à l'année précédente",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "nama_r_e3gdp",
+        "descrs": [
+            {
+                "descr": "Gross domestic product (GDP) at current market prices by NUTS 3 regions",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Bruttoinlandsprodukt (BIP) zu laufenden Marktpreisen nach NUTS-3-Regionen",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Produit intérieur brut (PIB) aux prix courants du marché par région NUTS 3",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "nama_r_e3popgdp",
+        "descrs": [
+            {
+                "descr": "Average annual population to calculate regional GDP data (in 1000 persons), by NUTS 3 regions",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Bevölkerung im Jahresdurchschnitt zur Berechnung des BIP (in 1000 Personen), nach NUTS-3-Regionen",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Population annuelle moyenne utilisée pour le calcul des données PIB régionaux (1000 personnes), par région NUTS3",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "namq_gdp_c",
+        "descrs": [
+            {
+                "descr": "GDP and main components - Current prices",
+                "descrlan": "en"
+            },
+            {
+                "descr": "BIP und Hauptkomponenten - Jeweilige Preise",
+                "descrlan": "de"
+            },
+            {
+                "descr": "PIB et principales composantes - Prix courants",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "namq_gdp_k",
+        "descrs": [
+            {
+                "descr": "GDP and main components - volumes",
+                "descrlan": "en"
+            },
+            {
+                "descr": "BIP und Hauptkomponenten - Volumen",
+                "descrlan": "de"
+            },
+            {
+                "descr": "PIB et principales composantes - volumes",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "namq_gdp_p",
+        "descrs": [
+            {
+                "descr": "GDP and main components - Price indices",
+                "descrlan": "en"
+            },
+            {
+                "descr": "BIP und Hauptkomponenten - Preisindizes",
+                "descrlan": "de"
+            },
+            {
+                "descr": "PIB et principales composantes - Indices de prix",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "nrg_100a",
+        "descrs": [
+            {
+                "descr": "Supply, transformation, consumption - all products - annual data",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Versorgung, Umwandlung, Verbrauch - alle Produkte - jährliche Daten",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Approvisionnement, transformation, consommation - tous produits - données annuelles",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "nrg_101a",
+        "descrs": [
+            {
+                "descr": "Supply, transformation, consumption - solid fuels - annual data",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Versorgung, Umwandlung, Verbrauch - feste Brennstoffe - jährliche Daten",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Approvisionnement, transformation, consommation - combustibles solides - données annuelles",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "nrg_101m",
+        "descrs": [
+            {
+                "descr": "Supply, transformation - solid fuels - monthly data",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Versorgung, Umwandlung - feste Brennstoffe - monatliche Daten",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Approvisionnement, transformation - combustibles solides - données mensuelles",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "nrg_102a",
+        "descrs": [
+            {
+                "descr": "Supply, transformation, consumption - oil - annual data",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Versorgung, Umwandlung, Verbrauch - Öl - jährliche Daten",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Approvisionnement, transformation consommation - pétrole - données annuelles",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "nrg_102m",
+        "descrs": [
+            {
+                "descr": "Supply, transformation - oil - monthly data",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Versorgung, Umwandlung - Öl - monatliche Daten",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Approvisionnement, transformation - pétrole - données mensuelles",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "nrg_103a",
+        "descrs": [
+            {
+                "descr": "Supply, transformation, consumption - gas - annual data",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Versorgung, Umwandlung, Verbrauch - Gas - jährliche Daten",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Approvisionnement, transformation, consommation - gaz - données annuelles",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "nrg_103m",
+        "descrs": [
+            {
+                "descr": "Supply - gas - monthly data",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Versorgung - Gas - monatliche Daten",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Approvisionnement - gaz - données mensuelles",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "nrg_104a",
+        "descrs": [
+            {
+                "descr": "Supply, transformation - nuclear energy - annual data",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Versorgung, Umwandlung - Kernenergie - jährliche Daten",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Approvisionnement, transformation - énergie nucléaire - données annuelles",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "nrg_104m",
+        "descrs": [
+            {
+                "descr": "Supply, transformation - nuclear energy - monthly data",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Versorgung, Umwandlung - Kernenergie - monatliche Daten",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Approvisionnement, transformation - énergie nucléaire - données mensuelles",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "nrg_105a",
+        "descrs": [
+            {
+                "descr": "Supply, transformation, consumption - electricity - annual data",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Versorgung, Umwandlung, Verbrauch - Elektrizität - jährliche Daten",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Approvisionnement, transformation, consommation - électricité - données annuelles",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "nrg_105m",
+        "descrs": [
+            {
+                "descr": "Supply - electricity - monthly data",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Versorgung - Elektrizität - monatliche Daten",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Approvisionnement - électricité - données mensuelles",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "nrg_106a",
+        "descrs": [
+            {
+                "descr": "Supply, transformation, consumption - heat - annual data",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Versorgung, Umwandlung, Verbrauch - Wärme - jährliche Daten",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Approvisionnement, transformation, consommation - chaleur - données annuelles",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "nrg_107a",
+        "descrs": [
+            {
+                "descr": "Supply, transformation, consumption - renewable energies - annual data",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Versorgung, Umwandlung, Verbrauch - erneuerbare Energien - jährliche Daten",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Approvisionnement, transformation, consommation - énergies renouvelables - données annuelles",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "nrg_108a",
+        "descrs": [
+            {
+                "descr": "Supply, transformation, consumption - wastes (non-renewable) - annual data",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Versorgung, Umwandlung, Verbrauch - Abfälle (nicht erneuerbare) - jährliche Daten",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Approvisionnement, transformation, consommation - déchets (non renouvelables) - données annuelles",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "nrg_109a",
+        "descrs": [
+            {
+                "descr": "Primary production - all products - annual data",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Primärerzeugung - alle Produkte - jährliche Daten",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Production primaire - tous produits - données annuelles",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "nrg_113a",
+        "descrs": [
+            {
+                "descr": "Infrastructure - electricity - annual data",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Infrastruktur - Elektrizität - jährliche Daten",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Infrastructure - électricité - données annuelles",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "nrg_114a",
+        "descrs": [
+            {
+                "descr": "Infrastructure - biofuel production capacities - annual data",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Infrastruktur - Biobrennstoffe Produktionskapazität - jährliche Daten",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Infrastructure - capacité de production de biocarburants - données annuelles",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "nrg_115a",
+        "descrs": [
+            {
+                "descr": "Infrastructure - solar collectors' surface - annual data",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Infrastruktur - Sonnenkollektorfläche - jährliche Daten",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Infrastructure - surface de capteurs solaires - données annuelles",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "nrg_121a",
+        "descrs": [
+            {
+                "descr": "Imports (by country of origin) - all products - annual data",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Importe (nach Ursprungsland) - alle Produkte - jährliche Daten",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Importations (par pays d'origine) - tous produits - données annuelles",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "nrg_122a",
+        "descrs": [
+            {
+                "descr": "Imports (by country of origin) - solid fuels - annual data",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Importe (nach Ursprungsland) - feste Brennstoffe - jährliche Daten",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Importations (par pays d'origine) - combustibles solides - données annuelles",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "nrg_122m",
+        "descrs": [
+            {
+                "descr": "Imports (by country of origin) - solid fuels - monthly data",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Importe (nach Ursprungsland) - feste Brennstoffe - monatliche Daten",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Importations (par pays d'origine) - combustibles solides - données mensuelles",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "nrg_123a",
+        "descrs": [
+            {
+                "descr": "Imports (by country of origin) - oil - annual data",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Importe (nach Ursprungsland) - Öl - jährliche Daten",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Importations (par pays d'origine) - pétrole - données annuelles",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "nrg_123m",
+        "descrs": [
+            {
+                "descr": "Imports (by country of origin) - oil - monthly data",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Importe (nach Ursprungsland) - Öl - monatliche Daten",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Importations (par pays d'origine) - pétrole - données mensuelles",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "nrg_124a",
+        "descrs": [
+            {
+                "descr": "Imports (by country of origin) - gas - annual data",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Importe (nach Ursprungsland) - Gas - jährliche Daten",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Importations (par pays d'origine) - gaz - données annuelles",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "nrg_124m",
+        "descrs": [
+            {
+                "descr": "Imports (by country of origin) - gas - monthly data",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Importe (nach Ursprungsland) - Gas - monatliche Daten",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Importations (par pays d'origine) - gaz - données mensuelles",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "nrg_125a",
+        "descrs": [
+            {
+                "descr": "Imports (by country of origin) - electricity - annual data",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Importe (nach Ursprungsland) - Elektrizität - jährliche Daten",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Importations (par pays d'origine) - électricité - données annuelles",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "nrg_125m",
+        "descrs": [
+            {
+                "descr": "Imports (by country of origin) - electricity - monthly data",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Importe (nach Ursprungsland) - Elektrizität - monatliche Daten",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Importations (par pays d'origine) - électricité - données mensuelles",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "nrg_131a",
+        "descrs": [
+            {
+                "descr": "Exports (by country of destination) - all products - annual data",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Exporte (nach Bestimmungsland) - alle Produkte - jährliche Daten",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Exportations (par pays de destination) - tous produits - données annuelles",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "nrg_132a",
+        "descrs": [
+            {
+                "descr": "Exports (by country of destination) - solid fuels - annual data",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Exporte (nach Bestimmungsland) - feste Brennstoffe - jährliche Daten",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Exportations (par pays de destination) - combustibles solides - données annuelles",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "nrg_132m",
+        "descrs": [
+            {
+                "descr": "Exports (by country of destination) - solid fuels - monthly data",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Exporte (nach Bestimmungsland) - feste Brennstoffe - monatliche Daten",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Exportations (par pays de destination) - combustibles solides - données mensuelles",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "nrg_133a",
+        "descrs": [
+            {
+                "descr": "Exports (by country of destination) - oil - annual data",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Exporte (nach Bestimmungsland) - Öl - jährliche Daten",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Exportations (par pays de destination) - pétrole - données annuelles",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "nrg_133m",
+        "descrs": [
+            {
+                "descr": "Exports (by country of destination) - oil - monthly data",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Exporte (nach Bestimmungsland) - Öl - monatliche Daten",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Exportations (par pays de destination) - pétrole - données mensuelles",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "nrg_134a",
+        "descrs": [
+            {
+                "descr": "Exports (by country of destination) - gas - annual data",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Exporte (nach Bestimmungsland) - Gas - jährliche Daten",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Exportations (par pays de destination) - gaz - données annuelles",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "nrg_134m",
+        "descrs": [
+            {
+                "descr": "Exports (by country of destination) - gas - monthly data",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Exporte (nach Bestimmungsland) - Gas - monatliche Daten",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Exportations (par pays de destination) - gaz - données mensuelles",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "nrg_135a",
+        "descrs": [
+            {
+                "descr": "Exports (by country of destination) - electricity - annual data",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Exporte (nach Bestimmungsland) - Elektrizität - jährliche Daten",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Exportations (par pays de destination) - électricité - données annuelles",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "nrg_135m",
+        "descrs": [
+            {
+                "descr": "Exports (by country of destination) - electricity - monthly data",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Exporte (nach Bestimmungsland) - Elektrizität - monatliche Daten",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Exportations (par pays de destination) - électricité - données mensuelles",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "nrg_esdgr_a",
+        "descrs": [
+            {
+                "descr": "Heating degree-days by NUTS 2 regions - annual data",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Heizgradtage nach NUTS-2-Regionen - jährliche Daten",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Degrés-jours de chauffage par région NUTS 2 - données annuelles",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "nrg_esdgr_m",
+        "descrs": [
+            {
+                "descr": "Heating degree-days by NUTS 2 regions - monthly data",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Heizgradtage nach NUTS-2-Regionen - monatliche Daten",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Degrés-jours de chauffage par région NUTS 2 - données mensuelles",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "nrg_ind_331a",
+        "descrs": [
+            {
+                "descr": "Market share of the largest generator in the electricity market - annual data",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Marktanteil des größten Erzeugers im Strommarkt - jährliche Daten",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Part de marché du plus grand producteur d'électricité - données annuelles",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "nrg_ind_333a",
+        "descrs": [
+            {
+                "descr": "Annual nuclear statistics",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Jährliche Statistiken über die Atomenergie",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Statistiques nucléaires annuelles",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "nrg_ind_334a",
+        "descrs": [
+            {
+                "descr": "Energy saving - annual data",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Energieeinsparungen - jährliche Daten",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Economies d'énergie - données annuelles",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "nrg_ind_335a",
+        "descrs": [
+            {
+                "descr": "Share of energy from renewable sources",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Anteil von Energie aus erneuerbaren Quellen",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Part de l'énergie provenant de sources renouvelables",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "nrg_ind_342m",
+        "descrs": [
+            {
+                "descr": "Supply of electricity - monthly data",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Versorgung - Elektrizität - monatliche Daten",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Approvisionnement de l'électricité - données mensuelles",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "nrg_ind_343m",
+        "descrs": [
+            {
+                "descr": "Supply of natural gas - monthly data",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Versorgung - Naturgas - monatliche Daten",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Approvisionnement de gaz naturel - données mensuelles",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "nrg_jodi",
+        "descrs": [
+            {
+                "descr": "JODI - monthly oil data (t-1)",
+                "descrlan": "en"
+            },
+            {
+                "descr": "JODI - Monatliche Öl-Daten (t-1)",
+                "descrlan": "de"
+            },
+            {
+                "descr": "JODI - données mensuelles pétrole (t-1)",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "nrg_pc_202",
+        "descrs": [
+            {
+                "descr": "Gas prices for domestic consumers, from 2007 onwards - bi-annual data",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Preise Gas für Haushaltabnehmer, ab 2007 - halbjährliche Daten",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Prix du gaz pour consommateurs domestiques, à partir de 2007 - données semestrielles",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "nrg_pc_202_h",
+        "descrs": [
+            {
+                "descr": "Gas - domestic consumers - bi-annual prices - old methodology until 2007",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Gas - Haushaltabnehmer - halbjährliche Preise - alte Methodologie bis 2007",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Gaz - consommateurs domestiques - prix semestriels - ancienne méthodologie jusqu'à 2007",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "nrg_pc_203",
+        "descrs": [
+            {
+                "descr": "Gas prices for industrial consumers, from 2007 onwards - bi-annual data",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Preise Gas für Industrieabnehmer, ab 2007 - halbjährliche Daten",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Prix du gaz pour consommateurs industriels, à partir de 2007 - données semestrielles",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "nrg_pc_203_h",
+        "descrs": [
+            {
+                "descr": "Gas - industrial consumers - bi-annual prices - old methodology until 2007",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Gas - Industrieabnehmer - halbjährliche Preise - alte Methodologie bis 2007",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Gaz - consommateurs industriels - prix semestriels - ancienne méthodologie jusqu'à 2007",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "nrg_pc_204",
+        "descrs": [
+            {
+                "descr": "Electricity prices for domestic consumers, from 2007 onwards - bi-annual data",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Preise Elektrizität für Haushaltabnehmer, ab 2007 - halbjährliche Daten",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Prix de l'électricité pour consommateurs domestiques, à partir de 2007 - données semestrielles",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "nrg_pc_204_c",
+        "descrs": [
+            {
+                "descr": "Electricity prices components for domestic consumers, from 2007 onwards - annual data",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Elektrizitätspreiskomponenten für Haushaltabnehmer, ab 2007 - jährliche Daten",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Composants des prix de l'électricité pour consommateurs domestiques, à partir de 2007 - données annuelles",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "nrg_pc_204_h",
+        "descrs": [
+            {
+                "descr": "Electricity - domestic consumers - bi-annual prices - old methodology until 2007",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Elektrizität - Haushaltabnehmer - halbjährliche Preise - alte Methodologie bis 2007",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Electricité - consommateurs domestiques - prix semestriels - ancienne méthodologie jusqu'à 2007",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "nrg_pc_205",
+        "descrs": [
+            {
+                "descr": "Electricity prices for industrial consumers, from 2007 onwards - bi-annual data",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Preise Elektrizität für Industrieabnehmer, ab 2007 - halbjährliche Daten",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Prix de l'électricité pour consommateurs industriels, à partir de 2007 - données semestrielles",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "nrg_pc_205_c",
+        "descrs": [
+            {
+                "descr": "Electricity prices components for industrial consumers, from 2007 onwards - annual data",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Elektrizitätspreiskomponenten für Industrieabnehmer, ab 2007 - jährliche Daten",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Composants des prix de l'électricité pour consommateurs industriels, à partir de 2007 - données annuelles",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "nrg_pc_205_h",
+        "descrs": [
+            {
+                "descr": "Electricity - industrial consumers - bi-annual prices - old methodology until 2007",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Elektrizität - Industrieabnehmer - halbjährliche Preise - alte Methodologie bis 2007",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Electricité - consommateurs industriels - prix semestriels - ancienne méthodologie jusqu'à 2007",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "nrg_pc_206_h",
+        "descrs": [
+            {
+                "descr": "Electricity - marker prices - bi-annual prices - data until 2007",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Elektrizität - Markierungspreis - halbjährliche Daten - Daten bis 2007",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Electricité - prix repère - données semestrielles - données jusqu'à 2007",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "pat_ep_nrg",
+        "descrs": [
+            {
+                "descr": "Energy technologies patent applications to the EPO by priority year at the national level",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Energietechnologien-Patentanmeldungen beim EPA nach Prioritätsjahr auf nationaler Ebene",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Demandes de brevets de technologies de l'énergie déposées auprès de l'OEB par année de priorité au niveau national",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "pat_ep_nrgpct",
+        "descrs": [
+            {
+                "descr": "Energy technologies PCT applications designated to the EPO by priority year at the national level",
+                "descrlan": "en"
+            },
+            {
+                "descr": "PCT-Patentanmeldungen in Energietechnologien beim EPA nach Prioritätsjahr auf nationaler Ebene",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Demandes de brevets PCT de technologies de l'énergie déposées auprès de l'OEB par année de priorité au niveau national",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "spr_exp_gdp",
+        "descrs": [
+            {
+                "descr": "Tables by functions, aggregated benefits and grouped schemes - in % of the GDP",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Tabellen pro Funktion, aggregierte Leistungen und gruppierte Systeme - in % des BIP",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Tableaux par fonctions, prestations génériques et regroupement de régimes - en % du PIB",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "spr_rec_gdp",
+        "descrs": [
+            {
+                "descr": "Receipts - Tables by sector of origin and type, in % of the GDP",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Einnahmen - Tabellen nach Herkunftssektoren und Typen, in % des BIP",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Recettes - Tableaux par secteur de provenance et type, en % du PIB",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "urb_cpop1",
+        "descrs": [
+            {
+                "descr": "Population on 1 January by age groups and sex - cities and greater cities",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Bevölkerung am 1. Januar nach Altersgruppen und Geschlecht - Städte und Ballungsräume",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Population au 1er janvier par tranche d'âge et par sexe - villes et grandes villes",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "urb_cpopcb",
+        "descrs": [
+            {
+                "descr": "Population by citizenship and country of birth - cities and greater cities",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Bevölkerung nach Staatsangehörigkeit und Geburtsland - Städte und Ballungsräume",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Population par nationalité et pays de naissance - villes et grandes villes",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "urb_cpopstr",
+        "descrs": [
+            {
+                "descr": "Population structure - cities and greater cities",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Bevölkerungsstruktur - Städte und Ballungsräume",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Structure de la population - villes et grandes villes",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "urb_lpop1",
+        "descrs": [
+            {
+                "descr": "Population on 1 January by age groups and sex - larger urban zone",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Bevölkerung am 1. Januar nach Altersgruppen und Geschlecht - Stadtregion",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Population au 1er janvier par tranche d'âge et par sexe - zone urbaine élargie",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "urb_lpopcb",
+        "descrs": [
+            {
+                "descr": "Population by citizenship and country of birth - larger urban zone",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Bevölkerung nach Staatsangehörigkeit und Geburtsland - Stadtregion",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Population par nationalité et pays de naissance - zone urbaine élargie",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "urb_lpopstr",
+        "descrs": [
+            {
+                "descr": "Population structure - larger urban zone",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Bevölkerungsstruktur - Stadtregion",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Structure de la population - zone urbaine élargie",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "urt_e3gdp",
+        "descrs": [
+            {
+                "descr": "Gross domestic product (GDP), market prices",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Bruttoinlandsprodukt (BIP) zu laufenden Marktpreisen",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Produit intérieur brut (PIB) aux prix courants du marché",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "urt_lfp3pop",
+        "descrs": [
+            {
+                "descr": "Economically active population by sex and age (1 000)",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Erwerbspersonen nach Geschlecht und Alter (1 000)",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Population active par sexe et âge (1 000)",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "urt_lfsd3pop",
+        "descrs": [
+            {
+                "descr": "Population by sex and age (1 000)",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Personen nach Geschlecht und Alter (1 000)",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Population par sexe et âge (1 000)",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "yth_demo_010",
+        "descrs": [
+            {
+                "descr": "Child and youth population on 1 January by sex and age",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Kinder- und Jugendbevölkerung am 1. Januar nach Geschlecht und Alter",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Population des enfants et des jeunes au 1er janvier par sexe et âge",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "yth_demo_020",
+        "descrs": [
+            {
+                "descr": "Ratio of young people in the total population on 1 January by sex and age",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Anteil junger Menschen an der Gesamtbevölkerung am 1. Januar nach Geschlecht und Alter",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Ratio des jeunes dans la population totale au 1er janvier par sexe et âge",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "yth_demo_030",
+        "descrs": [
+            {
+                "descr": "Estimated average age of young people leaving the parental household by sex",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Geschätztes durchschnittliches Alter junger Menschen, die das Elternhaus verlassen, nach Geschlecht",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Age moyen estimé des jeunes quand ils quittent le domicile parental par sexe",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "yth_demo_040",
+        "descrs": [
+            {
+                "descr": "Young people with a given education attainment level by sex and age",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Junge Menschen mit vorgegebenem Bildungsgrad nach Geschlecht und Alter",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Jeunes ayant un niveau d'éducation donné par sexe et âge",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "yth_demo_050",
+        "descrs": [
+            {
+                "descr": "Share of young people living with their parents by sex and age",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Anteil der Jugendlichen, die mit ihren Eltern wohnen, nach Geschlecht und Alter",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Proportion des jeunes vivant avec leurs parents par sexe et âge",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "yth_demo_060",
+        "descrs": [
+            {
+                "descr": "Youth population on 1 January by sex, age and country of birth",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Jugendbevölkerung am 1. Januar nach Geschlecht, Alter und Geburtsland",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Nombre de jeunes au 1er janvier par sexe, âge et pays de naissance",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "yth_demo_070",
+        "descrs": [
+            {
+                "descr": "Young immigrants by sex, age and country of birth",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Junge Immigranten nach Geschlecht, Alter und Geburtsland",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Jeunes immigrants par sexe, âge et pays de naissance",
+                "descrlan": "fr"
+            }
+        ]
+    },
+    {
+        "name": "yth_demo_080",
+        "descrs": [
+            {
+                "descr": "Young emigrants by sex, age and country of birth",
+                "descrlan": "en"
+            },
+            {
+                "descr": "Junge Emigranten nach Geschlecht, Alter und Geburtsland",
+                "descrlan": "de"
+            },
+            {
+                "descr": "Jeunes émigrants par sexe, âge et pays de naissance",
+                "descrlan": "fr"
+            }
+        ]
+    }
+]
