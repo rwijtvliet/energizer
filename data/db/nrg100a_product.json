@@ -1,38 +1,38 @@
 [
-{
-    "name": "0000",
-    "descr": "All products"
-},
-{
-"name": "2000",
-"descr": "Solid fuels"
-},
-{
-"name": "3000",
-"descr": "Total petroleum products"
-},
-{
-"name": "4000",
-"descr": "Gas"
-},
-{
-"name": "5100",
-"descr": "Nuclear heat"
-},
-{
-"name": "5200",
-"descr": "Derived heat"
-},
-{
-"name": "5500",
-"descr": "Renewable energies"
-},
-{
-"name": "6000",
-"descr": "Electrical energy"
-},
-{
-"name": "7200",
-"descr": "Waste (non-renewable)"
-}
+    {
+        "name": "0000",
+        "descr": "All products"
+    },
+    {
+        "name": "2000",
+        "descr": "Solid fuels"
+    },
+    {
+        "name": "3000",
+        "descr": "Total petroleum products"
+    },
+    {
+        "name": "4000",
+        "descr": "Gas"
+    },
+    {
+        "name": "5100",
+        "descr": "Nuclear heat"
+    },
+    {
+        "name": "5200",
+        "descr": "Derived heat"
+    },
+    {
+        "name": "5500",
+        "descr": "Renewable energies"
+    },
+    {
+        "name": "6000",
+        "descr": "Electrical energy"
+    },
+    {
+        "name": "7200",
+        "descr": "Waste (non-renewable)"
+    }
 ]
