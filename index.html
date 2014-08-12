@@ -13,34 +13,46 @@
     <!--<form name="selectForm" ng-controller="DataController as dataCtrl"
           ng-submit="selectForm.$valid && dataCtrl.applySelection(selected)" novalidate>
         Select country:
-        <select ng-model="dataCtrl.selection.geo" ng-options="geo.name for geo in dataCtrl.geos" required>
+        <select ng-model="dataCtrl.fieldFilter.GEO" ng-options="GEO.name for GEO in dataCtrl.geos" required>
             <option value="">--select--</option>
         </select>
-        <p ng-show="dataCtrl.selection.geo.name">You selected {{dataCtrl.selection.geo.name}}</p>
+        <p ng-show="dataCtrl.fieldFilter.GEO.name">You selected {{dataCtrl.fieldFilter.GEO.name}}</p>
         <br/>
         Select products:
-        <select ng-model="dataCtrl.selection.products" ng-options="product.name for product in dataCtrl.products" multiple required></select>
-        <p ng-show="dataCtrl.selection.products">You selected {{dataCtrl.selection.products}}</p> <!--TODO
+        <select ng-model="dataCtrl.fieldFilter.products" ng-options="PRODUCT.name for PRODUCT in dataCtrl.products" multiple required></select>
+        <p ng-show="dataCtrl.fieldFilter.products">You selected {{dataCtrl.fieldFilter.products}}</p>
         <br/>
         Form is valid: {{selectForm.$valid}}.
         <input type="submit" value="Submit"></input>
 
-    </form>-->
-
+    </form>
+-->
     <h1>nrg_100a</h1>
-    <select id="geo" multiple required size="10" ></select>
-    <select id="product" multiple required size="10" ></select>
+    <div ng-controller="GeoSelectController">
+
+        <div style="float:left">
+        Select country:<br>
+        <select multiple required size="10" ng-model="fieldFilter.GEO" ng-options="geo.name as geo.descr for geo in geos" ng-change="updateGraph()"></select>
+        <p>You selected {{fieldFilter.GEO}}.</p>
+        </div>
+
+        <div style="float:left">
+        Select product:<br>
+        <select multiple required size="10" ng-model="fieldFilter.PRODUCT" ng-options="product.name as product.descr for product in products" ng-change="updateGraph()"></select>
+        <p>You selected {{fieldFilter.PRODUCT}}.</p>
+        </div>
     <div id="inf"></div>
 
+
     <script type="text/javascript" src="js/vendor/jQuery/jquery-2.1.1"></script>
-    <script type="text/javascript" src="js/vendor/d3/d3.js"></script>
-    <!--<script type="text/javascript" src="js/vendor/angular/angular.min.js"></script>-->
+    <script type="text/javascript" src="js/vendor/angular/angular.min.js"></script>
     <script type="text/javascript" src="js/vendor/x2js-v1.1.5/xml2json.js"></script>
     <script type="text/javascript" src="js/vendor/taffy/taffy.js"></script>
-    <!--<script type="text/javascript" src="js/main.js"></script>-->
+    <script type="text/javascript" src="js/eurostatDb.js"></script>
+    <script type="text/javascript" src="js/vendor/d3/d3.js"></script>
+    <script type="text/javascript" src="js/graph.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
     <!--<script type="text/javascript" src="js/convert.js"></script>-->
     <!--<script type="text/javascript" src="js/makeGraph.js"></script>-->
-    <script type="text/javascript" src="js/makeDb.js"></script>
-    <script type="text/javascript" src="js/bindData.js"></script>
 </body>
 </html>

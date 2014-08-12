@@ -502,10 +502,10 @@
     d3_selectAll = Sizzle;
     d3_selectMatches = Sizzle.matchesSelector;
   }
-  d3.selection = function() {
+  d3.fieldFilter = function() {
     return d3_selectionRoot;
   };
-  var d3_selectionPrototype = d3.selection.prototype = [];
+  var d3_selectionPrototype = d3.fieldFilter.prototype = [];
   d3_selectionPrototype.select = function(selector) {
     var subgroups = [], subgroup, subnode, group, node;
     selector = d3_selection_selector(selector);
@@ -921,8 +921,8 @@
     return selection;
   }
   var d3_selection_enterPrototype = [];
-  d3.selection.enter = d3_selection_enter;
-  d3.selection.enter.prototype = d3_selection_enterPrototype;
+  d3.fieldFilter.enter = d3_selection_enter;
+  d3.fieldFilter.enter.prototype = d3_selection_enterPrototype;
   d3_selection_enterPrototype.append = d3_selectionPrototype.append;
   d3_selection_enterPrototype.empty = d3_selectionPrototype.empty;
   d3_selection_enterPrototype.node = d3_selectionPrototype.node;
@@ -2758,7 +2758,7 @@
     shortMonths: [ "Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec" ]
   });
   d3.format = d3_locale_enUS.numberFormat;
-  d3.geo = {};
+  d3.GEO = {};
   function d3_adder() {}
   d3_adder.prototype = {
     s: 0,
@@ -2780,7 +2780,7 @@
     var x = o.s = a + b, bv = x - a, av = x - bv;
     o.t = a - av + (b - bv);
   }
-  d3.geo.stream = function(object, listener) {
+  d3.GEO.stream = function(object, listener) {
     if (object && d3_geo_streamObjectType.hasOwnProperty(object.type)) {
       d3_geo_streamObjectType[object.type](object, listener);
     } else {
@@ -2844,9 +2844,9 @@
     while (++i < n) d3_geo_streamLine(coordinates[i], listener, 1);
     listener.polygonEnd();
   }
-  d3.geo.area = function(object) {
+  d3.GEO.area = function(object) {
     d3_geo_areaSum = 0;
-    d3.geo.stream(object, d3_geo_area);
+    d3.GEO.stream(object, d3_geo_area);
     return d3_geo_areaSum;
   };
   var d3_geo_areaSum, d3_geo_areaRingSum = new d3_adder();
@@ -2915,7 +2915,7 @@
   function d3_geo_sphericalEqual(a, b) {
     return abs(a[0] - b[0]) < ε && abs(a[1] - b[1]) < ε;
   }
-  d3.geo.bounds = function() {
+  d3.GEO.bounds = function() {
     var λ0, φ0, λ1, φ1, λ_, λ__, φ__, p0, dλSum, ranges, range;
     var bound = {
       point: point,
@@ -3020,7 +3020,7 @@
     return function(feature) {
       φ1 = λ1 = -(λ0 = φ0 = Infinity);
       ranges = [];
-      d3.geo.stream(feature, bound);
+      d3.GEO.stream(feature, bound);
       var n = ranges.length;
       if (n) {
         ranges.sort(compareRanges);
@@ -3043,9 +3043,9 @@
       return λ0 === Infinity || φ0 === Infinity ? [ [ NaN, NaN ], [ NaN, NaN ] ] : [ [ λ0, φ0 ], [ λ1, φ1 ] ];
     };
   }();
-  d3.geo.centroid = function(object) {
+  d3.GEO.centroid = function(object) {
     d3_geo_centroidW0 = d3_geo_centroidW1 = d3_geo_centroidX0 = d3_geo_centroidY0 = d3_geo_centroidZ0 = d3_geo_centroidX1 = d3_geo_centroidY1 = d3_geo_centroidZ1 = d3_geo_centroidX2 = d3_geo_centroidY2 = d3_geo_centroidZ2 = 0;
-    d3.geo.stream(object, d3_geo_centroid);
+    d3.GEO.stream(object, d3_geo_centroid);
     var x = d3_geo_centroidX2, y = d3_geo_centroidY2, z = d3_geo_centroidZ2, m = x * x + y * y + z * z;
     if (m < ε2) {
       x = d3_geo_centroidX1, y = d3_geo_centroidY1, z = d3_geo_centroidZ1;
@@ -3580,7 +3580,7 @@
     };
   }
   var d3_geo_clipExtentMAX = 1e9;
-  d3.geo.clipExtent = function() {
+  d3.GEO.clipExtent = function() {
     var x0, y0, x1, y1, stream, clip, clipExtent = {
       stream: function(output) {
         if (stream) stream.valid = false;
@@ -3760,16 +3760,16 @@
     };
     return forward;
   }
-  (d3.geo.conicEqualArea = function() {
+  (d3.GEO.conicEqualArea = function() {
     return d3_geo_conic(d3_geo_conicEqualArea);
   }).raw = d3_geo_conicEqualArea;
-  d3.geo.albers = function() {
-    return d3.geo.conicEqualArea().rotate([ 96, 0 ]).center([ -.6, 38.7 ]).parallels([ 29.5, 45.5 ]).scale(1070);
+  d3.GEO.albers = function() {
+    return d3.GEO.conicEqualArea().rotate([ 96, 0 ]).center([ -.6, 38.7 ]).parallels([ 29.5, 45.5 ]).scale(1070);
   };
-  d3.geo.albersUsa = function() {
-    var lower48 = d3.geo.albers();
-    var alaska = d3.geo.conicEqualArea().rotate([ 154, 0 ]).center([ -2, 58.5 ]).parallels([ 55, 65 ]);
-    var hawaii = d3.geo.conicEqualArea().rotate([ 157, 0 ]).center([ -3, 19.9 ]).parallels([ 8, 18 ]);
+  d3.GEO.albersUsa = function() {
+    var lower48 = d3.GEO.albers();
+    var alaska = d3.GEO.conicEqualArea().rotate([ 154, 0 ]).center([ -2, 58.5 ]).parallels([ 55, 65 ]);
+    var hawaii = d3.GEO.conicEqualArea().rotate([ 157, 0 ]).center([ -3, 19.9 ]).parallels([ 8, 18 ]);
     var point, pointStream = {
       point: function(x, y) {
         point = [ x, y ];
@@ -4107,29 +4107,29 @@
     };
     return resample;
   }
-  d3.geo.path = function() {
+  d3.GEO.path = function() {
     var pointRadius = 4.5, projection, context, projectStream, contextStream, cacheStream;
     function path(object) {
       if (object) {
         if (typeof pointRadius === "function") contextStream.pointRadius(+pointRadius.apply(this, arguments));
         if (!cacheStream || !cacheStream.valid) cacheStream = projectStream(contextStream);
-        d3.geo.stream(object, cacheStream);
+        d3.GEO.stream(object, cacheStream);
       }
       return contextStream.result();
     }
     path.area = function(object) {
       d3_geo_pathAreaSum = 0;
-      d3.geo.stream(object, projectStream(d3_geo_pathArea));
+      d3.GEO.stream(object, projectStream(d3_geo_pathArea));
       return d3_geo_pathAreaSum;
     };
     path.centroid = function(object) {
       d3_geo_centroidX0 = d3_geo_centroidY0 = d3_geo_centroidZ0 = d3_geo_centroidX1 = d3_geo_centroidY1 = d3_geo_centroidZ1 = d3_geo_centroidX2 = d3_geo_centroidY2 = d3_geo_centroidZ2 = 0;
-      d3.geo.stream(object, projectStream(d3_geo_pathCentroid));
+      d3.GEO.stream(object, projectStream(d3_geo_pathCentroid));
       return d3_geo_centroidZ2 ? [ d3_geo_centroidX2 / d3_geo_centroidZ2, d3_geo_centroidY2 / d3_geo_centroidZ2 ] : d3_geo_centroidZ1 ? [ d3_geo_centroidX1 / d3_geo_centroidZ1, d3_geo_centroidY1 / d3_geo_centroidZ1 ] : d3_geo_centroidZ0 ? [ d3_geo_centroidX0 / d3_geo_centroidZ0, d3_geo_centroidY0 / d3_geo_centroidZ0 ] : [ NaN, NaN ];
     };
     path.bounds = function(object) {
       d3_geo_pathBoundsX1 = d3_geo_pathBoundsY1 = -(d3_geo_pathBoundsX0 = d3_geo_pathBoundsY0 = Infinity);
-      d3.geo.stream(object, projectStream(d3_geo_pathBounds));
+      d3.GEO.stream(object, projectStream(d3_geo_pathBounds));
       return [ [ d3_geo_pathBoundsX0, d3_geo_pathBoundsY0 ], [ d3_geo_pathBoundsX1, d3_geo_pathBoundsY1 ] ];
     };
     path.projection = function(_) {
@@ -4152,7 +4152,7 @@
       cacheStream = null;
       return path;
     }
-    return path.projection(d3.geo.albersUsa()).context(null);
+    return path.projection(d3.GEO.albersUsa()).context(null);
   };
   function d3_geo_pathProjectStream(project) {
     var resample = d3_geo_resample(function(x, y) {
@@ -4162,7 +4162,7 @@
       return d3_geo_projectionRadians(resample(stream));
     };
   }
-  d3.geo.transform = function(methods) {
+  d3.GEO.transform = function(methods) {
     return {
       stream: function(stream) {
         var transform = new d3_geo_transform(stream);
@@ -4214,8 +4214,8 @@
       }
     };
   }
-  d3.geo.projection = d3_geo_projection;
-  d3.geo.projectionMutator = d3_geo_projectionMutator;
+  d3.GEO.projection = d3_geo_projection;
+  d3.GEO.projectionMutator = d3_geo_projectionMutator;
   function d3_geo_projection(project) {
     return d3_geo_projectionMutator(function() {
       return project;
@@ -4301,10 +4301,10 @@
   function d3_geo_equirectangular(λ, φ) {
     return [ λ, φ ];
   }
-  (d3.geo.equirectangular = function() {
+  (d3.GEO.equirectangular = function() {
     return d3_geo_projection(d3_geo_equirectangular);
   }).raw = d3_geo_equirectangular.invert = d3_geo_equirectangular;
-  d3.geo.rotation = function(rotate) {
+  d3.GEO.rotation = function(rotate) {
     rotate = d3_geo_rotation(rotate[0] % 360 * d3_radians, rotate[1] * d3_radians, rotate.length > 2 ? rotate[2] * d3_radians : 0);
     function forward(coordinates) {
       coordinates = rotate(coordinates[0] * d3_radians, coordinates[1] * d3_radians);
@@ -4345,7 +4345,7 @@
     };
     return rotation;
   }
-  d3.geo.circle = function() {
+  d3.GEO.circle = function() {
     var origin = [ 0, 0 ], angle, precision = 6, interpolate;
     function circle() {
       var center = typeof origin === "function" ? origin.apply(this, arguments) : origin, rotate = d3_geo_rotation(-center[0] * d3_radians, -center[1] * d3_radians, 0).invert, ring = [];
@@ -4401,11 +4401,11 @@
     var angle = d3_acos(-a[1]);
     return ((-a[2] < 0 ? -angle : angle) + 2 * Math.PI - ε) % (2 * Math.PI);
   }
-  d3.geo.distance = function(a, b) {
+  d3.GEO.distance = function(a, b) {
     var Δλ = (b[0] - a[0]) * d3_radians, φ0 = a[1] * d3_radians, φ1 = b[1] * d3_radians, sinΔλ = Math.sin(Δλ), cosΔλ = Math.cos(Δλ), sinφ0 = Math.sin(φ0), cosφ0 = Math.cos(φ0), sinφ1 = Math.sin(φ1), cosφ1 = Math.cos(φ1), t;
     return Math.atan2(Math.sqrt((t = cosφ1 * sinΔλ) * t + (t = cosφ0 * sinφ1 - sinφ0 * cosφ1 * cosΔλ) * t), sinφ0 * sinφ1 + cosφ0 * cosφ1 * cosΔλ);
   };
-  d3.geo.graticule = function() {
+  d3.GEO.graticule = function() {
     var x1, x0, X1, X0, y1, y0, Y1, Y0, dx = 10, dy = dx, DX = 90, DY = 360, x, y, X, Y, precision = 2.5;
     function graticule() {
       return {
@@ -4501,7 +4501,7 @@
   function d3_target(d) {
     return d.target;
   }
-  d3.geo.greatArc = function() {
+  d3.GEO.greatArc = function() {
     var source = d3_source, source_, target = d3_target, target_;
     function greatArc() {
       return {
@@ -4510,7 +4510,7 @@
       };
     }
     greatArc.distance = function() {
-      return d3.geo.distance(source_ || source.apply(this, arguments), target_ || target.apply(this, arguments));
+      return d3.GEO.distance(source_ || source.apply(this, arguments), target_ || target.apply(this, arguments));
     };
     greatArc.source = function(_) {
       if (!arguments.length) return source;
@@ -4527,7 +4527,7 @@
     };
     return greatArc;
   };
-  d3.geo.interpolate = function(source, target) {
+  d3.GEO.interpolate = function(source, target) {
     return d3_geo_interpolate(source[0] * d3_radians, source[1] * d3_radians, target[0] * d3_radians, target[1] * d3_radians);
   };
   function d3_geo_interpolate(x0, y0, x1, y1) {
@@ -4541,9 +4541,9 @@
     interpolate.distance = d;
     return interpolate;
   }
-  d3.geo.length = function(object) {
+  d3.GEO.length = function(object) {
     d3_geo_lengthSum = 0;
-    d3.geo.stream(object, d3_geo_length);
+    d3.GEO.stream(object, d3_geo_length);
     return d3_geo_lengthSum;
   };
   var d3_geo_lengthSum;
@@ -4586,14 +4586,14 @@
   }, function(ρ) {
     return 2 * Math.asin(ρ / 2);
   });
-  (d3.geo.azimuthalEqualArea = function() {
+  (d3.GEO.azimuthalEqualArea = function() {
     return d3_geo_projection(d3_geo_azimuthalEqualArea);
   }).raw = d3_geo_azimuthalEqualArea;
   var d3_geo_azimuthalEquidistant = d3_geo_azimuthal(function(cosλcosφ) {
     var c = Math.acos(cosλcosφ);
     return c && c / Math.sin(c);
   }, d3_identity);
-  (d3.geo.azimuthalEquidistant = function() {
+  (d3.GEO.azimuthalEquidistant = function() {
     return d3_geo_projection(d3_geo_azimuthalEquidistant);
   }).raw = d3_geo_azimuthalEquidistant;
   function d3_geo_conicConformal(φ0, φ1) {
@@ -4616,7 +4616,7 @@
     };
     return forward;
   }
-  (d3.geo.conicConformal = function() {
+  (d3.GEO.conicConformal = function() {
     return d3_geo_conic(d3_geo_conicConformal);
   }).raw = d3_geo_conicConformal;
   function d3_geo_conicEquidistant(φ0, φ1) {
@@ -4632,13 +4632,13 @@
     };
     return forward;
   }
-  (d3.geo.conicEquidistant = function() {
+  (d3.GEO.conicEquidistant = function() {
     return d3_geo_conic(d3_geo_conicEquidistant);
   }).raw = d3_geo_conicEquidistant;
   var d3_geo_gnomonic = d3_geo_azimuthal(function(cosλcosφ) {
     return 1 / cosλcosφ;
   }, Math.atan);
-  (d3.geo.gnomonic = function() {
+  (d3.GEO.gnomonic = function() {
     return d3_geo_projection(d3_geo_gnomonic);
   }).raw = d3_geo_gnomonic;
   function d3_geo_mercator(λ, φ) {
@@ -4671,13 +4671,13 @@
     };
     return m.clipExtent(null);
   }
-  (d3.geo.mercator = function() {
+  (d3.GEO.mercator = function() {
     return d3_geo_mercatorProjection(d3_geo_mercator);
   }).raw = d3_geo_mercator;
   var d3_geo_orthographic = d3_geo_azimuthal(function() {
     return 1;
   }, Math.asin);
-  (d3.geo.orthographic = function() {
+  (d3.GEO.orthographic = function() {
     return d3_geo_projection(d3_geo_orthographic);
   }).raw = d3_geo_orthographic;
   var d3_geo_stereographic = d3_geo_azimuthal(function(cosλcosφ) {
@@ -4685,7 +4685,7 @@
   }, function(ρ) {
     return 2 * Math.atan(ρ);
   });
-  (d3.geo.stereographic = function() {
+  (d3.GEO.stereographic = function() {
     return d3_geo_projection(d3_geo_stereographic);
   }).raw = d3_geo_stereographic;
   function d3_geo_transverseMercator(λ, φ) {
@@ -4694,7 +4694,7 @@
   d3_geo_transverseMercator.invert = function(x, y) {
     return [ -y, 2 * Math.atan(Math.exp(x)) - halfπ ];
   };
-  (d3.geo.transverseMercator = function() {
+  (d3.GEO.transverseMercator = function() {
     var projection = d3_geo_mercatorProjection(d3_geo_transverseMercator), center = projection.center, rotate = projection.rotate;
     projection.center = function(_) {
       return _ ? center([ -_[1], _[0] ]) : (_ = center(), [ -_[1], _[0] ]);

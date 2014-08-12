@@ -9,8 +9,8 @@ var margin = {top: 10, right: 20, bottom: 30, left: 90},
         .attr("width", graphSize[0] + margin.left + margin.right)
         .attr("height", graphSize[1] + margin.top + margin.bottom),
     graph = svg.append("g")
-        .attr("width", graphSize[0])
-        .attr("height", graphSize[1])
+        //.attr("width", graphSize[0])
+        //.attr("height", graphSize[1])
         .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
 function makeGraph(data) {

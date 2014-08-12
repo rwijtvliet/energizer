@@ -63,7 +63,7 @@
 
         if ("SeriesKey" in xmlData) xmlData = [xmlData];                 //fix: problem with array if only 1 country
         xmlData.forEach(function (d) {
-            //get all data that remains the same (=unit, country, product, indic_nrg, ...)
+            //get all data that remains the same (=unit, country, PRODUCT, indic_nrg, ...)
             var v_base = {};
             d.SeriesKey.Value.forEach(function (skv) {
                 //if (skv._id !== "UNIT" && skv._id !== "FREQ")

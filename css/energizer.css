@@ -4,6 +4,10 @@
     stroke: grey;
     shape-rendering: crispEdges;
 }
+.axis text {
+    font-family: sans-serif;
+    font-size: 12px;
+}
 
 .ng-invalid.ng-dirty {
     border-color: #f77;
@@ -12,14 +16,14 @@
     border-color: #7f8;
 }
 
-.axis text {
-    font-family: sans-serif;
-    font-size: 12px;
-}
-
 .bar {
     fill-opacity: .75;
 }
 .bar:hover {
     fill-opacity: 1;
+}
+
+#line {
+    stroke: #700;
+    fill: none;
 }

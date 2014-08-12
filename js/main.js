@@ -1,31 +1,35 @@
 
-/**
- * Created by ruud on 27.06.14.
- */
-
 (function() {
     var app = angular.module("myApp", []);
 
-    app.controller("DataController", function () {
-        var data = this;
+    var db = eurostatDb();
+    var gr = graph()
+        .size([1000,700]);
+    var graph = svg.append("g")
 
-        this.geos = geos;
-        this.products = products;
-        this.selection = {};
+    app.controller("GeoSelectController", function ($scope) {
+        $scope.geos = [
+            {name: "DE",  descr: "Germany"},
+            {name: "NL",  descr: "Netherlands"}
+        ];
+        $scope.products = [
+            {name: "0000",  descr: "all products"},
+            {name: "NL",  descr: "Netherlands"}
+        ];
 
-        this.applySelection = function() {
-            alert("alent")
-        };
+        $scope.fieldFilter = {GEO: ["NL",  "BE"], PRODUCT: ["0000"]};
+
+        db.initTable("nrg_100a", {UNIT:"TJ", FREQ:"A", INDIC_NRG:"B_100900"}, function(){
+            $scope.geos = db.codelist("nrg_100a", "GEO");
+            $scope.products = db.codelist("nrg_100a", "PRODUCT");
+        });
+
+        $scope.updateGraph = function(){
+
+        }
     });
-
-    var products = [
-        {name: "0000"},
-        {name: "2000"}
-    ];
-    var geos = [
-        {name: "Germany",
-            geo: "DE"},
-        {name: "Netherlands",
-            geo: "NL"}
-    ];
 })();
+
+//1: one controller for each <select>, or one controller for both?
+//2: deal with asynchr data -> not appearing on screen
+//3:
