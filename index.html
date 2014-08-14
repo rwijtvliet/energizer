@@ -10,23 +10,7 @@
 
 </head>
 <body>
-    <!--<form name="selectForm" ng-controller="DataController as dataCtrl"
-          ng-submit="selectForm.$valid && dataCtrl.applySelection(selected)" novalidate>
-        Select country:
-        <select ng-model="dataCtrl.fieldFilter.GEO" ng-options="GEO.name for GEO in dataCtrl.geos" required>
-            <option value="">--select--</option>
-        </select>
-        <p ng-show="dataCtrl.fieldFilter.GEO.name">You selected {{dataCtrl.fieldFilter.GEO.name}}</p>
-        <br/>
-        Select products:
-        <select ng-model="dataCtrl.fieldFilter.products" ng-options="PRODUCT.name for PRODUCT in dataCtrl.products" multiple required></select>
-        <p ng-show="dataCtrl.fieldFilter.products">You selected {{dataCtrl.fieldFilter.products}}</p>
-        <br/>
-        Form is valid: {{selectForm.$valid}}.
-        <input type="submit" value="Submit"></input>
 
-    </form>
--->
     <h1>nrg_100a</h1>
     <div ng-controller="GeoSelectController">
 
@@ -40,7 +24,7 @@
         <div style="float:left">
             Select product:<br/>
             <input type="text" ng-model="productFilter"/> <br/>
-            <select multiple required size="10" ng-model="fieldFilter.PRODUCT" ng-options="product.name as product.descr for product in products | filter:productFilter" ng-change="updateGraph()"></select>
+            <select multiple required size="10" ng-model="fieldFilter.PRODUCT" ng-options="product.name as product.descr for product in products | filter:productFilter" ng-change="updateGraph()"><select/>
             <p>You selected {{fieldFilter.PRODUCT}}.</p>
         </div>
     </div>

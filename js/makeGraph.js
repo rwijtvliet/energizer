@@ -15,13 +15,13 @@ var margin = {top: 10, right: 20, bottom: 30, left: 90},
 
 function makeGraph(data) {
     var yDomain = [
-            Math.min(0, d3.min(data, function (d) {return d.VALUE;})),
-            Math.max(0, d3.max(data, function (d) {return d.VALUE;}))
+            Math.min(0, d3.min(data, function (d) {return d.OBS_VALUE;})),
+            Math.max(0, d3.max(data, function (d) {return d.OBS_VALUE;}))
         ],
         yRange = [graphSize[1], 0],
         xDomain = [
-                d3.min(data, function (d) {return d.YEAR;})-0.5,
-                d3.max(data, function (d) {return d.YEAR;})+0.5
+                d3.min(data, function (d) {return d.TIME;})-0.5,
+                d3.max(data, function (d) {return d.TIME;})+0.5
         ],
         xRange = [0, graphSize[0]],
         xBarFillRatio = .9,
@@ -52,13 +52,13 @@ function makeGraph(data) {
       .enter()
       .append("rect")
         .attr("class", "bar")
-        .attr("x", function(d){return xScale(d.YEAR-0.5*xBarFillRatio);})
-        .attr("y", function(d){return yScale(d.VALUE);})
-        .attr("height", function(d){return graphSize[1] - yScale(d.VALUE);})
-        .attr("width", function(d){return xScale(d.YEAR+0.5*xBarFillRatio) - xScale(d.YEAR-0.5*xBarFillRatio);})
-        .attr("style", function(d){return "fill:" + yColorScale(d.VALUE);})
+        .attr("x", function(d){return xScale(d.TIME-0.5*xBarFillRatio);})
+        .attr("y", function(d){return yScale(d.OBS_VALUE);})
+        .attr("height", function(d){return graphSize[1] - yScale(d.OBS_VALUE);})
+        .attr("width", function(d){return xScale(d.TIME+0.5*xBarFillRatio) - xScale(d.TIME-0.5*xBarFillRatio);})
+        .attr("style", function(d){return "fill:" + yColorScale(d.OBS_VALUE);})
       .append("svg:title")
-        .text(function(d){return d.GEO + "     " + d.YEAR + "\nProduct: " + d.PRODUCT + "\n" + d.VALUE + " TJ/a";});
+        .text(function(d){return d.GEO + "     " + d.TIME + "\nProduct: " + d.PRODUCT + "\n" + d.OBS_VALUE + " TJ/a";});
 
     //Add axes
     graph.append("g") //axis itself
