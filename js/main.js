@@ -17,6 +17,38 @@ function logj(x) {console.log(JSON.stringify(x,null,1));}
             .attr("height", graphSize[1])
             .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
+
+    app.service("MyService", ["$q", function ($q){
+        this.getGeos = function(name) {
+            var def = $q.defer();
+            cm.doAsync(name, function(error){
+                if (error) def.reject(error); //<-- reject the promise
+                def.resolve(cm.getSomeData(name, "GEO"));
+            });
+            return def.promise;
+        }
+    }]);
+
+    app.controller("GeoSelectController", ["$scope", "MyService", function ($scope, MyService) {
+        //some starting values.
+        $scope.geos = [
+            {name: "DE",  descr: "Germany"},
+            {name: "NL",  descr: "Netherlands"}
+        ];
+        $scope.geoFilter = ["NL"];
+
+        //asynchronously get actual values.
+        MyService.getGeos("nrg_100a")
+            .then(function(geos){
+                $scope.geos = geos;
+            })
+            .catch(function(error){
+                alert(error);
+            });
+    }]);
+
+
+
     app.factory('SonService', function ($http, $q) {
         return {
             getWeather: function() {
