@@ -17,10 +17,30 @@ function logj(x) {console.log(JSON.stringify(x,null,1));}
             .attr("height", graphSize[1])
             .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-
-    app.factory('codes', function() {
+    app.factory('SonService', function ($http, $q) {
         return {
-            getGeoCodes: function(callback) {
+            getWeather: function() {
+                // the $http API is based on the deferred/promise APIs exposed by the $q service
+                // so it returns a promise for us by default
+                return $http.get('http://fishing-weather-api.com/sunday/afternoon')
+                    .then(function(response) {
+                        if (typeof response.data === 'object') {
+                            return response.data;
+                        } else {
+                            // invalid response
+                            return $q.reject(response.data);
+                        }
+
+                    }, function(response) {
+                        // something went wrong
+                        return $q.reject(response.data);
+                    });
+            }
+        };
+    });
+    app.factory('codes', function($q) {
+        return {
+            getGeoCodes: function() {
                 var db = eurostatDb();
                 db.initTable("nrg_100a", {UNIT:"TJ", FREQ:"A", INDIC_NRG:"B_100900"}, function(error){
                     if (error) {showError(error); return;}

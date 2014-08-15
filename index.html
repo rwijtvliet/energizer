@@ -24,7 +24,7 @@
         <div style="float:left">
             Select product:<br/>
             <input type="text" ng-model="productFilter"/> <br/>
-            <select multiple required size="10" ng-model="fieldFilter.PRODUCT" ng-options="product.name as product.descr for product in products | filter:productFilter" ng-change="updateGraph()"><select/>
+            <select multiple required size="10" ng-model="fieldFilter.PRODUCT" ng-options="product.name as product.descr for product in products | filter:productFilter" ng-change="updateGraph()"></select>
             <p>You selected {{fieldFilter.PRODUCT}}.</p>
         </div>
     </div>
