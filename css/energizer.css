@@ -19,6 +19,11 @@
 .bar {
     fill-opacity: .75;
 }
+.bar.neg {
+    stroke: black;
+    stroke-width:1px;
+    fill-opacity:.5;
+}
 .bar:hover {
     fill-opacity: 1;
 }
@@ -26,4 +31,21 @@
 #line {
     stroke: #700;
     fill: none;
+}
+
+.pick {
+    float: left;
+}
+
+html, body {
+    margin:0;
+    width:100%;
+    height:100%;
+}
+
+bar-chart{
+    width: 100%;
+    height: 140px;
+    display: block;
+    float: left;
 }
