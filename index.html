@@ -32,8 +32,12 @@
                 You selected {{fieldFilter.PRODUCT}}.
             </div>
 
+            <div class="pick">
+                <input type="checkbox" ng-model="to100" ng-change="updateGraph()"/>100%
+            </div>
+
             <div id="inf"></div>
-            <bar-chart data="rst"></bar-chart>
+            <bar-chart data="rst" products="products"></bar-chart>
 
         </div>
     </div>
@@ -46,7 +50,5 @@
     <script type="text/javascript" src="js/vendor/d3/d3.js"></script>
     <script type="text/javascript" src="js/graph.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
-    <!--<script type="text/javascript" src="js/convert.js"></script>-->
-    <!--<script type="text/javascript" src="js/makeGraph.js"></script>-->
 </body>
 </html>

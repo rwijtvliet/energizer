@@ -413,13 +413,6 @@ function eurostatDb () {
 
         //Check if tbl does already exist. If so, delete
         var tbl = getTbl(name);
-        /*if (tbl) {
-            if (!objectsEqual(fixDimFilter, tbl.archive.fixDimFilter) || !objectsEqual(timePeriod, tbl.archive.timePeriod)) {
-                //Table is already in db; delete.
-                tbls[tblIndex(name)] = tbls[tbls.length-1];
-                tbls.pop();
-            }
-        }*/
         if (tbl) {tbls[tblIndex(name)] = tbls[tbls.length-1]; tbls.pop();} //Table is already in db; delete.
 
         //Make table.
@@ -505,8 +498,11 @@ function eurostatDb () {
                         //console.log(url);//DEBUG
                         try {
                             var records = parseDataXml(xml, tbl.fields); //might throw error
-                            if (records) {tbl.data.insert(records);
-                                fetchedData = fetchedData.concat(records);}
+                            if (records) {
+                                if (tbl.data(fieldFilter(filter)).count()) return; //records already obtained earlier (check again because of asynchronousity)
+                                tbl.data.insert(records);
+                                fetchedData = fetchedData.concat(records);
+                            }
                         } catch (e) {errCollect(e);}
                     })
                     .fail(function (xhr, textStatus, e) {errCollect(e);})

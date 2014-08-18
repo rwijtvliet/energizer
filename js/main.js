@@ -6,7 +6,7 @@ var tblQ = {};//(key, value) = (name, promise to table object)
 /*var gr = graph()
  .size([1000,700]);*/
 var app = angular.module("myApp", []);
-var margin = {top: 10, right: 20, bottom: 30, left: 90},
+var margin = {top: 15, right: 20, bottom: 30, left: 90},
     graphSize = [1000 - margin.left - margin.right, 500 - margin.top - margin.bottom];
 
 
@@ -41,7 +41,9 @@ app.controller("BarChartController", ["$scope", "$window", "PrepareTable", "Fetc
         {name: "0000", descr: "all products"}
     ];
     $scope.fieldFilter = {GEO: ["NL"], PRODUCT: ["0000"]};
-    $scope.rst = [{OBS_VALUE: 1.2, TIME: 2000}];
+    $scope.to100 = false;
+    $scope.rst = [];
+
 
     //asynchronously get actual values.
     tblQ["nrg_100a"] = PrepareTable("nrg_100a", {FREQ: "A", UNIT: "TJ", INDIC_NRG: "B_100900"});
@@ -55,7 +57,24 @@ app.controller("BarChartController", ["$scope", "$window", "PrepareTable", "Fetc
 
     $scope.updateGraph = function () {
         FetchRst(tblQ["nrg_100a"], $scope.fieldFilter)
-            .then(function(rst){$scope.rst = rst;})
+            .then(function(rst){
+                if (!$scope.to100) {
+                    $scope.rst = rst;
+                    $scope.unit = "TJ/a"; //TODO: use
+                } else {
+                    var sortedData = [];
+                    var rst2 = $.extend(true, [], rst);
+                    var times = uniqueValues(rst2, "TIME");
+                    times.forEach(function (time) {sortedData.push(rst2.filter(function (d) {return (d.TIME === time);}))});
+                    sortedData.forEach(function(dataset){
+                        var total = 0;
+                        dataset.forEach(function(d){total += d.OBS_VALUE;});
+                        dataset.forEach(function(d){d.OBS_VALUE = d.OBS_VALUE / total;});
+                    });
+                    $scope.rst = rst2;
+                }
+
+            })
             .catch(showError);
     };
 
@@ -68,6 +87,7 @@ app.controller("BarChartController", ["$scope", "$window", "PrepareTable", "Fetc
 app.directive('barChart', function() {
     function link(scope, el) {
         var el = el[0],
+            format = function(precission){if (!precission) return d3.format("s"); else return d3.format("." + precission + "s");},
             svg = d3.select(el).append("svg")
                 .attr("width", graphSize[0] + margin.left + margin.right)
                 .attr("height", graphSize[1] + margin.top + margin.bottom),
@@ -80,10 +100,10 @@ app.directive('barChart', function() {
                 .selectAll(".bar"),
             xBarFillRatio = .9,
             xRange = [0, graphSize[0]],
-            xScale = d3.scale.linear()//not using d3.time.scale because always entire years plotted.
+            x = d3.scale.linear()//not using d3.time.scale because always entire years plotted.
                 .rangeRound(xRange),
             xAxis = d3.svg.axis()
-                .scale(xScale)//can change xScale without needing to reapply it here.
+                .scale(x)//can change x (i.e., the scale) without needing to reapply it here.
                 .orient("bottom")
                 .tickFormat(d3.format("0000")),
             xAxisEl = graph.append("g") //axis
@@ -94,12 +114,13 @@ app.directive('barChart', function() {
                 .style("text-anchor", "end")
                 .text("Year"),
             yRange = [graphSize[1], 0],
-            yScale = d3.scale.linear()
-                .rangeRound(yRange).nice(),
+            y = d3.scale.linear()
+                .rangeRound(yRange)
+                .nice(),
             yAxis = d3.svg.axis()
-                .scale(yScale)
+                .scale(y)
                 .orient("left")
-                .tickFormat(d3.format("s")),//function(d){return d/1e6;}
+                .tickFormat(format()),//function(d){return d/1e6;}
             yAxisEl = graph.append("g") //axis
                 .attr("class", "axis"),
             yAxisLabel = yAxisEl.append("text") //label
@@ -109,12 +130,21 @@ app.directive('barChart', function() {
                 .style("text-anchor", "end")
                 .text("TJ/a"), //"\u00D7 1000000 TJ/a"
             rect = {
-                top: function(d) {if (d.OBS_VALUE >= 0) return yScale(d.OBS_VALUE); else return yScale(0);},
-                height: function(d) {return Math.abs(yScale(0) - yScale(d.OBS_VALUE));},
-                left: function(d) {return xScale(d.TIME - 0.5 * xBarFillRatio);},
-                width: function (d) {return xScale(d.TIME + 0.5 * xBarFillRatio) - xScale(d.TIME - 0.5 * xBarFillRatio);}
+                top: function(d) {if (d.OBS_VALUE >= 0) return y(d.val1); else return y(d.val0);},
+                height: function(d) {return Math.abs(y(d.val1) - y(d.val0));},
+                left: function(d) {return x(d.TIME - 0.5 * xBarFillRatio);},
+                width: function (d) {return x(d.TIME + 0.5 * xBarFillRatio) - x(d.TIME - 0.5 * xBarFillRatio);}
+            },
+            transition = {
+                duration: 1000,
+                ease: "elastic"//cubic-in-out" //"cubic-in-out" or "elastic" or something like d3.ease("elastic", valA, valP)
+            },
+            sort = function(a,b) {
+                if (a.OBS_VALUE >= 0 && b.OBS_VALUE < 0) return 1;
+                if (a.OBS_VALUE < 0 && b.OBS_VALUE >= 0) return -1;
+                var sortOrder = ["0000","2000","3000","4000","5100","5200","5500","6000","7200"].reverse();
+                return (sortOrder.indexOf(a.PRODUCT) - sortOrder.indexOf(b.PRODUCT));
             };
-
 
         //Update things on resize.
         scope.$watch(function () {
@@ -127,33 +157,39 @@ app.directive('barChart', function() {
         scope.$watch("data", function (data) {//data = recordset
             if (!data || !data.length) return;
 
-            /*//DEBUG:
-            var remove = Math.floor(Math.random()*3);
-            for (var x=0; x<remove;x++) data.pop();
-            remove = Math.floor(Math.random()*3);
-            for (x=0; x<remove;x++) data.shift();
-            data.splice(Math.floor(Math.random()*(data.length-3)),1);
-            if (!data || !data.length) return;
-            //*/
+            var sortedData = [];
+            //Put records into separate arrays (by time).
+            var times = uniqueValues(data, "TIME");
+            times.forEach(function (time) {sortedData.push(data.filter(function (d) {return (d.TIME === time);}))});
+            //Sort within each year (negative values first, and then by product code), and get start/end positions.
+            var minVal = 0, maxVal = 0;
+            sortedData.forEach(function (dataset) {
 
-            var duration = 1000,
-                ease = "cubic-in-out", //"cubic-in-out" or "elastic" er d3.ease("elastic", valA, valP)
-                yDomain = [
-                    Math.min(0, d3.min(data, function (d) {return d.OBS_VALUE;})),
-                    Math.max(0, d3.max(data, function (d) {return d.OBS_VALUE;}))
-                ],
-                xDomain = [
-                    +(d3.min(data, function (d) {return d.TIME;}) - 0.5),
-                    +(d3.max(data, function (d) {return d.TIME;}) + 0.5)
-                ];
+                dataset.sort(sort);
+
+                //Add the values within each year together.
+                sortedData.forEach(function (dataset) {
+                    var val = 0;
+                    dataset.forEach(function (d) {
+                        if (val < 0 && d.OBS_VALUE >= 0) val = 0;//reset after products with negative value
+
+                        d.val0 = val;
+                        d.val1 = val += d.OBS_VALUE;
+
+                        if (val < minVal) minVal = val;
+                    });
+                });
+
+                maxVal = Math.max(maxVal, dataset[dataset.length-1].val1);//final one is always the top one (or bottom one, if there are only negative ones)
+            });
+
+            var yDomain = [minVal, maxVal],
+                xDomain = [Math.min.apply(null, times) - 0.5, Math.max.apply(null, times) + 0.5];
 
             if (yDomain[0]===yDomain[1]) {yDomain[0] = -1;yDomain[1] = 1;}
 
             //Add data before new domains are put into effect.
-            /*bars = graph.select("#bars")
-                .selectAll(".bar")
-                .data(data, Math.random); //all new data in .enter(), all old data in .exit()*/
-            bars = bars.data(data, Math.random); //somehow not working if multiple products selected.
+            bars = bars.data(data, function(d){return d.TIME + d.PRODUCT;}); //not d.GEO, because only 1 country is shown at a time, and this way we get a nice transition when switching country
 
             bars.enter().append("rect") //starting positions
                 .attr("class", function(d){var cl = "bar pr" + d.PRODUCT; if (d.OBS_VALUE < 0) cl += " neg"; return cl;}) //'classed' not working in transition for some reason
@@ -163,26 +199,30 @@ app.directive('barChart', function() {
                 .attr("width", rect.width)
                 .style("opacity", 1)
               .append("svg:title")
-                .text(function (d) {return d.GEO + "     " + d.TIME + "\nProduct: " + d.PRODUCT + "\n" + d.OBS_VALUE + " TJ/a";});
+                .text(function (d) {
+                    var prod = $.grep(scope.products, function(p){return (p.name === d.PRODUCT);})[0];
+                    if (prod) prod = prod.descr; else prod = "";
+                    return d.GEO + "     " + d.TIME + "\n" + prod + "\n" + format(3)(d.OBS_VALUE) + " TJ/a"; //TODO: dynamic
+                });
 
-            xScale.domain(xDomain);
-            yScale.domain(yDomain);
+            x.domain(xDomain);
+            y.domain(yDomain);
 
             //http://bl.ocks.org/enjalot/1429426   has good example on transitions
 
             //2 transitions: new scale on Y, and new scale on X.
             yAxisEl.transition()
-                .duration(duration)
-                .ease(ease)
+                .duration(transition.duration)
+                .ease(transition.ease)
                 .call(yAxis);
             xAxisEl.transition()
-                .duration(duration)
-                .ease(ease)
-                .attr("transform", "translate(0," + yScale(0) + ")")
+                .duration(transition.duration)
+                .ease(transition.ease)
+                .attr("transform", "translate(0," + y(0) + ")")
                 .call(xAxis);
             bars.exit().transition()
-                .duration(duration)
-                .ease(ease)
+                .duration(transition.duration)
+                .ease(transition.ease)
                 .attr("x", rect.left)
                 .attr("y", rect.top)
                 .attr("height", rect.height)
@@ -190,14 +230,12 @@ app.directive('barChart', function() {
                 .style("opacity", 0)
                 .remove();
             bars.transition()
-                .duration(duration)
-                .ease(ease)
-                //.attr("class", function(d){var cl = "bar pr" + d.PRODUCT; if (d.OBS_VALUE < 0) cl += " neg"; return cl;}) //'classed' not working in transition for some reason
+                .duration(transition.duration)
+                .ease(transition.ease)
                 .attr("x", rect.left)
                 .attr("y", rect.top)
                 .attr("height", rect.height)
-                .attr("width", rect.width)
-                .style("opacity", 1);
+                .attr("width", rect.width);
 
         });
 
@@ -206,7 +244,7 @@ app.directive('barChart', function() {
     return {
         link: link,
         restrict: 'E',
-        scope: { data: '=' }
+        scope: { data: '=', products: '='}
     };
 });
 function showError (error) {

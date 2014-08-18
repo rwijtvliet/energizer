@@ -6588,7 +6588,7 @@
     return d.y;
   }
   function d3_layout_stackOut(d, y0, y) {
-    d.y0 = y0;
+    d.val0 = y0;
     d.y = y;
   }
   var d3_layout_stackOrders = d3.map({
@@ -8156,12 +8156,12 @@
       y0 = y1 = _;
       return area;
     };
-    area.y0 = function(_) {
+    area.val0 = function(_) {
       if (!arguments.length) return y0;
       y0 = _;
       return area;
     };
-    area.y1 = function(_) {
+    area.val1 = function(_) {
       if (!arguments.length) return y1;
       y1 = _;
       return area;
@@ -8196,8 +8196,8 @@
     area.innerRadius = area.x0, delete area.x0;
     area.outerRadius = area.x1, delete area.x1;
     area.angle = area.y, delete area.y;
-    area.startAngle = area.y0, delete area.y0;
-    area.endAngle = area.y1, delete area.y1;
+    area.startAngle = area.val0, delete area.val0;
+    area.endAngle = area.val1, delete area.val1;
     return area;
   };
   d3.svg.chord = function() {

@@ -7,7 +7,7 @@ function timeSeriesChart() {
       xScale = d3.time.scale(),
       yScale = d3.scale.linear(),
       xAxis = d3.svg.axis().scale(xScale).orient("bottom").tickSize(6, 0).tickFormat(d3.format("0000")),
-      area = d3.svg.area().x(X).y1(Y),
+      area = d3.svg.area().x(X).val1(Y),
       line = d3.svg.line().x(X).y(Y);
 
 
@@ -49,7 +49,7 @@ function timeSeriesChart() {
 
       // Update the area path.
       g.select(".area")
-          .attr("d", area.y0(yScale.range()[0]));
+          .attr("d", area.val0(yScale.range()[0]));
 
       // Update the line path.
       g.select(".line")
