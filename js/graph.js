@@ -40,19 +40,18 @@ function graph() {
 
     var scope,
         el,
-        svg,
         xRange,
         yRange,
-        graph,
+        /*graph,
         bars,
         //xRange,
         xAxisEl,
         xAxisLabel,
         //yRange,
         yAxisEl,
-        yAxisLabel,/*
-        svg2 = d3.select(document.createElementNS('http://www.w3.org/2000/svg', 'svg')),
-        graph = svg2.append("g")
+        yAxisLabel,/**/
+        svg = d3.select(document.createElementNS(d3.ns.prefix.svg, 'svg')),
+        graph = svg.append("g")
             .attr("transform", "translate(" + margin.left + "," + margin.top + ")"),
         bars = graph.append("g")
             .attr("id", "bars")
@@ -69,7 +68,7 @@ function graph() {
             .attr("transform", "rotate(-90)")
             .attr("y", 6)
             .attr("dy", ".71em")
-            .style("text-anchor", "end"),*/
+            .style("text-anchor", "end"),/**/
 
 
 
@@ -104,12 +103,11 @@ function graph() {
 
 
 
-
     gr.init = function (theScope, theElement) {
         scope = theScope;
         el = theElement;
-        //svg = d3.select(el).append(svg2);
-        svg = d3.select(el).append("svg");
+        d3.select(el).append(svg);
+        /*svg = d3.select(el).append("svg");
         graph = svg.append("g")
             .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
         bars = graph.append("g")
@@ -127,7 +125,7 @@ function graph() {
             .attr("transform", "rotate(-90)")
             .attr("y", 6)
             .attr("dy", ".71em")
-            .style("text-anchor", "end");
+            .style("text-anchor", "end");*/
 
         return gr;
     };
@@ -144,7 +142,10 @@ function graph() {
             .attr("height", graphSize[1]());
         xRange = [0, graphSize[0]()];
         x.rangeRound(xRange);
-        xAxisEl.call(xAxis);
+        xAxis.orient("bottom");
+        xAxisEl
+            .call(xAxis)
+            .attr("transform", "translate(0," + y(0) + ")");
         xAxisLabel.attr("x", graphSize[0]());
         yRange = [graphSize[1](), 0];
         y.rangeRound(yRange);

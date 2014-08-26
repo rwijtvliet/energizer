@@ -19,39 +19,14 @@
             <div class="sidePanel" id="sidePanel2"></div>
             <div class="sidePanel" id="sidePanel3"></div>
             <div class="sidePanel" id="sidePanel4"></div>-->
-            <div class="pick">
-                <fieldset>
-                    <legend>Country</legend>
-                    Search: <input type="text" ng-model="geoFilter" /> <br/>
-                    <select single size="10" ng-model="fieldFilter.GEO" ng-options="geo.name as geo.descr for geo in geos | filter:geoFilter" ng-change="updateGraph()"></select>
-                    <!--You selected {{fieldFilter.GEO}}.-->
-                </fieldset>
-                <br/>
-
-                <fieldset>
-                    <legend>Energy sources</legend>
-                    <input id="radAggregate" type="radio" ng-model="splitBySource" ng-value="0" ng-change="updateSources()" /> Aggregate<br/>
-                    <input id="radSplit" type="radio" ng-model="splitBySource" ng-value="1" ng-change="updateSources()" />  Split <br/>
-                    <input id="radSome" type="radio" ng-model="splitBySource" ng-value="2" ng-change="updateSources()" /> Select...
-                    <select ng-show="splitBySource==2" multiple size="8" ng-model="customProductFilter" ng-options="product.name as product.descr for product in products | filter: {name: '!0000'}" ng-change="updateSources()"></select>
-                    <!--You selected {{fieldFilter.PRODUCT}}-->
-                </fieldset>
-                <br/>
-
-                <fieldset ng-show="splitBySource==1">
-                    <legend>Relative values</legend>
-                    <input id="chkTo100" type="checkbox" ng-model="to100" ng-change="updateGraph()"/> Add to 100%<br/>
-                    <p ng-show="to100" class="elaboration">Yes, show as fractions of total</p>
-                    <p ng-show="!to100" class="elaboration">No, show absolute values</p>
-                </fieldset>
-            </div>
+            <div ng-include="urls.sidepanel"></div>
         </aside>
         <div id="innerContainer">
             <div id="quickPanel">
-                Showing energy consumption for <select id="quickPanelGeo" size="1" ng-model="fieldFilter.GEO" ng-options="geo.name as geo.descr for geo in geos | filter:geoFilter" ng-change="updateGraph()"></select> for multiple years.
+                <div ng-include="urls.quickpanel"></div>
             </div>
             <div id="mainPanel">
-                <bar-chart ng-show="rst" data="rst" formatting="format" products="products"></bar-chart>
+                <bar-chart ng-show="graph.rst" data="graph.rst" format="graph.format" products="options.products"></bar-chart>
             </div>
             <div id="bottomPanel">
                 This is bottompanel                This is bottompanel                This is bottompanel                This is bottompanel                This is bottompanel                This is bottompanel                This is bottompanel                This is bottompanel                This is bottompanel                This is bottompanel                This is bottompanel                This is bottompanel                This is bottompanel                This is bottompanel                This is bottompanel                This is bottompanel                This is bottompanel                This is bottompanel                This is bottompanel                This is bottompanel                This is bottompanel                This is bottompanel                This is bottompanel                This is bottompanel                This is bottompanel                This is bottompanel                This is bottompanel                This is bottompanel                This is bottompanel                This is bottompanel                This is bottompanel                This is bottompanel                This is bottompanel                This is bottompanel                This is bottompanel                This is bottompanel                This is bottompanel                This is bottompanel                This is bottompanel                This is bottompanel
@@ -63,7 +38,8 @@
     </footer>
 
     <script type="text/javascript" src="js/vendor/jQuery/jquery-2.1.1"></script>
-    <script type="text/javascript" src="js/vendor/angular/angular.min.js"></script>
+    <script type="text/javascript" src="js/vendor/angular/angular.js"></script> <!--/code.angularjs.org/-->
+    <script type="text/javascript" src="js/vendor/angular/angular-route.js"></script>
     <script type="text/javascript" src="js/vendor/x2js-v1.1.5/xml2json.js"></script>
     <script type="text/javascript" src="js/vendor/taffy/taffy.js"></script>
     <script type="text/javascript" src="js/eurostatDb.js"></script>
