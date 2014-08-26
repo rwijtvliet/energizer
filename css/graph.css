@@ -1,0 +1,76 @@
+.neg {
+  stroke-width: 2px; }
+
+/*all products*/
+.pr0000 {
+  fill: darkgrey; }
+
+.pr0000.neg {
+  fill: #e9e9e9;
+  stroke: darkgrey; }
+
+/*solid fuels*/
+.pr2000 {
+  fill: #664118; }
+
+.pr2000.neg {
+  fill: #cd8330;
+  stroke: #664118; }
+
+/*petroleum products*/
+.pr3000 {
+  fill: #111; }
+
+.pr3000.neg {
+  fill: #515151;
+  stroke: #111; }
+
+/*gas*/
+.pr4000 {
+  fill: #60338e; }
+
+.pr4000.neg {
+  fill: #a074cd;
+  stroke: #60338e; }
+
+/*nuclear heat*/
+.pr5100 {
+  fill: #d62ad0; }
+
+.pr5100.neg {
+  fill: #eb95e8;
+  stroke: #d62ad0; }
+
+/*derived heat*/
+.pr5200 {
+  fill: #b75c21; }
+
+.pr5200.neg {
+  fill: #e69f72;
+  stroke: #b75c21; }
+
+/*renewables*/
+.pr5500 {
+  fill: #17590d; }
+
+.pr5500.neg {
+  fill: #34c81d;
+  stroke: #17590d; }
+
+/*electricity*/
+.pr6000 {
+  fill: #94533b; }
+
+.pr6000.neg {
+  fill: #cd9682;
+  stroke: #94533b; }
+
+/*waste (non-renewable)*/
+.pr7200 {
+  fill: #4e0c43; }
+
+.pr7200.neg {
+  fill: #bd1da2;
+  stroke: #4e0c43; }
+
+/*# sourceMappingURL=graph.css.map */
