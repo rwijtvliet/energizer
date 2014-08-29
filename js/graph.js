@@ -16,14 +16,6 @@
 
 
 function graph() {
-    var gr = {},
-        size = [0,0],
-        strokeWidth = 2, //pixels, see scss file
-        margin = {top: 15, right: 20, bottom: 30, left: 90},
-        graphSize = [
-            function(){return size[0] - margin.left - margin.right;},
-            function(){return size[1] - margin.top - margin.bottom;}
-        ];
         /*graphSize = [1000 - margin.left - margin.right, 500 - margin.top - margin.bottom];*/
 
     /*var /*margin = {top: 10, right: 20, bottom: 30, left: 90},
@@ -38,40 +30,22 @@ function graph() {
         line = d3.svg.line().x(xPix).y(yPix);*/
     //var xRange1 = function(){return [0, graphSize[0]()];};
 
-    var scope,
-        el,
-        xRange,
-        yRange,
-        /*graph,
-        bars,
-        //xRange,
-        xAxisEl,
-        xAxisLabel,
-        //yRange,
-        yAxisEl,
-        yAxisLabel,/**/
+    var gr = {},
+        scope,
+        size = [0,0],
+        strokeWidth = 2, //pixels, see scss file
+        margin = {top: 15, right: 20, bottom: 30, left: 90},
+        graphSize = [
+            function(){return size[0] - margin.left - margin.right;},
+            function(){return size[1] - margin.top - margin.bottom;}
+        ],
+
         svg = d3.select(document.createElementNS(d3.ns.prefix.svg, 'svg')),
         graph = svg.append("g")
             .attr("transform", "translate(" + margin.left + "," + margin.top + ")"),
         bars = graph.append("g")
             .attr("id", "bars")
             .selectAll(".bar"),
-        xAxisEl = graph.append("g") //axis
-            .attr("class", "axis"),
-        xAxisLabel = xAxisEl.append("text") //label
-            .attr("y", -4)
-            .style("text-anchor", "end")
-            .text("Year"),
-        yAxisEl = graph.append("g") //axis
-            .attr("class", "axis"),
-        yAxisLabel = yAxisEl.append("text") //label
-            .attr("transform", "rotate(-90)")
-            .attr("y", 6)
-            .attr("dy", ".71em")
-            .style("text-anchor", "end"),/**/
-
-
-
         format = {},
         xBarFillRatio = .9,
         x = d3.scale.linear(),//not using d3.time.scale because always entire years plotted.
@@ -79,15 +53,28 @@ function graph() {
             .scale(x)//can change x (i.e., the scale) without needing to reapply it here.
             .orient("bottom")
             .tickFormat(d3.format("0000")),
+        xAxisEl = graph.append("g") //axis
+            .attr("class", "axis"),
+        xAxisLabel = xAxisEl.append("text") //label
+            .attr("y", -4)
+            .style("text-anchor", "end")
+            .text("Year"),
         y = d3.scale.linear()
             .nice(),
         yAxis = d3.svg.axis()
             .scale(y)//can change y (i.e., the scale) without needing to reapply it here.
             .orient("left"),
+        yAxisEl = graph.append("g") //axis
+            .attr("class", "axis"),
+        yAxisLabel = yAxisEl.append("text") //label
+            .attr("transform", "rotate(-90)")
+            .attr("y", 6)
+            .attr("dy", ".71em")
+            .style("text-anchor", "end"),
         rect = {
             top: function(d) {if (d.OBS_VALUE >= 0) return y(d.val1); else return y(d.val0) + strokeWidth/2 ;},
-            height: function(d) {var D=0; if (d.OBS_VALUE < 0) D=strokeWidth; return Math.abs(y(d.val1) - y(d.val0)) - D;},
-            left: function(d) {var D=0; if (d.OBS_VALUE < 0) D=strokeWidth/2; return x(d.TIME - 0.5 * xBarFillRatio)+D;},
+            height: function(d) {var D=0; if (d.OBS_VALUE < 0) D=strokeWidth; return Math.max(0, Math.abs(y(d.val1) - y(d.val0)) - D);},
+            left: function(d) {var D=0; if (d.OBS_VALUE < 0) D=strokeWidth/2; return x(d.TIME - 0.5 * xBarFillRatio) + D;},
             width: function (d) {var D=0; if (d.OBS_VALUE < 0) D=strokeWidth; return x(d.TIME + 0.5 * xBarFillRatio) - x(d.TIME - 0.5 * xBarFillRatio) - D;}
         },
         transition = {
@@ -101,38 +88,16 @@ function graph() {
             return (sortOrder.indexOf(a.PRODUCT) - sortOrder.indexOf(b.PRODUCT));
         };
 
-
-
     gr.init = function (theScope, theElement) {
         scope = theScope;
-        el = theElement;
-        d3.select(el).append(svg);
-        /*svg = d3.select(el).append("svg");
-        graph = svg.append("g")
-            .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
-        bars = graph.append("g")
-            .attr("id", "bars")
-            .selectAll(".bar");
-        xAxisEl = graph.append("g") //axis
-            .attr("class", "axis");
-        xAxisLabel = xAxisEl.append("text") //label
-            .attr("y", -4)
-            .style("text-anchor", "end")
-            .text("Year");
-        yAxisEl = graph.append("g") //axis
-            .attr("class", "axis");
-        yAxisLabel = yAxisEl.append("text") //label
-            .attr("transform", "rotate(-90)")
-            .attr("y", 6)
-            .attr("dy", ".71em")
-            .style("text-anchor", "end");*/
-
+        d3.select(theElement).append(function(){return svg.node();});
         return gr;
     };
 
     gr.updateSize = function (theSize) {
-        theSize[0] = Math.max(theSize[0], 150);//TODO:move elsewhere. Necessary because theSize=[0,0] if no sources selected...
-        theSize[1] = Math.max(theSize[1], 150);
+        if (!theSize[0] || !theSize[1]) return;
+        //theSize[0] = Math.max(theSize[0], 150);//TODO:move elsewhere. Necessary because theSize=[0,0] if no sources selected...
+        //theSize[1] = Math.max(theSize[1], 150);
         size = theSize;
         svg
             .attr("width", size[0])
@@ -140,15 +105,11 @@ function graph() {
         graph
             .attr("width", graphSize[0]())
             .attr("height", graphSize[1]());
-        xRange = [0, graphSize[0]()];
-        x.rangeRound(xRange);
-        xAxis.orient("bottom");
-        xAxisEl
-            .call(xAxis)
-            .attr("transform", "translate(0," + y(0) + ")");
+        x.rangeRound([0, graphSize[0]()]);
+        y.rangeRound([graphSize[1](), 0]);
         xAxisLabel.attr("x", graphSize[0]());
-        yRange = [graphSize[1](), 0];
-        y.rangeRound(yRange);
+        xAxisEl.call(xAxis)
+            .attr("transform", "translate(0," + y(0) + ")");
         yAxisEl.call(yAxis);
         bars
             .attr("x", rect.left)
@@ -278,7 +239,7 @@ function graph() {
             });
 
             var xDomain = [//d3.extent(function(d){return d[0];}),
-                    d3.min(data, function (d) {return d[0];}),
+                    d3.min(data,qqqqq function (d) {return d[0];}),
                     d3.max(data, function (d) {return d[0];})
                 ],
                 yDomain = [

@@ -3,5 +3,5 @@
     for
     <select size="1" ng-model="settings.xquant" ng-options="xquant.name as xquant.descr for xquant in options.xquants" ng-change="updateGraph()"></select>
     for
-    <select ng-show="settings.xquant==='times'" size="1" ng-model="settings.fieldFilter.GEO" ng-options="geo.name as geo.descr for geo in options.geos" ng-change="updateGraph()"></select>.
+    <select id="quickpanelGeo" ng-show="settings.xquant==='times'" size="1" ng-model="settings.fieldFilter.GEO" ng-options="geo.name as geo.descr for geo in options.geos" ng-change="updateGraph()"></select>.
 </div>

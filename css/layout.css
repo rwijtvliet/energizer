@@ -5336,6 +5336,20 @@ footer {
   bottom: 0;
   width: 100%;
   height: 40px;
+  background-color: white;
+  /* Fallback Color */
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#f2f2f2), to(white));
+  /* Saf4+, Chrome */
+  background-image: -webkit-linear-gradient(top, #f2f2f2, white);
+  /* Chrome 10+, Saf5.1+, iOS 5+ */
+  background-image: -moz-linear-gradient(top, #f2f2f2, white);
+  /* FF3.6 */
+  background-image: -ms-linear-gradient(top, #f2f2f2, white);
+  /* IE10 */
+  background-image: -o-linear-gradient(top, #f2f2f2, white);
+  /* Opera 11.10+ */
+  background-image: linear-gradient(top, #f2f2f2, white);
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr='#f2f2f2', EndColorStr='white');
   border: 1px #bfbfbf solid;
   border-width: 1px 0 0; }
 
@@ -5377,6 +5391,8 @@ aside {
   justify-content: flex-start;
   align-items: center;
   padding: 0 10px; }
+  #quickPanel #quickPanelGeo {
+    width: 50px; }
 
 #bottomPanel {
   position: absolute;
@@ -5405,7 +5421,15 @@ h4 {
   .pick select, .pick input[type=text] {
     width: 100%; }
 
-#quickPanelGeo {
-  width: auto; }
+bar-chart {
+  width: 100%;
+  height: 100%;
+  display: block;
+  float: left; }
+
+#about {
+  width: 100%;
+  height: 100%;
+  padding: 20px; }
 
 /*# sourceMappingURL=layout.css.map */

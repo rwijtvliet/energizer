@@ -8,43 +8,26 @@
     <title>Energizer</title>
 
 </head>
-<body>
+<body ng-app="myApp" >
     <header>
         <h4> Energizer - Energy consumption in Europe </h4>
-        <div>Data coming from <a href="http://epp.eurostat.ec.europa.eu/portal/page/portal/eurostat/home/">Eurostat</a></div>
+        <div><a href="#/about">about</a></div>
     </header>
-    <div id="outerContainer" ng-app="myApp" ng-controller="BarChartController">
-        <aside>
-            <!--<div class="sidePanel" id="sidePanel1"></div>
-            <div class="sidePanel" id="sidePanel2"></div>
-            <div class="sidePanel" id="sidePanel3"></div>
-            <div class="sidePanel" id="sidePanel4"></div>-->
-            <div ng-include="urls.sidepanel"></div>
-        </aside>
-        <div id="innerContainer">
-            <div id="quickPanel">
-                <div ng-include="urls.quickpanel"></div>
-            </div>
-            <div id="mainPanel">
-                <bar-chart ng-show="graph.rst" data="graph.rst" format="graph.format" products="options.products"></bar-chart>
-            </div>
-            <div id="bottomPanel">
-                This is bottompanel                This is bottompanel                This is bottompanel                This is bottompanel                This is bottompanel                This is bottompanel                This is bottompanel                This is bottompanel                This is bottompanel                This is bottompanel                This is bottompanel                This is bottompanel                This is bottompanel                This is bottompanel                This is bottompanel                This is bottompanel                This is bottompanel                This is bottompanel                This is bottompanel                This is bottompanel                This is bottompanel                This is bottompanel                This is bottompanel                This is bottompanel                This is bottompanel                This is bottompanel                This is bottompanel                This is bottompanel                This is bottompanel                This is bottompanel                This is bottompanel                This is bottompanel                This is bottompanel                This is bottompanel                This is bottompanel                This is bottompanel                This is bottompanel                This is bottompanel                This is bottompanel                This is bottompanel
-            </div>
-        </div>
-    </div>
+    <div id="outerContainer" ng-view ng-animate="'slide'"></div>
     <footer>
-        Energizer - Energy consumption in Europe
+        <h4>Energizer - Energy consumption in Europe</h4>
+        <div>Data coming from <a href="http://epp.eurostat.ec.europa.eu/portal/page/portal/eurostat/home/">Eurostat</a></div>
     </footer>
 
     <script type="text/javascript" src="js/vendor/jQuery/jquery-2.1.1"></script>
     <script type="text/javascript" src="js/vendor/angular/angular.js"></script> <!--/code.angularjs.org/-->
+    <script type="text/javascript" src="js/vendor/angular/angular-animate.js"></script>
     <script type="text/javascript" src="js/vendor/angular/angular-route.js"></script>
     <script type="text/javascript" src="js/vendor/x2js-v1.1.5/xml2json.js"></script>
     <script type="text/javascript" src="js/vendor/taffy/taffy.js"></script>
     <script type="text/javascript" src="js/eurostatDb.js"></script>
     <script type="text/javascript" src="js/vendor/d3/d3.js"></script>
     <script type="text/javascript" src="js/graph.js"></script>
-    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
 </body>
 </html>

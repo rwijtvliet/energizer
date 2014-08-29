@@ -3,12 +3,21 @@
 var db = eurostatDb();
 var tblQ = {};//(key, value) = (name, promise to table object)
 
-/*var gr = graph()
- .size([1000,700]);*/
-var app = angular.module("myApp", ["ngRoute"]);
-var margin = {top: 15, right: 20, bottom: 30, left: 90},
-    graphSize = [1000 - margin.left - margin.right, 500 - margin.top - margin.bottom];
-
+var app = angular.module("myApp", ["ngRoute", "ngAnimate"]);
+app.config(['$routeProvider', function($routeProvider) {
+    $routeProvider.
+        when('/home', {
+            templateUrl: 'partials/main.html',
+            controller: 'BarChartController'
+        }).
+        when('/about', {
+            templateUrl: 'partials/about.html',
+            controller: 'BarChartController'
+        }).
+        otherwise({
+            redirectTo: '/home'
+        });
+}]);
 
 app.service("PrepareTable", ["$q", function ($q){//returns promise to table object
     return function(name, fixDimFilter) {
@@ -70,6 +79,7 @@ app.controller("BarChartController", ["$scope", "$window", "PrepareTable", "Fetc
         .then(function(tbl){
             $scope.options.products = db.codelist(tbl.name, "PRODUCT");
             $scope.options.geos = db.codelist(tbl.name, "GEO");
+            $scope.options.geos.forEach(function(g){if (g.name.substring(0,2)=="EU" || g.name.substring(0,2)=="EA") g.group = "Group"; else g.group = "Individual"}); //add groups
         })
         .catch(showError);
 
@@ -122,7 +132,7 @@ app.directive('barChart', function() {
 
         //Update things on resize.
         scope.$watch(function () {
-            return el.clientWidth * el.clientHeight;
+            return el.clientWidth + el.clientHeight;
         }, function () {
             gr.updateSize([el.clientWidth, el.clientHeight]);
         });
@@ -140,7 +150,7 @@ app.directive('barChart', function() {
     return {
         link: link,
         restrict: 'E',
-        scope: { data: '=', products: '=', format: '='}
+        scope: { data: '=graphData', products: '=', format: '='}
     };
 });
 function showError (error) {
@@ -164,3 +174,15 @@ function uniqueValues(array, propName) {
     }
     return output;
 }
+
+
+function unitConversionFunction(mul, off) {
+    mul = mul || 0;
+    off = off || 0;
+    return function(val){
+        return val * mul + off;
+    }
+}
+
+var TJ2kTOE = unitConversionFunction(.0238845897);
+var TJ2GWh = unitConversionFunction(.277777778);

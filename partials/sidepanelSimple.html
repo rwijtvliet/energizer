@@ -3,7 +3,7 @@
         <legend>Country</legend>
         Search:<br/>
         <input type="text" ng-model="geoFilter" /> <br/>
-        <select single size="10" ng-model="settings.fieldFilter.GEO" ng-options="geo.name as geo.descr for geo in options.geos | filter:geoFilter" ng-change="updateGraph()"></select>
+        <select single size="10" ng-model="settings.fieldFilter.GEO" ng-options="geo.name as geo.descr group by geo.group for geo in options.geos | filter:geoFilter | orderBy: ['group', 'descr']" ng-change="updateGraph()"></select>
         <!--You selected {{settings.fieldFilter.GEO}}.-->
     </fieldset>
     <br/>
