@@ -29,16 +29,6 @@
 /*waste (non-renewable)*/
 @include product("pr7200", #4e0c43);
 
-.axis path,
-.axis line {
-  fill: none;
-  stroke: grey;
-  shape-rendering: crispEdges;
-}
-.axis text {
-  font-family: sans-serif;
-  font-size: 12px;
-}
 .bar:hover {
   fill-opacity: .75;
 }

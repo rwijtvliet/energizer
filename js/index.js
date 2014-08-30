@@ -63,12 +63,13 @@ app.controller("BarChartController", ["$scope", "$window", "PrepareTable", "Fetc
         fieldFilter: {GEO: "NL", PRODUCT: ["0000"]}
     };
     $scope.graph = {
-        format : {yUnit: "TJ/a", yFormat: "s", tooltipFormat: "3s"},
+        format : {xUnit: "year", yUnit: "TJ/a", yFormat: "s", tooltipFormat: "3s"},
         rst: []
     };
     $scope.urls = {
         sidepanel:  "partials/sidepanelSimple.html",
-        quickpanel: "partials/quickpanel.html"
+        quickpanel: "partials/quickpanel.html",
+        bottompanels: ["partials/bottompanelY.html", "partials/bottompanelX.html", "partials/bottompanelGeo.html", "partials/bottompanelFormat.html"]
     };
 
 
@@ -95,7 +96,7 @@ app.controller("BarChartController", ["$scope", "$window", "PrepareTable", "Fetc
             .then(function(rst){
                 if ($scope.settings.splitBySource != 1 || !$scope.settings.to100) {
 
-                    $scope.graph.format = {yUnit: "TJ/a", yFormat: "s", tooltipFormat: "2s"};
+                    $scope.graph.format = {xUnit: "Year", yUnit: "TJ/a", yFormat: "s", tooltipFormat: "2s"};
                     $scope.graph.rst = $.extend(true, [], rst);
                 } else {
                     var sortedData = [];
@@ -107,7 +108,7 @@ app.controller("BarChartController", ["$scope", "$window", "PrepareTable", "Fetc
                         dataset.forEach(function(d){total += d.OBS_VALUE;});
                         if (total > 0) dataset.forEach(function(d){d.OBS_VALUE = d.OBS_VALUE / total;});
                     });
-                    $scope.graph.format = {yUnit: "", yFormat: "%", tooltipFormat: "%"};
+                    $scope.graph.format = {xUnit: "Year", yUnit: "%", yFormat: "%", tooltipFormat: "3%"};
                     $scope.graph.rst = rst2;
                 }
 
@@ -137,7 +138,7 @@ app.directive('barChart', function() {
             gr.updateSize([el.clientWidth, el.clientHeight]);
         });
 
-        scope.$watch("format", function (newFormat) {//format {yUnit: "", yFormat: "", tooltipFormat: ""};
+        scope.$watch("format", function (newFormat) {//format {xUnit: "", yUnit: "", yFormat: "", tooltipFormat: ""};
             gr.updateFormat(newFormat);
         });
 

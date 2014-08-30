@@ -43,34 +43,36 @@ function graph() {
         svg = d3.select(document.createElementNS(d3.ns.prefix.svg, 'svg')),
         graph = svg.append("g")
             .attr("transform", "translate(" + margin.left + "," + margin.top + ")"),
+        xAxisEl = graph.append("g") //axis (below bars)
+            .attr("class", "x axis"),
+        yAxisEl = graph.append("g") //axis (below bars)
+            .attr("class", "y axis"),
         bars = graph.append("g")
             .attr("id", "bars")
             .selectAll(".bar"),
+        xAxisLabel = graph.append("g") //axis label (on top of bars)
+            .attr("class", "x axis label"),
+        yAxisLabel = graph.append("g") //axis label (on top of bars)
+            .attr("class", "y axis label")
+            .attr("transform", "rotate(-90) translate(0,6)"),
         format = {},
-        xBarFillRatio = .9,
+        xBarFillRatio = .85,
         x = d3.scale.linear(),//not using d3.time.scale because always entire years plotted.
         xAxis = d3.svg.axis()
             .scale(x)//can change x (i.e., the scale) without needing to reapply it here.
             .orient("bottom")
-            .tickFormat(d3.format("0000")),
-        xAxisEl = graph.append("g") //axis
-            .attr("class", "axis"),
-        xAxisLabel = xAxisEl.append("text") //label
-            .attr("y", -4)
-            .style("text-anchor", "end")
-            .text("Year"),
+            .tickFormat(d3.format("0000"))
+            .tickSize(6,0),
+        xAxisLabelRect = xAxisLabel.append("rect"),
+        xAxisLabelText = xAxisLabel.append("text"),
         y = d3.scale.linear()
             .nice(),
         yAxis = d3.svg.axis()
             .scale(y)//can change y (i.e., the scale) without needing to reapply it here.
             .orient("left"),
-        yAxisEl = graph.append("g") //axis
-            .attr("class", "axis"),
-        yAxisLabel = yAxisEl.append("text") //label
-            .attr("transform", "rotate(-90)")
-            .attr("y", 6)
-            .attr("dy", ".71em")
-            .style("text-anchor", "end"),
+        yAxisLabelRect = yAxisLabel.append("rect"),
+        yAxisLabelText = yAxisLabel.append("text")
+            .attr("dy", ".71em"),
         rect = {
             top: function(d) {if (d.OBS_VALUE >= 0) return y(d.val1); else return y(d.val0) + strokeWidth/2 ;},
             height: function(d) {var D=0; if (d.OBS_VALUE < 0) D=strokeWidth; return Math.max(0, Math.abs(y(d.val1) - y(d.val0)) - D);},
@@ -96,8 +98,6 @@ function graph() {
 
     gr.updateSize = function (theSize) {
         if (!theSize[0] || !theSize[1]) return;
-        //theSize[0] = Math.max(theSize[0], 150);//TODO:move elsewhere. Necessary because theSize=[0,0] if no sources selected...
-        //theSize[1] = Math.max(theSize[1], 150);
         size = theSize;
         svg
             .attr("width", size[0])
@@ -107,9 +107,11 @@ function graph() {
             .attr("height", graphSize[1]());
         x.rangeRound([0, graphSize[0]()]);
         y.rangeRound([graphSize[1](), 0]);
-        xAxisLabel.attr("x", graphSize[0]());
         xAxisEl.call(xAxis)
             .attr("transform", "translate(0," + y(0) + ")");
+        xAxisLabel
+            .attr("transform", "translate(" + graphSize[0]() + "," + (y(0)-4) + ")");
+        yAxis.tickSize(-graphSize[0](),0);
         yAxisEl.call(yAxis);
         bars
             .attr("x", rect.left)
@@ -124,7 +126,14 @@ function graph() {
     gr.updateFormat = function (theFormat) {
         format = theFormat;
 
-        yAxisLabel.text(format.yUnit);
+        xAxisLabelText.text(format.xUnit);
+        var bbox = xAxisLabelText[0][0].getBBox();
+        xAxisLabelRect.attr('x', bbox.x).attr('y', bbox.y).attr('width', bbox.width).attr('height', bbox.height);
+
+        yAxisLabelText.text(format.yUnit);
+        bbox = yAxisLabelText[0][0].getBBox();
+        yAxisLabelRect.attr('x', bbox.x).attr('y', bbox.y).attr('width', bbox.width).attr('height', bbox.height);
+
         yAxis.tickFormat(d3.format(format.yFormat));
         bars.selectAll(".tooltip").text(tooltipText);
 
@@ -214,6 +223,7 @@ function graph() {
             .attr("y", rect.top)
             .attr("height", rect.height)
             .attr("width", rect.width);//.style("opacity", 1)
+
 
         return gr;
     };

@@ -5303,16 +5303,19 @@ body {
   width: 100%;
   height: 100%; }
 
-header {
+header, footer {
   position: absolute;
   left: 0;
-  top: 0;
   width: 100%;
   height: 40px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0 10px;
+  border: 1px #bfbfbf solid; }
+
+header {
+  top: 0;
   background-color: #f2f2f2;
   /* Fallback Color */
   background-image: -webkit-gradient(linear, left top, left bottom, from(white), to(#f2f2f2));
@@ -5327,15 +5330,10 @@ header {
   /* Opera 11.10+ */
   background-image: linear-gradient(top, white, #f2f2f2);
   filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr='white', EndColorStr='#f2f2f2');
-  border: 1px #bfbfbf solid;
   border-width: 0 0 1px; }
 
 footer {
-  position: absolute;
-  left: 0;
   bottom: 0;
-  width: 100%;
-  height: 40px;
   background-color: white;
   /* Fallback Color */
   background-image: -webkit-gradient(linear, left top, left bottom, from(#f2f2f2), to(white));
@@ -5350,7 +5348,6 @@ footer {
   /* Opera 11.10+ */
   background-image: linear-gradient(top, #f2f2f2, white);
   filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr='#f2f2f2', EndColorStr='white');
-  border: 1px #bfbfbf solid;
   border-width: 1px 0 0; }
 
 #outerContainer {
@@ -5362,26 +5359,21 @@ footer {
 
 aside {
   position: absolute;
-  left: 0;
+  right: 0;
   top: 0;
   width: 300px;
   height: 100%;
-  border: 1px #bfbfbf solid;
+  border: #bfbfbf solid;
   border-width: 0 1px 0 0; }
-
-.sidePanel {
-  width: 100%;
-  height: 25%;
-  border: 1px green solid; }
 
 #innerContainer {
   position: absolute;
-  right: 0;
+  left: 0;
   top: 0;
   width: calc(100% - 300px);
   height: 100%; }
 
-#quickPanel {
+#quickpanel {
   position: absolute;
   left: 0;
   top: 0;
@@ -5391,22 +5383,49 @@ aside {
   justify-content: flex-start;
   align-items: center;
   padding: 0 10px; }
-  #quickPanel #quickPanelGeo {
+  #quickpanel #quickPanelGeo {
     width: 50px; }
 
-#bottomPanel {
+#bottompanel {
   position: absolute;
   left: 0;
   bottom: 0;
   width: 100%;
   height: 200px;
-  border: 1px #bfbfbf solid;
+  border: #bfbfbf solid;
   border-width: 1px 0 0; }
+  #bottompanel .bottompanel {
+    float: left;
+    width: 20%;
+    height: 100%;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: space-between; }
+    #bottompanel .bottompanel div.title {
+      font-weight: bold; }
+    #bottompanel .bottompanel div.content {
+      flex: 1;
+      overflow: auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around; }
+      #bottompanel .bottompanel div.content div {
+        text-align: center;
+        font-size: 200%;
+        font-weight: bold;
+        color: #582cdb; }
+  #bottompanel .bottompanel + .bottompanel {
+    border: #bfbfbf solid;
+    border-width: 0 0 0 1px; }
 
-#mainPanel {
+#mainpanel {
   position: absolute;
   left: 0;
   top: 30px;
+  padding: 10px;
   width: 100%;
   height: calc(100% - 200px - 30px); }
 
@@ -5426,6 +5445,23 @@ bar-chart {
   height: 100%;
   display: block;
   float: left; }
+  bar-chart .axis path {
+    fill: none;
+    stroke: grey;
+    shape-rendering: crispEdges; }
+  bar-chart .axis .tick line {
+    fill: none;
+    stroke: grey;
+    stroke-opacity: 0.9;
+    shape-rendering: crispEdges; }
+  bar-chart .axis .tick text {
+    font-size: 14px; }
+  bar-chart .axis.label rect {
+    fill-opacity: 0.5;
+    fill: #f2f2f2; }
+  bar-chart .axis.label text {
+    font-size: 14px;
+    text-anchor: end; }
 
 #about {
   width: 100%;
