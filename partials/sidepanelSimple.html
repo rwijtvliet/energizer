@@ -10,18 +10,24 @@
 
     <fieldset>
         <legend>Energy sources</legend>
-        <input type="radio" ng-model="settings.splitBySource" ng-value="0" ng-change="updateSources()" /> Aggregate<br/>
-        <input type="radio" ng-model="settings.splitBySource" ng-value="1" ng-change="updateSources()" />  Split <br/>
-        <input type="radio" ng-model="settings.splitBySource" ng-value="2" ng-change="updateSources()" /> Select...
-        <select ng-show="settings.splitBySource==2" multiple size="8" ng-model="settings.customProductFilter" ng-options="product.name as product.descr for product in options.products | filter: {name: '!0000'}" ng-change="updateSources()"></select>
+        <label ng-repeat="divide in options.yDivides">
+            <input type="radio" ng-model="settings.yDivide" ng-value="divide" ng-change="updateYDivide()" />
+            {{divide.name}}
+        </label>
+        <select ng-show="settings.yDivide.val==2" multiple size="8" ng-model="settings.customProductFilter" ng-options="product.name as product.descr for product in options.products | filter: {name: '!0000'}" ng-change="updateYDivide()"></select>
         <!--You selected {{settings.fieldFilter.PRODUCT}}-->
     </fieldset>
     <br/>
 
-    <fieldset ng-show="settings.splitBySource==1">
-        <legend>Relative values</legend>
-        <input type="checkbox" ng-model="settings.to100" ng-change="updateGraph()"/> Add to 100%<br/>
-        <p ng-show="settings.to100" class="elaboration">Yes, show as fractions of total</p>
-        <p ng-show="!settings.to100" class="elaboration">No, show absolute values</p>
+    <fieldset>
+        <legend>Unit</legend>
+        <div ng-repeat="group in options.yUnits">
+            <div class="subtitle">{{group.name}}</div>
+            <label ng-repeat="unit in group.units">
+                <input type="radio" ng-model="settings.yUnit" ng-value="unit" ng-change="updateYUnit()"/>
+                {{unit.name}}
+            </label>
+        </div>
+        {{settings.yUnit.descr}}
     </fieldset>
 </div>

@@ -32,7 +32,6 @@ html{
 }
 *, *:before, *:after{
   box-sizing: inherit;
-  overflow: inherit;
 }
 
 body {
@@ -78,8 +77,14 @@ aside {
   width: $asideWidth;
   height: 100%;
 
+  overflow: auto;
+
   border: $borderColor solid;
-  border-width: 0 1px 0 0;
+  border-width: 0 0 0 1px;
+
+  label {
+    display:block;//vertical
+  }
 }
 #innerContainer {
   position: absolute;
@@ -120,7 +125,7 @@ aside {
     float: left;
     width: 20%;
     height: 100%;
-    padding: 5px;
+    padding: 0px 5px;
 
     display: flex;
     flex-direction: column;
@@ -130,7 +135,7 @@ aside {
     div.title {
       font-weight: bold;
     }
-    div.content {
+    div.contentContainer {
       flex: 1; //expand within bottompanel (excl title)
       overflow: auto;
 
@@ -138,11 +143,16 @@ aside {
       flex-direction: column;
       align-items: center;
       justify-content: space-around;
-      div {
+      div.content {
+        text-overflow: hidden;
         text-align: center;
         font-size: 200%;
         font-weight: bold;
         color: $brand-primary;
+      }
+      div.descr {
+        text-align: center;
+        font-size: 100%;
       }
     }
   }

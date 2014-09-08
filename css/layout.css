@@ -5296,8 +5296,7 @@ html {
   overflow: hidden; }
 
 *, *:before, *:after {
-  box-sizing: inherit;
-  overflow: inherit; }
+  box-sizing: inherit; }
 
 body {
   width: 100%;
@@ -5363,8 +5362,11 @@ aside {
   top: 0;
   width: 300px;
   height: 100%;
+  overflow: auto;
   border: #bfbfbf solid;
-  border-width: 0 1px 0 0; }
+  border-width: 0 0 0 1px; }
+  aside label {
+    display: block; }
 
 #innerContainer {
   position: absolute;
@@ -5398,25 +5400,29 @@ aside {
     float: left;
     width: 20%;
     height: 100%;
-    padding: 5px;
+    padding: 0px 5px;
     display: flex;
     flex-direction: column;
     align-items: stretch;
     justify-content: space-between; }
     #bottompanel .bottompanel div.title {
       font-weight: bold; }
-    #bottompanel .bottompanel div.content {
+    #bottompanel .bottompanel div.contentContainer {
       flex: 1;
       overflow: auto;
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: space-around; }
-      #bottompanel .bottompanel div.content div {
+      #bottompanel .bottompanel div.contentContainer div.content {
+        text-overflow: hidden;
         text-align: center;
         font-size: 200%;
         font-weight: bold;
         color: #582cdb; }
+      #bottompanel .bottompanel div.contentContainer div.descr {
+        text-align: center;
+        font-size: 100%; }
   #bottompanel .bottompanel + .bottompanel {
     border: #bfbfbf solid;
     border-width: 0 0 0 1px; }
