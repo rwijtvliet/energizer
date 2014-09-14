@@ -1,5 +1,25 @@
 <div class="pick">
     <fieldset>
+        <legend>Data</legend>
+        <label ng-repeat="indic_nrg in options.indic_nrgs | limitTo: 10">
+            <input type="radio" ng-model="settings.fieldFilter.INDIC_NRG" ng-value="indic_nrg.name" ng-change="updateYQuantity()" />
+            {{indic_nrg.name}}<br/>
+            <span class="elaboration">{{indic_nrg.descr}}</span>
+        </label>
+    </fieldset>
+    <br/>
+
+    <fieldset>
+        <legend>X-axis</legend>
+        <label ng-repeat="xQuant in options.xQuants">
+            <input type="radio" ng-model="settings.xQuant" ng-value="xQuant" ng-change="updateXQuantity()" />
+            {{xQuant.name}}<br/>
+            <span class="elaboration">{{xQuant.descr}}</span>
+        </label>
+    </fieldset>
+    <br/>
+
+    <fieldset>
         <legend>Country</legend>
         Search:<br/>
         <input type="text" ng-model="geoFilter" /> <br/>

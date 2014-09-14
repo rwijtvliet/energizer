@@ -2,9 +2,7 @@
 <html>
 <head lang="en">
     <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="css/layout.css" />
-    <link rel="stylesheet" type="text/css" href="css/energizer.css" />
-    <link rel="stylesheet" type="text/css" href="css/graph.css" />
+    <link rel="stylesheet" type="text/css" href="css/application.css" />
     <title>Energizer</title>
 
 </head>
@@ -19,15 +17,16 @@
         <div>Data coming from <a href="http://epp.eurostat.ec.europa.eu/portal/page/portal/eurostat/home/">Eurostat</a></div>
     </footer>
 
-    <script type="text/javascript" src="js/vendor/jQuery/jquery-2.1.1"></script>
-    <script type="text/javascript" src="js/vendor/angular/angular.js"></script> <!--/code.angularjs.org/-->
-    <script type="text/javascript" src="js/vendor/angular/angular-animate.js"></script>
-    <script type="text/javascript" src="js/vendor/angular/angular-route.js"></script>
-    <script type="text/javascript" src="js/vendor/x2js-v1.1.5/xml2json.js"></script>
-    <script type="text/javascript" src="js/vendor/taffy/taffy.js"></script>
-    <script type="text/javascript" src="js/eurostatDb.js"></script>
-    <script type="text/javascript" src="js/vendor/d3/d3.js"></script>
-    <script type="text/javascript" src="js/graph.js"></script>
-    <script type="text/javascript" src="js/index.js"></script>
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-animate/angular-animate.js"></script>
+    <script src="bower_components/angular-route/angular-route.js"></script>
+    <script src="bower_components/x2js/xml2json.js"></script>
+    <script src="bower_components/taffydb/taffy.js"></script>
+    <script src="bower_components/d3/d3.js"></script>
+    <script src="bower_components/traceur-runtime/traceur-runtime.js"></script>
+    <script src="js/ES6/eurostatDb.js"></script>
+    <script src="js/graph.js"></script>
+    <script src="ES6/index.js"></script>
 </body>
 </html>

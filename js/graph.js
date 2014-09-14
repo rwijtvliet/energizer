@@ -126,11 +126,11 @@ function graph() {
     gr.updateFormat = function (theFormat) {
         format = theFormat;
 
-        xAxisLabelText.text(format.xUnit);
+        xAxisLabelText.text(format.xUnitName);
         var bbox = xAxisLabelText[0][0].getBBox();
         xAxisLabelRect.attr('x', bbox.x).attr('y', bbox.y).attr('width', bbox.width).attr('height', bbox.height);
 
-        yAxisLabelText.text(format.yUnit);
+        yAxisLabelText.text(format.yUnitName);
         bbox = yAxisLabelText[0][0].getBBox();
         yAxisLabelRect.attr('x', bbox.x).attr('y', bbox.y).attr('width', bbox.width).attr('height', bbox.height);
 
@@ -232,7 +232,7 @@ function graph() {
         var d = this.parentNode.__data__;
         var prod = $.grep(scope.products, function (p) { return (p.name === d.PRODUCT); })[0];
         if (prod) prod = prod.descr; else prod = "";
-        return d.GEO + "     " + d.TIME + "\n" + prod + "\n" + d3.format(format.tooltipFormat)(d.OBS_VALUE) + " " + format.yUnit;
+        return d.GEO + "     " + d.TIME + "\n" + prod + "\n" + d3.format(format.tooltipFormat)(d.OBS_VALUE) + " " + format.yUnitName;
     }
 
 

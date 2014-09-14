@@ -1,7 +1,8 @@
 <div>
-    Showing energy consumption
+    Showing
+    <select size="1" ng-model="settings.fieldFilter.INDIC_NRG" ng-options="indic_nrg.name as indic_nrg.descr for indic_nrg in options.indic_nrgs" ng-change="updateYQuantity()"></select>
     for
-    <select size="1" ng-model="settings.xquant" ng-options="xquant.name as xquant.descr for xquant in options.xquants" ng-change="updateGraph()"></select>
+    <select size="1" ng-model="settings.xQuant" ng-options="xQuant as xQuant.descr for xQuant in options.xQuants" ng-change="updateXQuantity()"></select>
     for
-    <select id="quickpanelGeo" ng-show="settings.xquant==='times'" size="1" ng-model="settings.fieldFilter.GEO" ng-options="geo.name as geo.descr for geo in options.geos" ng-change="updateGraph()"></select>.
+    <select id="quickpanelGeo" ng-show="settings.xQuant==='times'" size="1" ng-model="settings.fieldFilter.GEO" ng-options="geo.name as geo.descr for geo in options.geos" ng-change="updateGraph()"></select>.
 </div>

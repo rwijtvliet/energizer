@@ -1,0 +1,97 @@
+$asideWidth: 300px;
+$headfootHeight: 40px;
+$quickpanelHeight: 30px;
+$bottomPanelHeight: 200px;
+
+html{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  overflow: hidden;
+}
+*, *:before, *:after{
+  box-sizing: inherit;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+}
+
+header, footer {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: $headfootHeight;
+}
+header {
+  top:0;
+}
+footer {
+  bottom:0;
+}
+
+#outerContainer {
+  position: absolute;
+  left: 0;
+  top: $headfootHeight;
+  width: 100%;
+  height: calc(100% - 2*#{$headfootHeight});
+}
+
+//---view divider---
+
+aside {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: $asideWidth;
+  height: 100%;
+}
+
+#innerContainer {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: calc(100% - #{$asideWidth});
+  height: 100%;
+}
+
+#quickpanel {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: $quickpanelHeight;
+}
+
+#bottompanel {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: $bottomPanelHeight;
+
+  .bottompanel {
+    float: left;
+    width: 20%;
+    height: 100%;
+  }
+}
+
+#mainpanel {
+  position: absolute;
+  left: 0;
+  top: $quickpanelHeight;
+  width: 100%;
+  height: calc(100% - #{$bottomPanelHeight} - #{$quickpanelHeight});
+}
+
+//---view divider---
+
+#about {
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+}
